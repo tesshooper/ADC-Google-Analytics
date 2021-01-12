@@ -1,5 +1,5 @@
 ---
-title: "ADC-GA-Categorization"
+title: "Google Analytics User Analysis"
 output: html_document
 ---
 
@@ -30,20 +30,18 @@ library(tm)
 
 
 
-```{r Load Data, message = FALSE, warning = FALSE}
+```{r Load Data, message = FALSE, warning = FALSE, echo = FALSE, include = FALSE}
 
 # Load in Most Visited Pages data obtained from Google Analytics from February 20, 2016 to December 11, 2020
 
 user_report_raw <- read.csv("/home/t_hooper/ADC-Google-Analytics/User_Report_Feb2016-Dec2020.csv")
-
-
 
 # Report includes Page URL, Users, Sessions, User % of Total, Pageviews, Unique Pageviews, Entrances, and Bounce Rate
 
 ## **** IMPORTANT **** Data is currently set to be viewed as Pages with the most USERS who visit that page. You can re-order based on Pageviews or Unique Pageviews depending on how you want to visualize the data. 
 
 
-## FOR TEST - take top 30 rows of users_report_raw:
+## FOR TEST ## - take top 30 rows of users_report_raw:
 top_30_users <- head(user_report_raw, n = 30)
 
 ```
@@ -61,27 +59,108 @@ top_30_users <- head(user_report_raw, n = 30)
 <br>
 <br>
 
+### **Categorization Function**
+We will use the code and function below to categorize the Google Analytics dataset. The function takes messy character data within a dataframe and categorizes it based on a set of search string criteria. The inputs are the data frame, the column name of the messy data, a list of search strings, a list of category names (these have to be correlated), and you have the option of naming the new column. <br> <br>
+
+It is important to note that the order of the search strings matters for strings that are repeats -- i.e. "catalog" and "catalog/submit" will be written over so you must identify the longer string first (i.e. catalog/submit). Additionally, make sure the order of the categories list correlates with the order of the search strings. <br> <br>
+
+
+**Identify Search Strings and Category Names**
+```{r Identify Search Strings and Categories, eval = FALSE}
+
+# List of search strings -- note that the longer search strings are identified first 
+search <- c("news", "portals", "about","catalogprofile", "catalogsubmit", "catalog", "training", "team", "home", "view", "submit", "profile")
+
+# List of categories
+categories <- c("News", "Portals", "About", "Summary", "Submit", "Cathome", "Training", "Team", "Home", "Dataset", "WhoMustSub", "Summary")
+
+```
+<br>
+
+
+**Create Categorization Function**
+```{r Create Function, eval = FALSE}
+
+# Quickly categorize a data frame with a column of messy character strings. 
+
+# Replace "df" with your messy dataframe.
+
+categorizeDF <- function(df, searchColName, searchList, catList, newColName="Category") {
+  # create empty data frame to hold categories
+  catDF <- data.frame(matrix(ncol=ncol(df), nrow=0))
+  colnames(catDF) <- paste0(names(df))
+
+  # add sequence so original order can be restored
+  df$sequence <- seq(nrow(df))
+
+  # iterate through the strings
+  for (i in seq_along(searchList)) {
+    rownames(df) <- NULL
+    index <- grep(searchList[i], df[,which(colnames(df) == searchColName)], ignore.case=TRUE)
+    tempDF <- df[index,]
+    tempDF$newCol <- catList[i]
+    catDF <- rbind(catDF, tempDF)
+    df <- df[-index,]
+  }
+
+  # OTHER category for unmatched rows
+  if (nrow(df) > 0) {
+    df$newCol <- "OTHER"
+    catDF <- rbind(catDF, df)
+  }
+
+  # return to the original order & remove the sequence data
+  catDF <- catDF[order(catDF$sequence),]
+  catDF$sequence <- NULL
+
+  # remove row names
+  rownames(catDF) <- NULL
+
+  # set Category type to factor
+  catDF$newCol <- as.factor(catDF$newCol)
+
+  # rename the new column
+  colnames(catDF)[which(colnames(catDF) == "newCol")] <- newColName
+  catDF
+}
+
+```
+<br>
+
+**Call Function and Categorize Data**
+```{r Call Function and Categorize, eval = FALSE}
+
+# Replace "df" with messy dataframe
+
+# Identify which column you want to categorize -- in our case with Google Analytics, we will be categorizing the "Page" column that contains messy URL strings. Additionally, you can name the new column that contains the categories (e.g. "Category").
+
+sorted <- categorizeDF(df, "column name with messy data", search, categories, "new category column name")
+
+```
+<br>
+<br>
+
 **Test Run of Categorization with Small Subset of Data**
-```{r Clean Pathways, warning = FALSE, message = FALSE}
+```{r TEST Clean Pathways, warning = FALSE, message = FALSE}
 
 
 ###### TEST DATASET ######
 
 
 # Remove backslashes and other symbols from Page column (includes hyphens and periods). **** Not sure if this is necessary. Am trying to differentiate the single "/" as the ADC Homepage, and make it easier to identify search terms for the function below. 
-users_clean <- top_30_users %>%
+test_users_clean <- top_30_users %>%
   mutate_all(funs(gsub("[[:punct:]]", "", .)))
 
 
 # Rename home page as "home" in dataframe **NOTE that for this particular dataset the "Home" page is the top viewed page and so I put in [1]. If it is not the top viewed page you will need to determine which row the homepage is and put that row number in the brackets. *** Is there a better way to do this?? ***
 
-users_clean$Page[1] <- "home"
+test_users_clean$Page[1] <- "home"
 
 
 ```
+<br>
 
-
-```{r Create Function, warning = FALSE, message = FALSE}
+```{r TEST Create Function, warning = FALSE, message = FALSE}
 
 ### Categorize the page URLS in the Page column into larger categories using a function ###
 
@@ -100,28 +179,28 @@ categories <- c("News", "Portals", "About", "Summary", "Submit", "Cathome", "Tra
 
 
 # Function:
-categorizeDF <- function(users_clean, searchColName, searchList, catList, newColName="Category") {
+categorizeDF <- function(test_users_clean, searchColName, searchList, catList, newColName="Category") {
   # create empty data frame to hold categories
-  catDF <- data.frame(matrix(ncol=ncol(users_clean), nrow=0))
-  colnames(catDF) <- paste0(names(users_clean))
+  catDF <- data.frame(matrix(ncol=ncol(test_users_clean), nrow=0))
+  colnames(catDF) <- paste0(names(test_users_clean))
 
   # add sequence so original order can be restored
-  users_clean$sequence <- seq(nrow(users_clean))
+  test_users_clean$sequence <- seq(nrow(test_users_clean))
 
   # iterate through the strings
   for (i in seq_along(searchList)) {
-    rownames(users_clean) <- NULL
-    index <- grep(searchList[i], users_clean[,which(colnames(users_clean) == searchColName)], ignore.case=TRUE)
-    tempDF <- users_clean[index,]
+    rownames(test_users_clean) <- NULL
+    index <- grep(searchList[i], test_users_clean[,which(colnames(test_users_clean) == searchColName)], ignore.case=TRUE)
+    tempDF <- test_users_clean[index,]
     tempDF$newCol <- catList[i]
     catDF <- rbind(catDF, tempDF)
-    users_clean <- users_clean[-index,]
+    test_users_clean <- test_users_clean[-index,]
   }
 
   # OTHER category for unmatched rows
-  if (nrow(users_clean) > 0) {
-    users_clean$newCol <- "OTHER"
-    catDF <- rbind(catDF, users_clean)
+  if (nrow(test_users_clean) > 0) {
+    test_users_clean$newCol <- "OTHER"
+    catDF <- rbind(catDF, test_users_clean)
   }
 
   # return to the original order & remove the sequence data
@@ -135,30 +214,37 @@ categorizeDF <- function(users_clean, searchColName, searchList, catList, newCol
   catDF$newCol <- as.factor(catDF$newCol)
 
   # rename the new column
-  colnames(catDF)[which(colnames(catDF) == "Category")] <- newColName
+  colnames(catDF)[which(colnames(catDF) == "newCol")] <- newColName
   catDF
 }
 
 
 
 ```
+<br>
 
-
-```{r Call function and categorize, warning = FALSE, message = FALSE}
+```{r TEST Call function and categorize, warning = FALSE, message = FALSE}
 
 # Call the function and create new data frame - using the raw data frame, the messy column you want to sort, the search and category lists, and name of the new column
 
-sortedDF <- categorizeDF(users_clean, "Page", search, categories, "Category")
+sortedDF <- categorizeDF(test_users_clean, "Page", search, categories, "Category")
 
 
 ```
+<br>
+
+```{r View Categorized Dataframe, warning = FALSE, message = FALSE}
+
+knitr::kable(sortedDF, format = "html")
+
+```
+
 
 <br>
 <br>
 
-**Full Dataset Categorization**
 
-```{r Clean Pathways, warning = FALSE, message = FALSE}
+```{r 2016-2020 Dataset - Clean Pathways, warning = FALSE, message = FALSE, echo = FALSE}
 
 #### FULL DATASET February 20th 2016 - December 11th 2020 ####
 
@@ -174,7 +260,7 @@ total_users_clean$Page[1] <- "home"
 
 ```
 
-```{r Create Function, message = FALSE, warning = FALSE}
+```{r 2016-2020 Dataset - Create Function, message = FALSE, warning = FALSE, echo = FALSE}
 
 ### Categorize the page URLS in the Page column into larger categories using a function ###
 
@@ -228,19 +314,179 @@ categorize_FULL_DF <- function(total_users_clean, searchColName, searchList, cat
   catDF$newCol <- as.factor(catDF$newCol)
 
   # rename the new column
-  colnames(catDF)[which(colnames(catDF) == "Category")] <- newColName
+  colnames(catDF)[which(colnames(catDF) == "newCol")] <- newColName
   catDF
 }
 
 
 ```
 
-```{r Call Function and Categorize, message = FALSE, warning = FALSE}
+```{r 2016-2020 Dataset - Call Function and Categorize, echo = FALSE, message = FALSE, warning = FALSE}
 
 # Call the function and create new data frame - using the raw data frame, the messy column you want to sort, the search and category lists, and name of the new column
 
 full_sortedDF <- categorizeDF(total_users_clean, "Page", search, categories, "Category")
 
+
+
+```
+
+<br>
+<br>
+
+**Visualizations for User Analysis**
+```{r Load Annual Data, echo = FALSE, message = FALSE, warning = FALSE}
+
+# Visualize changes in Users over time. In order to do this we need to load in annual datasets from Google Analytics (since the current data does not include datas)
+
+# Load 2016 data
+users_2016 <- read.csv("/home/t_hooper/ADC-Google-Analytics/2016_users_adc.csv")
+
+# Load 2017 data
+users_2017 <- read.csv("/home/t_hooper/ADC-Google-Analytics/2017_users_adc.csv")
+
+# Load 2018 data
+users_2018 <- read.csv("/home/t_hooper/ADC-Google-Analytics/2018_users_adc.csv")
+
+# Load 2019 data
+users_2019 <- read.csv("/home/t_hooper/ADC-Google-Analytics/2019_users_adc.csv")
+
+# Load 2020 data
+users_2020 <- read.csv("/home/t_hooper/ADC-Google-Analytics/2020_users_adc.csv")
+
+
+```
+
+```{r Annual Data - Clean Pathways and Add Year Column, echo = FALSE, warning = FALSE, message = FALSE}
+
+
+# Remove backslashes and other symbols from Page column (includes hyphens and periods). **** Not sure if this is necessary. Am trying to differentiate the single "/" as the ADC Homepage, and make it easier to identify search terms for the function below. 
+# We also want to add a column for YEAR
+
+# 2016 Data
+users_2016_clean <- users_2016 %>%
+  mutate_all(funs(gsub("[[:punct:]]", "", .))) 
+
+users_2016_clean$Year <- c("2016")
+
+# 2017 Data
+users_2017_clean <- users_2017 %>%
+  mutate_all(funs(gsub("[[:punct:]]", "", .)))
+
+users_2017_clean$Year <- c("2017")
+
+# 2018 Data
+users_2018_clean <- users_2018 %>%
+  mutate_all(funs(gsub("[[:punct:]]", "", .)))
+
+users_2018_clean$Year <- c("2018")
+
+# 2019 Data
+users_2019_clean <- users_2019 %>%
+  mutate_all(funs(gsub("[[:punct:]]", "", .)))
+
+users_2019_clean$Year <- c("2019")
+
+# 2020 Data
+users_2020_clean <- users_2020 %>%
+  mutate_all(funs(gsub("[[:punct:]]", "", .)))
+
+users_2020_clean$Year <- c("2020")
+
+# Rename home page as "home" in dataframe **NOTE that for this particular dataset the "Home" page is the top viewed page and so I put in [1]. If it is not the top viewed page you will need to determine which row the homepage is and put that row number in the brackets. *** Is there a better way to do this?? ***
+
+
+# 2016 Data
+users_2016_clean$Page[1] <- "home"
+
+# 2017 Data
+users_2017_clean$Page[1] <- "home"
+
+# 2018 Data
+users_2018_clean$Page[1] <- "home"
+
+# 2019 Data
+users_2019_clean$Page[1] <- "home"
+
+# 2020 Data
+users_2020_clean$Page[1] <- "home"
+
+```
+
+```{r Combine Annual Dataframes, echo = FALSE, warning = FALSE, message = FALSE }
+
+# Combine dataframes vertically using the rbind function
+
+all_annual_users <- rbind(users_2016_clean, users_2017_clean, users_2018_clean, users_2019_clean, users_2020_clean)
+
+
+```
+
+```{r Create Categorization Function for Annual Dataset, echo = FALSE, message = FALSE, warning = FALSE}
+
+### Categorize the page URLS in the Page column into larger categories using a function ###
+
+## Create a list of search strings to sort through pages and a list of categories (these must be correlated) **Order matters for strings that are repeats, as the function will categorize in the order in which they are assigned(i.e. "catalog" and "catalog/submit" will be written over so you must identify the longer string first (i.e. catalog/submit) in the search list. 
+
+# List of search strings
+search <- c("news", "portals", "view", "about","catalogprofile", "catalogsubmit", "catalogshare", "catalog", "meetings", "team", "home", "submit", "profile", "qanda", "support" , "share", "publications", "dataplans", "history", "searchtips", "api", "projects", "webinar", "video", "mydata", "datapreservation", "knb", "plannedoutage", "proposal", "blog", "training", "datapage0", "page0")
+
+# List of categories
+categories <- c("News", "Portals", "Dataset", "About", "Summary", "Submit", "Dataset", "Cathome", "Training", "Team", "Home",  "WhoMustSub", "Summary", "QA", "Support", "Dataset", "Publications", "DataPlans", "History", "SearchTips", "API", "Projects", "Webinar", "Webinar", "MyData", "DataPreservation", "KNB", "Outage", "Proposals", "Blog","Training", "Cathome", "Cathome")
+
+
+
+## Create function [below] to categorize the messy "Page" column of the raw data frame. 
+# This function takes looks at a data frame column of messy character (or factorial) data, and produces a new column of categorized data. The inputs are the data frame, the column name of the messy data, a list of search strings, a list of category names (these two have to be correlated), and you have the option of naming the new column.
+
+
+# Function:
+categorize_ANNUAL_DF <- function(all_annual_users, searchColName, searchList, catList, newColName="Category") {
+  # create empty data frame to hold categories
+  catDF <- data.frame(matrix(ncol=ncol(all_annual_users), nrow=0))
+  colnames(catDF) <- paste0(names(all_annual_users))
+
+  # add sequence so original order can be restored
+  all_annual_users$sequence <- seq(nrow(all_annual_users))
+
+  # iterate through the strings
+  for (i in seq_along(searchList)) {
+    rownames(all_annual_users) <- NULL
+    index <- grep(searchList[i], all_annual_users[,which(colnames(all_annual_users) == searchColName)], ignore.case=TRUE)
+    tempDF <- all_annual_users[index,]
+    tempDF$newCol <- catList[i]
+    catDF <- rbind(catDF, tempDF)
+    all_annual_users <- all_annual_users[-index,]
+  }
+
+  # OTHER category for unmatched rows
+  if (nrow(all_annual_users) > 0) {
+    all_annual_users$newCol <- "OTHER"
+    catDF <- rbind(catDF, all_annual_users)
+  }
+
+  # return to the original order & remove the sequence data
+  catDF <- catDF[order(catDF$sequence),]
+  catDF$sequence <- NULL
+
+  # remove row names
+  rownames(catDF) <- NULL
+
+  # set Category type to factor
+  catDF$newCol <- as.factor(catDF$newCol)
+
+  # rename the new column
+  colnames(catDF)[which(colnames(catDF) == "newCol")] <- newColName
+  catDF
+}
+
+```
+
+```{r Call Function to Categorize Annual Data, echo = FALSE, message = FALSE, warning = FALSE}
+
+# Call the function and create new data frame - using the raw data frame, the messy column you want to sort, the search and category lists, and name of the new column
+
+annual_sortedDF <- categorizeDF(all_annual_users, "Page", search, categories, "Category")
 
 
 ```
