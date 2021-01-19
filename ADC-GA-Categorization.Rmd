@@ -23,7 +23,9 @@ library(kableExtra)
 library(tidytext)
 library(stringr)
 library(tm)
-
+library(ggplot2)
+library(treemap)
+library(plotly)
 
 
 ```
@@ -62,7 +64,11 @@ top_30_users <- head(user_report_raw, n = 30)
 ### **Categorization Function**
 We will use the code and function below to categorize the Google Analytics dataset. The function takes messy character data within a dataframe and categorizes it based on a set of search string criteria. The inputs are the data frame, the column name of the messy data, a list of search strings, a list of category names (these have to be correlated), and you have the option of naming the new column. <br> <br>
 
-It is important to note that the order of the search strings matters for strings that are repeats -- i.e. "catalog" and "catalog/submit" will be written over so you must identify the longer string first (i.e. catalog/submit). Additionally, make sure the order of the categories list correlates with the order of the search strings. <br> <br>
+It is important to note that the order of the search strings matters for strings that are repeats -- i.e. "catalog" and "catalog/submit" will be written over so you must identify the longer string first (i.e. catalog/submit). Additionally, make sure the order of the categories list correlates with the order of the search strings. <br> 
+*Source: https://github.com/lenwood*
+
+<br>
+<br>
 
 
 **Identify Search Strings and Category Names**
@@ -487,6 +493,163 @@ categorize_ANNUAL_DF <- function(all_annual_users, searchColName, searchList, ca
 # Call the function and create new data frame - using the raw data frame, the messy column you want to sort, the search and category lists, and name of the new column
 
 annual_sortedDF <- categorizeDF(all_annual_users, "Page", search, categories, "Category")
+
+
+```
+
+
+
+```{r Extract Sorted Individual Years Top 30, echo = FALSE, message = FALSE, warning = FALSE, include = FALSE, warning = FALSE}
+
+ 
+####### To try visualizations - extract individual years and take top 30 pages ########
+
+
+# Extract 2016 from categorized dataframe 
+sorted_2016 <- annual_sortedDF[which(annual_sortedDF$Year == "2016"), c(1:10)] 
+
+# Extract top 30 pages
+top30_2016 <- head(sorted_2016, n = 30)
+
+# Extract 2016 from categorized dataframe 
+sorted_2017 <- annual_sortedDF[which(annual_sortedDF$Year == "2017"), c(1:10)] 
+
+# Extract top 30 pages
+top30_2017 <- head(sorted_2017, n = 30)
+
+# Extract 2016 from categorized dataframe 
+sorted_2018 <- annual_sortedDF[which(annual_sortedDF$Year == "2018"), c(1:10)] 
+
+# Extract top 30 pages
+top30_2018 <- head(sorted_2018, n = 30)
+
+# Extract 2016 from categorized dataframe 
+sorted_2019 <- annual_sortedDF[which(annual_sortedDF$Year == "2019"), c(1:10)] 
+
+# Extract top 30 pages
+top30_2019 <- head(sorted_2019, n = 30)
+
+# Extract 2016 from categorized dataframe 
+sorted_2020 <- annual_sortedDF[which(annual_sortedDF$Year == "2020"), c(1:10)] 
+
+# Extract top 30 pages
+top30_2020 <- head(sorted_2020, n = 30)
+
+
+# Combine these dataframes
+annual_top30_users <- rbind(top30_2016, top30_2017, top30_2018, top30_2019, top30_2020)
+
+### Need to add up the Users/Categories for specific visualizations ###
+
+############ Try bar plot for top 30 users for each year #############
+
+### Create graphs for Users over time
+
+## Summarize Users for each Year using tapply
+
+# Needed to first transform Users and Year to numeric vectors
+an_top30_users <- transform(annual_top30_users, Users = as.numeric(Users), 
+               Year = as.numeric(Year))
+
+
+# Summarize data
+tapply(an_top30_users$Users, an_top30_users$Year, FUN=sum)
+
+# 2016: 10,815
+# 2017: 11,459
+# 2018: 18,494
+# 2019: 13,679
+# 2020: 17,284
+
+
+## Create simple bar graph of Users and Year
+
+top30_users_barplot <- an_top30_users %>% 
+  group_by(Year) %>% 
+  summarise(Users = sum(Users)) %>% 
+  ggplot(aes(x=Year, y=Users)) + 
+  geom_bar(stat = "identity")
+  
+top30_users_barplot
+
+```
+
+
+```{r Create Custom Theme for Visualization, echo = FALSE, include = FALSE}
+
+theme_ADC<- function() {
+  theme_bw(base_size=12,base_family="Helvetica") %+replace%
+    theme(
+      plot.title=element_text(size=11, face="bold",margin=margin(10,0,10,0),color="#1D244F"),
+      plot.subtitle = element_text(size=10,margin=margin(0,0,10,0),color="#1D244F"),
+        axis.text.x = element_text(angle=50, size=8, vjust=0.5, color="#1D244F"),
+        axis.text.y = element_text(size=8, color="#1D244F"),
+        axis.title.x = element_text(color="#1D244F",vjust=-.5,size=10),
+        axis.title.y = element_text(color="#1D244F",angle=90,vjust=.5,size=10),
+        panel.background=element_rect(fill="white"),
+        axis.line = element_line(color="#1D244F"),
+      panel.grid.major = element_line(colour = "white", size = 0.2), 
+    panel.grid.minor = element_line(colour = "white", size = 0.5),
+    )
+}
+
+
+
+```
+
+
+
+```{r Visualization 1 - Total Users Over Time, echo = FALSE, warning = FALSE, include=TRUE}
+
+
+### Create graphs for all Users over time
+
+# Need to first transform columns to numeric vectors
+annual_users <- transform(annual_sortedDF, Users = as.numeric(Users), 
+               Year = as.numeric(Year),
+               Sessions = as.numeric(Sessions),
+               Pageviews = as.numeric(Pageviews), 
+               Unique.Pageviews = as.numeric(Unique.Pageviews),
+               Bounce.Rate = as.numeric(Bounce.Rate),
+               Entraces = as.numeric(Entrances),
+               Users...of.Total = as.numeric(Users...of.Total))
+
+
+# Summarize data
+tapply(annual_users$Users, annual_users$Year, FUN=sum)
+
+# 2016: 23,772
+# 2017: 32,205
+# 2018: 48,337
+# 2019: 31,187
+# 2020: 60,330
+
+
+## Create simple bar graph of Users and Year
+
+total_users_barplot <- annual_users %>% 
+  group_by(Year) %>% 
+  summarise(Users = sum(Users)) %>% 
+  ggplot(aes(x=Year, y=Users)) + 
+  scale_y_continuous(expand = c(0,0), limits = c(0, 70000)) +
+  ggtitle("Total Users to the Arctic Data Center Site (2016 to 2020)") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  geom_bar(fill = "#16897e", stat = "identity") 
+
+#total_users_barplot
+
+total_users_barplot <- total_users_barplot+theme_ADC() 
+#total_users_barplot
+
+users_interactive <- ggplotly(total_users_barplot)  %>% 
+  layout(hoverlabel=list(bgcolor="#b5e5ea"))
+users_interactive
+
+
+
+## Create a treemap of total Users by Year 
+
+
 
 
 ```
