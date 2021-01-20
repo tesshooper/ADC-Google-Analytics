@@ -26,8 +26,11 @@ library(tm)
 library(ggplot2)
 library(treemap)
 library(plotly)
+library(plotrix)
+library(d3treeR)
+library(htmlwidgets)
 
-
+## to install d3treeR, use devtools::install_github("timelyportfolio/d3treeR") 
 ```
 
 
@@ -320,7 +323,7 @@ categorize_FULL_DF <- function(total_users_clean, searchColName, searchList, cat
   catDF$newCol <- as.factor(catDF$newCol)
 
   # rename the new column
-  colnames(catDF)[which(colnames(catDF) == "newCol")] <- newColName
+  colnames(catDF)[which(colnames(catDF) == "Category")] <- newColName
   catDF
 }
 
@@ -482,7 +485,7 @@ categorize_ANNUAL_DF <- function(all_annual_users, searchColName, searchList, ca
   catDF$newCol <- as.factor(catDF$newCol)
 
   # rename the new column
-  colnames(catDF)[which(colnames(catDF) == "newCol")] <- newColName
+  colnames(catDF)[which(colnames(catDF) == "Category")] <- newColName
   catDF
 }
 
@@ -594,24 +597,31 @@ theme_ADC<- function() {
 }
 
 
+# Create ADC color palette
 
+ADC_colors <- c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea")
+sliceValues <- rep(10, 6)
+pie3D(sliceValues[1:6],explode=0, theta=1.2, col=ADC_colors)
+      
+      
+      
 ```
 
 
 
-```{r Visualization 1 - Total Users Over Time, echo = FALSE, warning = FALSE, include=TRUE}
+```{r Bar Graph - Total Users Over Time, echo = FALSE, warning = FALSE}
 
 
-### Create graphs for all Users over time
+### Create bar graph for all Users over time
 
 # Need to first transform columns to numeric vectors
 annual_users <- transform(annual_sortedDF, Users = as.numeric(Users), 
-               Year = as.numeric(Year),
+               Year = as.character(Year),
                Sessions = as.numeric(Sessions),
                Pageviews = as.numeric(Pageviews), 
                Unique.Pageviews = as.numeric(Unique.Pageviews),
                Bounce.Rate = as.numeric(Bounce.Rate),
-               Entraces = as.numeric(Entrances),
+               Entrances = as.numeric(Entrances),
                Users...of.Total = as.numeric(Users...of.Total))
 
 
@@ -624,6 +634,7 @@ tapply(annual_users$Users, annual_users$Year, FUN=sum)
 # 2019: 31,187
 # 2020: 60,330
 
+###############################################################################
 
 ## Create simple bar graph of Users and Year
 
@@ -641,13 +652,172 @@ total_users_barplot <- annual_users %>%
 total_users_barplot <- total_users_barplot+theme_ADC() 
 #total_users_barplot
 
+### Make barplot interactive with hover text values using plotly
 users_interactive <- ggplotly(total_users_barplot)  %>% 
   layout(hoverlabel=list(bgcolor="#b5e5ea"))
 users_interactive
 
+###############################################################################
 
 
-## Create a treemap of total Users by Year 
+
+
+```
+
+
+```{r Tree Map - Users by Category/Year, echo = FALSE, message = FALSE, warning = FALSE}
+
+########### Create a treemap of total Users by Category within Year ##############
+
+#### 2016 ####
+
+## First transform to numeric/character vectors within each annual df 
+sorted_2016 <- transform(sorted_2016, Category = as.character(Category),
+                         Users = as.numeric(Users))
+
+# Get totals for each category                          
+cat_users_2016 <- sorted_2016 %>% 
+  group_by(Category) %>% 
+  summarise(Users = sum(Users))
+
+# Add column for year
+cat_users_2016$Year <- c("2016") 
+
+
+#### 2017 ####
+
+## First transform to numeric/character vectors within each annual df 
+sorted_2017 <- transform(sorted_2017, Category = as.character(Category),
+                         Users = as.numeric(Users))
+
+# Get totals for each category                          
+cat_users_2017 <- sorted_2017 %>% 
+  group_by(Category) %>% 
+  summarise(Users = sum(Users))
+
+# Add column for year
+cat_users_2017$Year <- c("2017") 
+
+
+#### 2018 ####
+
+## First transform to numeric/character vectors within each annual df 
+sorted_2018 <- transform(sorted_2018, Category = as.character(Category),
+                         Users = as.numeric(Users))
+
+# Get totals for each category                          
+cat_users_2018 <- sorted_2018 %>% 
+  group_by(Category) %>% 
+  summarise(Users = sum(Users))
+
+# Add column for year
+cat_users_2018$Year <- c("2018") 
+
+
+#### 2019 ####
+
+## First transform to numeric/character vectors within each annual df 
+sorted_2019 <- transform(sorted_2019, Category = as.character(Category),
+                         Users = as.numeric(Users))
+
+# Get totals for each category                          
+cat_users_2019 <- sorted_2019 %>% 
+  group_by(Category) %>% 
+  summarise(Users = sum(Users))
+
+# Add column for year
+cat_users_2019$Year <- c("2019") 
+
+
+
+#### 2020 ####
+
+## First transform to numeric/character vectors within each annual df 
+sorted_2020 <- transform(sorted_2020, Category = as.character(Category),
+                         Users = as.numeric(Users))
+
+# Get totals for each category                          
+cat_users_2020 <- sorted_2020 %>% 
+  group_by(Category) %>% 
+  summarise(Users = sum(Users))
+
+# Add column for year
+cat_users_2020$Year <- c("2020") 
+
+
+
+#### Combine annual categories into one dataframe ####
+
+annual_categories <- rbind(cat_users_2016, cat_users_2017, cat_users_2018, cat_users_2019, cat_users_2020)
+
+
+cat_user_tree <- annual_categories %>% 
+  treemap(index= c("Year", "Category"),
+          vSize="Users",
+          type="index",
+          title = "Users to the Arctic Data Center Site by Category (2016 to 2020)",
+          palette = ADC_colors,
+          fontsize.title = 16,
+          fontsize.labels = c(14, 12),
+          fontface.labels = c(2, 1),
+          bg.labels = "#CCCCCCDC"
+            ) 
+  
+cat_user_tree 
+
+### Make treemap interactive using d3treeR
+
+# make it interactive ("rootname" becomes the title of the plot):
+inter_cat_tree <- d3tree2(cat_user_tree,  rootname = "Users to the Arctic Data Center Site by Category (2016 to 2020)" )
+
+inter_cat_tree
+
+
+```
+
+
+```{r Circular Bar Plot - Users/Categories/Year, echo = FALSE, warning = FALSE, message = FALSE, eval = FALSE}
+
+#### Create a circular bar plot that visualizes colors by category and shows Users per Page
+
+
+####### TEST WITH TOP 30 USERS 2016 ##########
+
+top30_2016 <- transform(top30_2016, Category = as.character(Category),
+                         Users = as.numeric(Users))
+
+# Set a number of 'empty bar' to add at the end of each group
+empty_bar <- 4
+to_add <- data.frame( matrix(NA, empty_bar*nlevels(top30_2016$Category), ncol(top30_2016)) )
+colnames(to_add) <- colnames(top30_2016)
+to_add$Category <- rep(levels(top30_2016$Category), each=empty_bar)
+top30_2016_p <- rbind(top30_2016, to_add)
+top30_2016_p <- top30_2016_p %>% arrange(Category)
+top30_2016_p$id <- seq(1, nrow(top30_2016_p))
+ 
+# Get the name and the y position of each label
+label_data <- top30_2016_p
+number_of_bar <- nrow(label_data)
+angle <- 90 - 360 * (label_data$id-0.5) /number_of_bar     # I substract 0.5 because the letter must have the angle of the center of the bars. Not extreme right(1) or extreme left (0)
+label_data$hjust <- ifelse( angle < -90, 1, 0)
+label_data$angle <- ifelse(angle < -90, angle+180, angle)
+ 
+# Make the plot
+plot_2016 <- ggplot(top30_2016_p, aes(x=as.factor(id), y=Users, fill=Category)) +       # Note that id is a factor. If x is numeric, there is some space between the first bar
+  geom_bar(stat="identity", alpha=0.5) +
+  ylim(-100,120) +
+  theme_minimal() +
+  theme(
+    legend.position = "none",
+    axis.text = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    plot.margin = unit(rep(-1,4), "cm") 
+  ) +
+  coord_polar() + 
+  geom_text(data=label_data, aes(x=id, y=Users+10, label=Page, hjust=hjust), color="black", fontface="bold",alpha=0.6, size=2.5, angle= label_data$angle, inherit.aes = FALSE ) 
+ 
+plot_2016
 
 
 
