@@ -980,7 +980,7 @@ circos.track(ylim = c(1, length(percent)+1), track.height = 0.9,
 ```{r Top 10 Datasets Viewed, echo = FALSE, message = FALSE, warning = FALSE}
 
 
-## Get top 10 datasets for 2016
+## Get top 50 datasets for 2016
 
 datasets_2016 <- sorted_2016 %>% 
   filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
@@ -989,7 +989,47 @@ datasets_2016 <- sorted_2016 %>%
 
 ## NOTE that the hyphen patterns have been removed from the URL pathways. To get the correct URL for the clickable link go to Google Analytics. For some reason GA has removed the 'catalog/' from before the 'view/....' pathway. You will need to add 'catalog/' to the URL in order to get the correct page. 
 
-write.xlsx(datasets_2016, "/home/t_hooper/ADC-Google-Analytics/datasets_2016.xlsx")
+# write.xlsx(datasets_2016, "/home/t_hooper/ADC-Google-Analytics/datasets_2016.xlsx")
+
+
+## Get top 50 datasets for 2017
+
+datasets_2017 <- sorted_2017 %>% 
+  filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
+  filter(grepl('view', Page)) %>% # filters out all catalog datasets 
+  head(n = 50) # take top 10 viewed datasets
+
+write.xlsx(datasets_2017, "/home/t_hooper/ADC-Google-Analytics/datasets_2017.xlsx")
+
+
+## Get top 50 datasets for 2018
+
+datasets_2018 <- sorted_2018 %>% 
+  filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
+  filter(grepl('view', Page)) %>% # filters out all catalog datasets 
+  head(n = 50) # take top 10 viewed datasets
+
+write.xlsx(datasets_2018, "/home/t_hooper/ADC-Google-Analytics/datasets_2018.xlsx")
+
+
+## Get top 50 datasets for 2019
+
+datasets_2019 <- sorted_2019 %>% 
+  filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
+  filter(grepl('view', Page)) %>% # filters out all catalog datasets 
+  head(n = 50) # take top 10 viewed datasets
+
+write.xlsx(datasets_2019, "/home/t_hooper/ADC-Google-Analytics/datasets_2019.xlsx")
+
+
+## Get top 50 datasets for 2020
+
+datasets_2020 <- sorted_2020 %>% 
+  filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
+  filter(grepl('view', Page)) %>% # filters out all catalog datasets 
+  head(n = 50) # take top 10 viewed datasets
+
+write.xlsx(datasets_2020, "/home/t_hooper/ADC-Google-Analytics/datasets_2020.xlsx")
 
 
 ```
