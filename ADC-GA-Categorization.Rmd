@@ -979,13 +979,13 @@ circos.track(ylim = c(1, length(percent)+1), track.height = 0.9,
 #### **Top 10 Datasets per Year**
 ```{r Top 10 Datasets Viewed, echo = FALSE, message = FALSE, warning = FALSE}
 
-
 ## Get top 50 datasets for 2016
 
 datasets_2016 <- sorted_2016 %>% 
   filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
   filter(grepl('view', Page)) %>% # filters out all catalog datasets 
-  head(n = 50) # take top 10 viewed datasets
+  head(n = 10) %>% # take top 10 viewed datasets
+  select(Page, Users, Pageviews, Year) # remove all columns except for thes 4
 
 ## NOTE that the hyphen patterns have been removed from the URL pathways. To get the correct URL for the clickable link go to Google Analytics. For some reason GA has removed the 'catalog/' from before the 'view/....' pathway. You will need to add 'catalog/' to the URL in order to get the correct page. 
 
@@ -997,9 +997,10 @@ datasets_2016 <- sorted_2016 %>%
 datasets_2017 <- sorted_2017 %>% 
   filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
   filter(grepl('view', Page)) %>% # filters out all catalog datasets 
-  head(n = 50) # take top 10 viewed datasets
+  head(n = 10) %>% # take top 10 viewed datasets
+  select(Page, Users, Pageviews, Year) # remove all columns except for thes 4
 
-write.xlsx(datasets_2017, "/home/t_hooper/ADC-Google-Analytics/datasets_2017.xlsx")
+# write.xlsx(datasets_2017, "/home/t_hooper/ADC-Google-Analytics/datasets_2017.xlsx")
 
 
 ## Get top 50 datasets for 2018
@@ -1007,9 +1008,10 @@ write.xlsx(datasets_2017, "/home/t_hooper/ADC-Google-Analytics/datasets_2017.xls
 datasets_2018 <- sorted_2018 %>% 
   filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
   filter(grepl('view', Page)) %>% # filters out all catalog datasets 
-  head(n = 50) # take top 10 viewed datasets
+  head(n = 10) %>% # take top 10 viewed datasets
+  select(Page, Users, Pageviews, Year) # remove all columns except for thes 4
 
-write.xlsx(datasets_2018, "/home/t_hooper/ADC-Google-Analytics/datasets_2018.xlsx")
+# write.xlsx(datasets_2018, "/home/t_hooper/ADC-Google-Analytics/datasets_2018.xlsx")
 
 
 ## Get top 50 datasets for 2019
@@ -1017,9 +1019,10 @@ write.xlsx(datasets_2018, "/home/t_hooper/ADC-Google-Analytics/datasets_2018.xls
 datasets_2019 <- sorted_2019 %>% 
   filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
   filter(grepl('view', Page)) %>% # filters out all catalog datasets 
-  head(n = 50) # take top 10 viewed datasets
+  head(n = 10) %>%  # take top 10 viewed datasets
+  select(Page, Users, Pageviews, Year) # remove all columns except for thes 4
 
-write.xlsx(datasets_2019, "/home/t_hooper/ADC-Google-Analytics/datasets_2019.xlsx")
+# write.xlsx(datasets_2019, "/home/t_hooper/ADC-Google-Analytics/datasets_2019.xlsx")
 
 
 ## Get top 50 datasets for 2020
@@ -1027,13 +1030,223 @@ write.xlsx(datasets_2019, "/home/t_hooper/ADC-Google-Analytics/datasets_2019.xls
 datasets_2020 <- sorted_2020 %>% 
   filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
   filter(grepl('view', Page)) %>% # filters out all catalog datasets 
-  head(n = 50) # take top 10 viewed datasets
+  head(n = 10) %>%  # take top 10 viewed datasets
+  select(Page, Users, Pageviews, Year) # remove all columns except for thes 4
 
-write.xlsx(datasets_2020, "/home/t_hooper/ADC-Google-Analytics/datasets_2020.xlsx")
+# write.xlsx(datasets_2020, "/home/t_hooper/ADC-Google-Analytics/datasets_2020.xlsx")
 
 
 ```
 
 <br>
 
-Currently working on interactive data tables that show the top viewed datasets per year. The table will include a clickable link that will take you to the dataset on the ADC site. 
+```{r Interactive Table for 2016 Datasets, echo = FALSE, warning = FALSE, message = FALSE}
+
+### Add URL links to individual annual dataframes, then combine them into one dataframe for kable table
+
+#### 2016 ####
+
+# Transform columns to numeric so they are all aligned to the right
+datasets_2016 <- transform(datasets_2016, Pageviews = as.numeric(Pageviews),
+                         Year = as.numeric(Year))
+
+
+# Add column for actual dataset name
+datasets_2016$Dataset <- c("Collaborative Research: Toward a Circumarctic Lakes Observation Network (CALON)-- Multiscale observations of lacustrine systems.", "MAR v3.2 regional climate model data for Greenland (1958-2013).", "USGS Permafrost Temperatures Acquired from the DOI/GTN-P Deep Borehole Array in Arctic Alaska, 1973-continuing.", "The State of the Arctic Sea Ice Cover: Sustaining the integrated seasonal ice zone observing network.", "Collaborative Research: Sensitivity of Circum-Arctic Peatland Carbon to Holocene Warm Climates and Climate Seasonality.", "Nansen and Amundsen Basins Observational System.", "Arctic Shorebird Demographics Network.", "Passive acoustic data from A2 in the Bering Strait.", "Arctic Great Rivers Observatory.", "CTD and Mooring Data from the Eastern Eurasian and Makarov Basins, and Northern Laptev and East Siberian Seas from 2013-2015.")
+
+# Reorder dataframe so that Dataset is first column, and remove pathway Page column
+datasets_2016 <- datasets_2016[,c(5,2,3,4)]
+
+
+# URLs for Top 10 Datasets
+urls_16 <- c("https://arcticdata.io/catalog/view/urn:uuid:ef1feed0-9057-4afb-963e-03769a0b3e85", "https://arcticdata.io/catalog/view/doi:10.5065/D6JH3J7Z", "https://arcticdata.io/catalog/view/doi:10.5065/D6N014HK", "https://arcticdata.io/catalog/view/urn:uuid:3fb067ab-a8c6-4297-863f-511f1d39233b", "https://arcticdata.io/catalog/view/urn:uuid:00edeb96-7444-41a8-9e73-59ac2893a497", "https://arcticdata.io/catalog/view/doi:10.18739/A23D20", "https://arcticdata.io/catalog/view/doi:10.18739/A2K89M", "https://arcticdata.io/catalog/view/arctic-data.1580.1", "https://arcticdata.io/catalog/view/urn:uuid:b9e1ee82-39d2-4219-b08d-0403d409e48d", "https://arcticdata.io/catalog/view/arctic-data.7792.15")
+
+### Create table with embedded links for Dataset name 
+
+datasets_2016_tbl <- datasets_2016 %>% 
+  kbl(caption = "Top 10 Viewed Datasets Per Year", font = 14) %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), fixed_thead = T) %>% 
+  row_spec(0, bold = T) %>% 
+  column_spec(1, 
+              link = c("https://arcticdata.io/catalog/view/urn:uuid:ef1feed0-9057-4afb-963e-03769a0b3e85", "https://arcticdata.io/catalog/view/doi:10.5065/D6JH3J7Z", "https://arcticdata.io/catalog/view/doi:10.5065/D6N014HK", "https://arcticdata.io/catalog/view/urn:uuid:3fb067ab-a8c6-4297-863f-511f1d39233b", "https://arcticdata.io/catalog/view/urn:uuid:00edeb96-7444-41a8-9e73-59ac2893a497", "https://arcticdata.io/catalog/view/doi:10.18739/A23D20", "https://arcticdata.io/catalog/view/doi:10.18739/A2K89M", "https://arcticdata.io/catalog/view/arctic-data.1580.1", "https://arcticdata.io/catalog/view/urn:uuid:b9e1ee82-39d2-4219-b08d-0403d409e48d", "https://arcticdata.io/catalog/view/arctic-data.7792.15")) # this line embeds the links within the text
+
+#datasets_2016_tbl
+  
+```
+ 
+
+```{r Interactive Table for 2017 Datasets, echo = FALSE, message = FALSE, warning = FALSE}
+
+### Add URL links to individual annual dataframes, then combine them into one dataframe for kable table
+
+## 2017 ##
+
+# Transform columns to numeric so they are all aligned to the right
+datasets_2017 <- transform(datasets_2017, Pageviews = as.numeric(Pageviews),
+                         Year = as.numeric(Year))
+
+
+# Add column for actual dataset name
+datasets_2017$Dataset <- c("Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow density subdataset", "Collaborative Research: Toward a Circumarctic Lakes Observation Network (CALON)-- Multiscale observations of lacustrine systems.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow depth on sea ice subdataset.", "Nordenskioldland, Svalbard Reindeer Carbon and Nitrogen Isotope Data.", "USGS Permafrost Temperatures Acquired from the DOI/GTN-P Deep Borehole Array in Arctic Alaska, 1973-continuing." , "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) accumulation on land ice subdataset.", "Arctic Shorebird Demographics Network.", "Integrating Passive Acoustic Monitoring in long-term oceanographic observations of the Bering Strait.", "Automated ice mass balance site (SIZONET).", "NABOS - Water Quality and Physical Oceanography Data from the Eastern Eurasian and Makarov Basins, and Northern Laptev and East Siberian Seas in 2013.")
+
+# Reorder dataframe so that Dataset is first column, and remove pathway Page column
+datasets_2017 <- datasets_2017[,c(5,2,3,4)]
+
+
+# URLs for Top 10 Datasets
+urls_17 <- c("https://arcticdata.io/catalog/view/doi:10.18739/A2BJ96", "https://arcticdata.io/catalog/view/urn:uuid:ef1feed0-9057-4afb-963e-03769a0b3e85", "https://arcticdata.io/catalog/view/doi:10.18739/A2W22P", "https://arcticdata.io/catalog/view/doi:10.18739/A27T10", "https://arcticdata.io/catalog/view/doi:10.5065/D6N014HK", "https://arcticdata.io/catalog/view/doi:10.18739/A2781G", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/urn:uuid:04adb1c7-d215-4c8f-9e80-79d56bc20bab", "https://arcticdata.io/catalog/view/doi:10.18739/A2D08X", "https://arcticdata.io/catalog/view/doi:10.18739/A2G95H")
+
+### Create table with embedded links for Dataset name 
+
+datasets_2017_tbl <- datasets_2017 %>% 
+  kbl(caption = "Top 10 Viewed Datasets Per Year", font = 14) %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), fixed_thead = T) %>% 
+  row_spec(0, bold = T) %>% 
+  column_spec(1, 
+              link = c("https://arcticdata.io/catalog/view/doi:10.18739/A2BJ96", "https://arcticdata.io/catalog/view/urn:uuid:ef1feed0-9057-4afb-963e-03769a0b3e85", "https://arcticdata.io/catalog/view/doi:10.18739/A2W22P", "https://arcticdata.io/catalog/view/doi:10.18739/A27T10", "https://arcticdata.io/catalog/view/doi:10.5065/D6N014HK", "https://arcticdata.io/catalog/view/doi:10.18739/A2781G", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/urn:uuid:04adb1c7-d215-4c8f-9e80-79d56bc20bab", "https://arcticdata.io/catalog/view/doi:10.18739/A2D08X", "https://arcticdata.io/catalog/view/doi:10.18739/A2G95H")) # this line embeds the links within the text
+
+#datasets_2017_tbl
+
+
+```
+
+
+```{r Dataset Table for 2018, echo = FALSE, warning = FALSE, message = FALSE}
+
+
+### Add URL links to individual annual dataframes, then combine them into one dataframe for kable table
+
+## 2018 ##
+
+
+## *** 2018 has a handful of datasets that are not compatible with ADC -- some are from the ESS-DIVE training and perhaps they copied the Google Analytics theme when making their own and so had redirected to the ADC site. Because these URL's don't work on ADC we need to filter them out 
+
+datasets_2018 <- sorted_2018 %>% 
+  filter(Category == "Dataset") %>% # filters out all rows within the Dataset category
+  filter(!grepl('essdive', Page)) %>% # filters out all datasets that contain "view/ess-dive..."
+  filter(!grepl('viewdoi103334', Page)) %>% #filters out all datasets from DOI:10.3334 
+  filter(grepl('view', Page)) %>% # filters out all catalog datasets 
+  head(n = 10) %>% # take top10 viewed datasets
+  select(Page, Users, Pageviews, Year) # remove all columns except for these 4
+
+# Transform columns to numeric so they are all aligned to the right
+datasets_2018 <- transform(datasets_2018, Pageviews = as.numeric(Pageviews),
+                         Year = as.numeric(Year))
+
+
+# Add column for actual dataset name
+datasets_2018$Dataset <- c("Photogrammetric scans of aerial photographs of North American glaciers.", " Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow depth on sea ice subdataset, Antarctica and Baltic Sea, 1990-2018.", "Soil bacterial community and functional shifts in response to altered snow pack in moist acidic tundra of Northern Alaska.", "A synthesis dataset of near-surface permafrost conditions for Alaska, 1997-2016.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow density subdataset, Greenland and Antartica, 1950-2018.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow depth on sea ice subdataset.", "Arctic Shorebird Demographics Network.", "Modèle Atmosphérique Régional (MAR) three-dimensional regional climate model (RCM), version 3.2, over Greenland, 1948-2016." , "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) accumulation on land ice subdataset, Greenland and Antarctica, 1987-2018.", "Floating and bedfast lake ice regimes across Arctic Alaska using space-borne SAR imagery from 1992-2016." )
+
+# Reorder dataframe so that Dataset is first column, and remove pathway Page column
+datasets_2018 <- datasets_2018[,c(5,2,3,4)]
+
+
+# URLs for Top 10 Datasets
+urls_18 <- c("https://arcticdata.io/catalog/view/doi:10.18739/A21R9G", "https://arcticdata.io/catalog/view/doi:10.18739/A2WS8HK6X", "https://arcticdata.io/catalog/view/doi:10.18739/A2556Q", "https://arcticdata.io/catalog/view/doi:10.18739/A2KG55", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R", "https://arcticdata.io/catalog/view/doi:10.18739/A2W22P", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/doi:10.18739/A2MV9S", "https://arcticdata.io/catalog/view/doi:10.18739/A2DR2P790", "https://arcticdata.io/catalog/view/doi:10.18739/A2FC5W")
+
+### Create table with embedded links for Dataset name 
+
+datasets_2018_tbl <- datasets_2018 %>% 
+  kbl(caption = "Top 10 Viewed Datasets Per Year", font = 14) %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), fixed_thead = T) %>% 
+  row_spec(0, bold = T) %>% 
+  column_spec(1, 
+              link = c("https://arcticdata.io/catalog/view/doi:10.18739/A21R9G", "https://arcticdata.io/catalog/view/doi:10.18739/A2WS8HK6X", "https://arcticdata.io/catalog/view/doi:10.18739/A2556Q", "https://arcticdata.io/catalog/view/doi:10.18739/A2KG55", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R", "https://arcticdata.io/catalog/view/doi:10.18739/A2W22P", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/doi:10.18739/A2MV9S", "https://arcticdata.io/catalog/view/doi:10.18739/A2DR2P790", "https://arcticdata.io/catalog/view/doi:10.18739/A2FC5W")) # this line embeds the links within the text
+
+#datasets_2018_tbl
+
+
+```
+
+```{r 2019 Datasets Table, echo = FALSE, warning = FALSE, message = FALSE }
+
+### Add URL links to individual annual dataframes, then combine them into one dataframe for kable table
+
+#### 2019 ####
+
+# Transform columns to numeric so they are all aligned to the right
+datasets_2019 <- transform(datasets_2019, Pageviews = as.numeric(Pageviews),
+                         Year = as.numeric(Year))
+
+
+# Add column for actual dataset name
+datasets_2019$Dataset <- c("Estimating the Freshwater Flux from the Greenland Ice Sheet Workshop Report, American Geophysical Union, 2018.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow density subdataset, Greenland and Antartica, 1950-2018.", "Pacific arctic sea-ice observations from U.S. Federal logbooks (1900-1938).", "North Pole Environmental Observatory Bottle Chemistry. ", "Arctic Shorebird Demographics Network.", "Arctic Great Rivers Observatory III Biogeochemistry and Discharge Data, 2017-2019.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow density subdataset, Greenland and Antartica, 1950-2018.", "A synthesis dataset of near-surface permafrost conditions for Alaska, 1997-2016.", "Arctic Shorebird Demographics Network.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) accumulation on land ice subdataset, Greenland and Antarctica, 1987-2018.")
+
+# Reorder dataframe so that Dataset is first column, and remove pathway Page column
+datasets_2019 <- datasets_2019[,c(5,2,3,4)]
+
+
+# URLs for Top 10 Datasets
+urls_19 <- c("https://arcticdata.io/catalog/view/doi:10.18739/A24M9198B", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R", "https://arcticdata.io/catalog/view/doi:10.18739/A20P0WQ7M", "https://arcticdata.io/catalog/view/doi:10.18739/A25T3FZ8X", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/doi:10.18739/A21C1TF69", "https://arcticdata.io/catalog/view/doi:10.18739/A26D5PB2S",  "https://arcticdata.io/catalog/view/doi:10.18739/A2KG55",  "https://arcticdata.io/catalog/view/doi:10.18739/A28P5V92S", "https://arcticdata.io/catalog/view/doi:10.18739/A2DR2P790")
+
+### Create table with embedded links for Dataset name 
+
+datasets_2019_tbl <- datasets_2019 %>% 
+  kbl(caption = "Top 10 Viewed Datasets Per Year", font = 14) %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), fixed_thead = T) %>% 
+  row_spec(0, bold = T) %>% 
+  column_spec(1, 
+              link = c("https://arcticdata.io/catalog/view/doi:10.18739/A24M9198B", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R", "https://arcticdata.io/catalog/view/doi:10.18739/A20P0WQ7M", "https://arcticdata.io/catalog/view/doi:10.18739/A25T3FZ8X", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/doi:10.18739/A21C1TF69", "https://arcticdata.io/catalog/view/doi:10.18739/A26D5PB2S",  "https://arcticdata.io/catalog/view/doi:10.18739/A2KG55",  "https://arcticdata.io/catalog/view/doi:10.18739/A28P5V92S", "https://arcticdata.io/catalog/view/doi:10.18739/A2DR2P790" )) # this line embeds the links within the text
+
+#datasets_2019_tbl
+
+
+```
+
+```{r 2020 Dataset Table, echo = FALSE, warning = FALSE, message = FALSE}
+
+### Add URL links to individual annual dataframes, then combine them into one dataframe for kable table
+
+#### 2020 ####
+
+# Transform columns to numeric so they are all aligned to the right
+datasets_2020 <- transform(datasets_2020, Pageviews = as.numeric(Pageviews),
+                         Year = as.numeric(Year))
+
+
+# Add column for actual dataset name
+datasets_2020$Dataset <- c("Arc5km2018: Arctic Ocean Inverse Tide Model on a 5 kilometer grid, 2018.", "North Pole Environmental Observatory Bottle Chemistry.", "Global Seasonal Snow Classification System." , "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow density subdataset, Greenland and Antartica, 1950-2018.", "AOTIM5: Arctic Ocean Inverse Tide Model, on 5 kilometer grid, developed in 2004.", "Arctic Tidal Current Atlas from Moored Current Observations, Arctic Ocean, 1998-2018.", "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) accumulation on land ice subdataset, Greenland and Antarctica, 1987-2018.", " Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow depth on sea ice subdataset, Antarctica and Baltic Sea, 1990-2018.", " Pacific arctic sea-ice observations from U.S. Federal logbooks (1900-1938).",  "Surface Mass Balance and Snow Depth on Sea Ice Working Group (SUMup) snow density subdataset, Greenland and Antartica, 1950-2018.")
+
+# Reorder dataframe so that Dataset is first column, and remove pathway Page column
+datasets_2020 <- datasets_2020[,c(5,2,3,4)]
+
+
+# URLs for Top 10 Datasets
+urls_20 <- c("https://arcticdata.io/catalog/view/doi:10.18739/A21R6N14K", "https://arcticdata.io/catalog/view/doi:10.18739/A25T3FZ8X", "https://arcticdata.io/catalog/view/doi:10.5065/D69G5JX5", "https://arcticdata.io/catalog/view/doi:10.18739/A26D5PB2S", "https://arcticdata.io/catalog/view/doi:10.18739/A2S17SS80", "https://arcticdata.io/catalog/view/doi:10.18739/A26M3340D", "https://arcticdata.io/catalog/view/doi:10.18739/A2ZS2KD0Z", "https://arcticdata.io/catalog/view/doi:10.18739/A2222R601", "https://arcticdata.io/catalog/view/doi:10.18739/A20P0WQ7M", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R" )
+
+### Create table with embedded links for Dataset name 
+
+datasets_2020_tbl <- datasets_2020 %>% 
+  kbl(caption = "Top 10 Viewed Datasets Per Year") %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), fixed_thead = T) %>% 
+  row_spec(0, bold = T) %>% 
+  column_spec(1, 
+              link = c( "https://arcticdata.io/catalog/view/doi:10.18739/A21R6N14K", "https://arcticdata.io/catalog/view/doi:10.18739/A25T3FZ8X", "https://arcticdata.io/catalog/view/doi:10.5065/D69G5JX5", "https://arcticdata.io/catalog/view/doi:10.18739/A26D5PB2S", "https://arcticdata.io/catalog/view/doi:10.18739/A2S17SS80", "https://arcticdata.io/catalog/view/doi:10.18739/A26M3340D", "https://arcticdata.io/catalog/view/doi:10.18739/A2ZS2KD0Z", "https://arcticdata.io/catalog/view/doi:10.18739/A2222R601", "https://arcticdata.io/catalog/view/doi:10.18739/A20P0WQ7M", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R")) # this line embeds the links within the text
+
+datasets_2020_tbl
+
+
+```
+
+
+```{r Combined Datasets 2016-2020 Table, echo = FALSE, warning = FALSE, message = FALSE}
+
+# Combine top 10 datasets
+topdatasets_16_20 <- rbind(datasets_2016, datasets_2017, datasets_2018, datasets_2019, datasets_2020)   
+
+
+topdatasets_16_20 %>% 
+  kbl(caption = "Top 10 Viewed Datasets Per Year") %>%
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), fixed_thead = T) %>% 
+  row_spec(0, bold = T) %>% 
+  column_spec(1, 
+              link = c("https://arcticdata.io/catalog/view/urn:uuid:ef1feed0-9057-4afb-963e-03769a0b3e85",  "https://arcticdata.io/catalog/view/doi:10.5065/D6JH3J7Z", "https://arcticdata.io/catalog/view/doi:10.5065/D6N014HK", "https://arcticdata.io/catalog/view/urn:uuid:3fb067ab-a8c6-4297-863f-511f1d39233b", "https://arcticdata.io/catalog/view/urn:uuid:00edeb96-7444-41a8-9e73-59ac2893a497", "https://arcticdata.io/catalog/view/doi:10.18739/A23D20", "https://arcticdata.io/catalog/view/doi:10.18739/A2K89M", "https://arcticdata.io/catalog/view/arctic-data.1580.1", "https://arcticdata.io/catalog/view/urn:uuid:b9e1ee82-39d2-4219-b08d-0403d409e48d", "https://arcticdata.io/catalog/view/arctic-data.7792.15", "https://arcticdata.io/catalog/view/doi:10.18739/A2BJ96", "https://arcticdata.io/catalog/view/urn:uuid:ef1feed0-9057-4afb-963e-03769a0b3e85", "https://arcticdata.io/catalog/view/doi:10.18739/A2W22P", "https://arcticdata.io/catalog/view/doi:10.18739/A27T10", "https://arcticdata.io/catalog/view/doi:10.5065/D6N014HK", "https://arcticdata.io/catalog/view/doi:10.18739/A2781G", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/urn:uuid:04adb1c7-d215-4c8f-9e80-79d56bc20bab", "https://arcticdata.io/catalog/view/doi:10.18739/A2D08X", "https://arcticdata.io/catalog/view/doi:10.18739/A2G95H","https://arcticdata.io/catalog/view/doi:10.18739/A21R9G", "https://arcticdata.io/catalog/view/doi:10.18739/A2WS8HK6X", "https://arcticdata.io/catalog/view/doi:10.18739/A2556Q", "https://arcticdata.io/catalog/view/doi:10.18739/A2KG55", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R", "https://arcticdata.io/catalog/view/doi:10.18739/A2W22P", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/doi:10.18739/A2MV9S", "https://arcticdata.io/catalog/view/doi:10.18739/A2DR2P790", "https://arcticdata.io/catalog/view/doi:10.18739/A2FC5W", "https://arcticdata.io/catalog/view/doi:10.18739/A24M9198B", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R", "https://arcticdata.io/catalog/view/doi:10.18739/A20P0WQ7M", "https://arcticdata.io/catalog/view/doi:10.18739/A25T3FZ8X", "https://arcticdata.io/catalog/view/doi:10.18739/A2CD5M", "https://arcticdata.io/catalog/view/doi:10.18739/A21C1TF69", "https://arcticdata.io/catalog/view/doi:10.18739/A26D5PB2S",  "https://arcticdata.io/catalog/view/doi:10.18739/A2KG55",  "https://arcticdata.io/catalog/view/doi:10.18739/A28P5V92S", "https://arcticdata.io/catalog/view/doi:10.18739/A2DR2P790", "https://arcticdata.io/catalog/view/doi:10.18739/A21R6N14K", "https://arcticdata.io/catalog/view/doi:10.18739/A25T3FZ8X", "https://arcticdata.io/catalog/view/doi:10.5065/D69G5JX5", "https://arcticdata.io/catalog/view/doi:10.18739/A26D5PB2S", "https://arcticdata.io/catalog/view/doi:10.18739/A2S17SS80", "https://arcticdata.io/catalog/view/doi:10.18739/A26M3340D", "https://arcticdata.io/catalog/view/doi:10.18739/A2ZS2KD0Z", "https://arcticdata.io/catalog/view/doi:10.18739/A2222R601", "https://arcticdata.io/catalog/view/doi:10.18739/A20P0WQ7M", "https://arcticdata.io/catalog/view/doi:10.18739/A2JH3D23R"))
+
+```
+
