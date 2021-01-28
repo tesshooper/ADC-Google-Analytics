@@ -1,0 +1,5778 @@
+﻿event_label,users,total_events,unique_events
+GCMS,102,102,102
+CO2 emissions,57,60,60
+temperature,55,66,62
+CO2,51,53,52
+fundingOrganization,49,49,49
+carbon dioxide,47,56,51
+permafrost,46,79,62
+carbon,39,58,48
+co2,36,47,42
+publish,32,32,32
+2016 to 2017,29,56,39
+DBO,28,48,43
+sea ice,25,32,26
+soil,25,29,28
+2017 to 2018,25,47,31
+CDIAC,24,45,39
+methane,21,36,27
+2018 to 2018,21,26,22
+snow,20,25,25
+2016 to 2018,19,28,21
+2015 to 2017,18,26,20
+global,18,20,19
+ice,18,23,22
+cdiac,17,21,21
+ice core,17,17,17
+2017 to 2017,17,29,25
+flux,16,30,21
+arctic,16,18,16
+emissions,16,20,17
+ludwig,16,53,28
+vargas,15,37,29
+romanovsky,15,25,22
+2010 to 2017,15,18,16
+Emissions,15,15,15
+carbon dioxide emission estimates,15,15,15
+greenland,14,16,16
+alaska,14,16,15
+glacier,13,15,14
+mcraven,13,31,18
+2014 to 2017,13,14,13
+Global,13,14,14
+biomass,12,16,14
+summit,12,15,14
+ricketts,12,34,33
+2016 to 2016,12,19,15
+mar,12,13,12
+soil temperature,12,17,16
+Greenland,12,15,15
+1841 to 2017,11,25,17
+Carbon Dioxide,11,12,11
+vostok,11,19,16
+Jacqueline M. Grebmeier,11,35,28
+Alaska,11,12,11
+boden,11,11,11
+tedesco,11,24,17
+co2 emissions,11,12,11
+vegetation,10,11,11
+stafford,10,14,14
+Igor Polyakov,10,11,10
+2013 to 2018,10,18,11
+2010 to 2018,10,15,11
+AGAGE,9,31,26
+Arp,9,17,16
+austin post,9,16,14
+co2 flux,9,38,31
+2013 to 2017,9,10,9
+carbon dioxide flux,9,28,23
+model,9,12,10
+mayer,9,28,22
+carbon flux,9,31,21
+TTO,9,22,21
+precipitation,9,13,11
+polaris,9,11,11
+Vladimir E. Romanovsky,9,10,9
+shupe,9,16,15
+2007 to 2017,9,10,10
+fossil-fuel CO2 emissions,9,10,10
+caribou,8,12,10
+2000 to 2018,8,9,8
+emission,8,10,10
+oberbauer,8,10,10
+bathymetry,8,10,8
+2011 to 2017,8,9,9
+borehole,8,15,13
+grebmeier,8,9,9
+sergio vargas,8,12,10
+2014 to 2018,8,14,10
+1800 to 2018,8,10,9
+salinity,8,10,9
+miller,8,14,14
+2009 to 2017,8,8,8
+2012 to 2017,8,12,9
+CTD,8,10,9
+dbo,8,16,9
+wind,8,8,8
+carbon emission,8,8,8
+1998 to 2017,8,10,9
+Atmospheric CO2 Concentrations,8,9,8
+1850 to 2017,7,7,7
+2005 to 2017,7,7,7
+2008 to 2017,7,9,8
+2010 to 2015,7,8,7
+shipping,7,9,7
+mammal,7,8,8
+eddy covariance,7,12,11
+doi:10.18739/A20G68,7,26,22
+MAR,7,9,7
+Fossil-Fuel CO2 Emissions,7,7,7
+fossil fuels,7,24,15
+.nc,7,10,10
+noone,7,19,14
+arp,7,10,10
+2014 to 2015,7,10,9
+"Global, Regional, and National Fossil-Fuel CO2 Emissions",7,9,8
+ICECAPS,7,9,8
+SUMO,7,19,13
+1996 to 2017,7,8,8
+2004 to 2017,7,8,7
+1800 to 2017,7,9,8
+doi:10.18739/A2WS05,7,11,8
+degrandpre,7,11,8
+Global Carbon Dioxide Emissions,7,7,7
+2000 to 2017,7,8,7
+china,7,8,8
+"Summit, Greenland",7,10,10
+temperatur,7,7,7
+seismic,7,10,8
+loranty,7,13,10
+zooplankton,7,9,7
+perovich,7,11,11
+cortes,7,70,55
+amundson,7,41,33
+davis strait,7,10,8
+Antarctica,7,11,8
+cement,7,7,7
+sumup,7,11,10
+Global Carbon Project,7,7,7
+T. A. Boden,7,8,7
+ameriflux,7,9,8
+1999 to 2017,7,7,7
+species,7,9,7
+Romanovsky,7,10,9
+social,7,13,11
+netcdf,7,16,15
+post,6,12,10
+ADCP,6,8,7
+density,6,8,7
+Grebmeier,6,12,10
+2010 to 2016,6,8,6
+icecaps,6,6,6
+1993 to 2017,6,6,6
+1304905,6,6,6
+Temperature,6,6,6
+soil carbon,6,8,7
+timling,6,23,17
+Carbon Dioxide Emissions,6,6,6
+tweedie,6,9,7
+heather alexander,6,13,8
+2015 to 2018,6,10,8
+grieman,6,13,10
+indigenous,6,8,8
+Sarah Ludwig,6,6,6
+doi:10.18739/A26R0M,6,7,7
+sumo,6,6,6
+chlorophyll,6,9,8
+neilson,6,8,7
+climate,6,6,6
+young,6,15,14
+doi:10.18739/A2ZX05,6,18,14
+Ice thickness,6,8,8
+fossil fuel,6,6,6
+welker,6,9,8
+water,6,8,7
+harper,6,9,8
+alexander,6,7,7
+phytoplankton,6,6,6
+lake peters,6,6,6
+2006 to 2017,6,7,6
+2003 to 2017,6,7,6
+engram,6,7,6
+2016,5,5,5
+doi:10.5065/D6P26W70,5,6,6
+1304899,5,8,8
+Oberbauer,5,5,5
+NGEE,5,9,8
+Patrick Sullivan,5,5,5
+toole,5,9,9
+hollister,5,8,6
+chinare,5,6,6
+zona,5,8,8
+russia,5,5,5
+2015 to 2016,5,12,8
+bear,5,5,5
+Vladimir Romanovsky,5,6,6
+air temperature,5,5,5
+doi:10.18739/A20F8P,5,5,5
+lake,5,7,6
+2008 to 2018,5,6,5
+pickart,5,8,6
+CALON,5,7,7
+oxygen,5,7,6
+hatfield,5,7,7
+mooring,5,5,5
+keeling,5,7,6
+river,5,5,5
+nitrogen,5,12,7
+2012 to 2018,5,6,5
+helmig,5,6,5
+DOC,5,5,5
+ngee,5,10,8
+beaufort,5,6,5
+2013 to 2015,5,7,6
+black carbon,5,5,5
+Ship,5,5,5
+doi:10.18739/A23K4G,5,6,6
+2011 to 2018,5,6,5
+global co2 emissions,5,5,5
+mammals,5,5,5
+China,5,7,6
+Kathleen M Stafford,5,15,7
+nitrate,5,6,5
+1997 to 2017,5,6,5
+beluga,5,7,6
+atqasuk,5,6,6
+nagap,5,21,17
+Cable,5,8,7
+anna,5,22,8
+ghg,5,5,5
+land use,5,9,8
+greenhouse gas emissions,5,6,5
+vladimir,5,16,14
+accumulation,5,6,5
+meierbachtol,5,27,20
+2003 to 2016,5,6,6
+DeGrandpre,5,19,15
+itex,5,6,5
+spruce,5,6,6
+energy,5,8,6
+moisture,5,8,7
+CO2 flux,5,7,6
+Hollister,5,7,7
+agage,5,13,9
+doi:10.18739/A22V25,5,5,5
+ctd,5,6,5
+algae,5,5,5
+sediment,5,11,10
+1800 to 2016,5,5,5
+oil,5,5,5
+salmon,5,5,5
+2007 to 2018,5,5,5
+1995 to 2017,4,4,4
+NAGAP,4,7,7
+2007 to 2016,4,4,4
+mack,4,5,5
+LeConte,4,4,4
+doi:10.18739/A2CR52,4,5,4
+friedman,4,4,4
+doi:10.18739/A2763J,4,15,13
+toolik,4,8,6
+marine mammal,4,4,4
+pingo,4,7,5
+siberia,4,5,4
+fish,4,6,5
+radiation,4,5,5
+polar bears,4,4,4
+2003C,4,9,8
+marland,4,4,4
+taku,4,5,5
+shapefile,4,5,5
+doi:10.5065/D64J0C7C,4,5,5
+2001A,4,10,7
+cable,4,35,24
+discharge,4,4,4
+canada,4,7,5
+2009 to 2018,4,5,4
+2011 to 2016,4,4,4
+doi:10.18739/A27N5S,4,4,4
+test,4,5,5
+Ashjian,4,5,5
+penguin,4,5,4
+reindeer,4,4,4
+whale,4,6,5
+fisheries,4,5,4
+United States,4,4,4
+population,4,4,4
+human,4,4,4
+methane flux,4,5,4
+cumulative,4,5,4
+10.18739/A20G68,4,16,13
+1851 to 2016,4,4,4
+fire,4,4,4
+1630360,4,7,5
+Arctic,4,4,4
+SHEBA,4,6,5
+colorado,4,4,4
+world,4,5,4
+doi:10.18739/A2BW6H,4,9,5
+collaborative,4,7,4
+Sue E. Moore,4,11,10
+CH4,4,5,5
+2000 to 2016,4,4,4
+2017,4,5,4
+barrow,4,5,5
+greenhouse gas,4,5,4
+1998 to 2018,4,6,5
+India,4,5,5
+Heather D. Alexander,4,6,4
+urn:uuid:22cf9a09-ffe8-4239-b83a-af1591cf0eb4,4,5,5
+Steven F. Oberbauer,4,6,6
+2017 to 2019,4,4,4
+npp,4,4,4
+tank,4,6,6
+Frey,4,5,5
+2008 to 2016,4,6,5
+mankoff,4,11,7
+parno,4,10,7
+stream,4,5,4
+urn:uuid:08a91469-e207-4805-86da-e698edddfba9,4,4,4
+carbon dioxide emissions,4,4,4
+doi:10.18739/A2FW52,4,8,7
+doi:10.18739/A2FH24,4,5,5
+simpson,4,4,4
+global carbon emissions,4,4,4
+mcconnell,4,5,5
+calanus,4,5,5
+productivity,4,4,4
+cage,4,4,4
+greenhouse,4,4,4
+Vostok,4,6,5
+Canada,4,4,4
+kropp,4,4,4
+ARCTIC OCEAN,4,5,4
+virkkala,4,10,10
+1561437,4,9,8
+CALM,4,4,4
+aves,4,6,4
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/614/4,4,9,7
+soil moisture,4,5,5
+10.18739/A2CZ6H,4,7,7
+doi:10.18739/A2503V,4,10,8
+2004 to 2018,4,4,4
+1023574,4,9,7
+isotope,4,4,4
+thermokarst,4,4,4
+doi:10.18739/A2733H,4,7,6
+2001 to 2017,4,4,4
+svalbard,4,4,4
+health,4,4,4
+Shupe,4,4,4
+bird,4,5,5
+soil bulk density,4,6,4
+doi:10.5065/D61Z42KV,4,5,5
+1994 to 2017,4,4,4
+1990 to 2017,4,4,4
+doi:10.18739/A2J954,4,4,4
+Russia,4,6,6
+10.3334/CDIAC/00001_V2017,4,5,5
+indonesia,4,5,5
+DIC,4,4,4
+Donald Perovich,4,4,4
+doi:10.18739/A21C55,4,4,4
+2010 to 2010,4,7,5
+doi:10.18739/A22Z8G,4,8,6
+schuur,4,8,7
+2003 to 2018,4,4,4
+davis,4,4,4
+sowers,4,4,4
+doi:10.5065/D61J97X5,4,6,5
+may,4,4,4
+jeremy may,4,36,28
+10.18739/A2WD3H,4,11,8
+cloud,4,5,5
+1841 to 2018,4,8,6
+1504345,4,6,6
+2002 to 2017,4,4,4
+Mackenzie Grieman,4,6,4
+Heather Alexander,4,11,9
+Svalbard,4,4,4
+sizonet,4,4,4
+csv,4,6,5
+1304270,4,4,4
+length,4,4,4
+Boden,4,4,4
+carbon emissions,4,4,4
+urn:uuid:a8f60e5b-10b6-46f2-b5dc-02730a513e09,4,5,5
+nee,4,6,5
+vandecrux,4,5,5
+healy,4,5,4
+doi:10.18739/A2HP13,4,5,4
+Stanley,4,9,5
+biodiversity,4,4,4
+doi:10.18739/A2408F,4,7,6
+natali,4,6,6
+Amon,4,4,4
+netCDF,4,5,4
+2013 to 2013,4,5,5
+polar bear,4,9,6
+thaw,4,4,4
+weather,4,6,5
+active layer,4,4,4
+ushcn,4,4,4
+1850 to 2016,4,4,4
+Carbon,4,4,4
+image,4,6,5
+osterberg,4,5,4
+ITP,4,7,5
+2013A,3,3,3
+Lake Peters,3,5,4
+jenna,3,3,3
+2014 to 2016,3,5,4
+Mauna Loa,3,4,4
+multibeam,3,3,3
+doi:10.18739/A2HC5H,3,4,4
+yongsong,3,12,12
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/613/4,3,4,3
+pettersen,3,15,15
+2018 to 2017,3,4,3
+ch4 flux,3,5,5
+transport,3,3,3
+climate change,3,3,3
+Tropical Africa,3,3,3
+Adam Young,3,3,3
+beard,3,3,3
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/495/14,3,4,3
+CO,3,5,4
+obuoy,3,3,3
+benthic macroinfauna,3,3,3
+itp,3,3,3
+Ricketts,3,13,10
+Keeling,3,3,3
+10.18739/A2FW52,3,6,6
+2001 to 2018,3,3,3
+doi:10.18739/A2TR4Q,3,3,3
+O-Buoy,3,4,4
+network of permafrost observatories,3,4,3
+aerosol,3,3,3
+sst,3,3,3
+Summit,3,4,4
+2012 to 2016,3,3,3
+mclaren,3,3,3
+miege,3,4,3
+Toole,3,4,4
+france,3,3,3
+abundance,3,5,4
+mauna loa,3,5,5
+radar,3,3,3
+vostok ice core,3,3,3
+cumulative emissions,3,3,3
+npeo,3,3,3
+Laurier,3,3,3
+mammalia,3,3,3
+NPEO,3,3,3
+doi:10.18739/A22W48,3,8,8
+UpTempO,3,7,5
+wind speed,3,3,3
+Stroeve,3,3,3
+1203944,3,3,3
+Jackie Grebmeier,3,6,4
+1842 to 2017,3,3,3
+NDP001,3,10,9
+Greenhouse gas emissions,3,3,3
+steves,3,6,5
+co,3,5,4
+2007E,3,6,4
+2003A,3,7,5
+doi:10.18739/A2PW57,3,4,4
+MISP,3,3,3
+2012 to 2015,3,3,3
+rain,3,3,3
+Bevis,3,5,5
+Karen Junge,3,3,3
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/573/7,3,4,4
+1545558,3,6,5
+2012 to 2013,3,3,3
+World,3,3,3
+NPP,3,5,3
+doi:10.18739/A2GW0G,3,5,5
+Young,3,3,3
+doi:10.18739/A28S5G,3,5,4
+1991 to 2017,3,4,4
+Taku Glacier,3,4,4
+archaeology,3,4,3
+hewitt,3,3,3
+Carey Friedman,3,6,5
+matt nolan,3,11,11
+Lee W. Cooper,3,14,13
+fossil,3,6,5
+Barrow,3,3,3
+respiration,3,5,3
+doi:10.18739/A2CD5M,3,4,4
+collaborative research,3,5,5
+excel,3,4,4
+krause,3,5,5
+matlab,3,5,4
+phosphate,3,3,3
+virginia,3,3,3
+doi:10.5065/D6B85696,3,7,6
+holmes,3,6,6
+1203418,3,3,3
+beaufort sea,3,3,3
+doi:10.18739/A2B69R,3,4,4
+Grieman,3,3,3
+1950 to 2017,3,6,5
+keigwin,3,6,6
+subsistence,3,4,4
+ecosystem respiration,3,7,5
+Stafford,3,6,4
+doi:10.5065/D6VX0DPX,3,5,4
+NEP,3,3,3
+ice tethered profiler,3,3,3
+1977 to 2017,3,3,3
+bob,3,3,3
+petrov,3,10,10
+doi:10.5065/D67942T9,3,4,4
+1992 to 2017,3,3,3
+2019 to 2017,3,3,3
+Truffer,3,3,3
+sea level rise,3,5,3
+Europe,3,3,3
+NEE,3,3,3
+polaris project,3,3,3
+doi:10.3334/CDIAC/CLI.NDP019,3,4,3
+ARCSS,3,5,5
+2002 to 2016,3,4,3
+335941,3,5,4
+martin,3,6,6
+craig lee,3,4,4
+invasive,3,3,3
+david fortin,3,7,4
+economic,3,3,3
+germany,3,3,3
+Proshutinsky,3,4,4
+copepod,3,4,4
+atmospheric,3,5,5
+2009 to 2016,3,4,4
+africa,3,3,3
+brazil,3,4,4
+Craig E. Tweedie,3,3,3
+doi:10.18739/A24N80,3,5,5
+gas flux,3,6,6
+SUMup,3,3,3
+2009 to 2015,3,3,3
+sea ice thickness,3,5,4
+Kropp,3,3,3
+Alkire,3,4,4
+iceland,3,4,4
+pacmars,3,5,5
+doi:10.18739/A2HG45,3,5,5
+urn:uuid:dab72bc5-7f7a-4aa3-98e4-0eeb17ccca94,3,4,4
+bacteria,3,4,4
+bhatt,3,3,3
+2010 to 2014,3,5,3
+cai,3,8,6
+Natali,3,3,3
+doi:10.18739/A2R560,3,8,7
+doi:10.18739/A2X29N,3,10,7
+d13C,3,4,3
+doi:10.18739/A2868R,3,4,3
+anastasio,3,4,3
+Gridded fossil-fuel carbon emissions,3,3,3
+taku glacier,3,4,4
+eicken,3,3,3
+2005 to 2015,3,3,3
+1503928,3,5,4
+2005 to 2016,3,4,3
+heat,3,3,3
+Chris Larsen,3,3,3
+ARCTIC OCEAN > CHUKCHI SEA,3,9,3
+plant,3,4,4
+phenology,3,4,4
+kite,3,6,6
+stabeno,3,4,3
+berdy,3,5,5
+Marco Tedesco,3,3,3
+polyakov,3,5,5
+mercury,3,3,3
+1303895,3,3,3
+albedo,3,5,3
+doi:10.18739/A2M58H,3,3,3
+bahr,3,3,3
+doi:10.5065/D6MS3QVG,3,3,3
+doi:10.18739/A21G6K,3,7,6
+CTD ocean cast,3,3,3
+arctic temperature,3,3,3
+Michael DeGrandpre,3,3,3
+Timothy Griffis,3,3,3
+chukchi,3,3,3
+Joseph R. McConnell,3,6,4
+doi:10.18739/A22T1F,3,5,3
+rainfall,3,3,3
+c,3,3,3
+1998 to 2016,3,3,3
+doi:10.18739/A2357G,3,4,4
+14c,3,4,3
+sea surface temperature,3,4,3
+1997 to 2018,3,3,3
+doi:10.18739/A2786C,3,7,5
+Heather D Alexander,3,6,4
+depth,3,3,3
+Gridded fossil fuel carbon emissions,3,4,3
+urn:uuid:ffd4fb38-deb3- 4d62-9e9e-ae84bc69abbb,3,3,3
+Liljedahl,3,4,3
+Fettweis,3,3,3
+global carbon,3,3,3
+alkire,3,3,3
+sullivan,3,3,3
+Robert Pickart,3,3,3
+Gamm,3,4,4
+benthic,3,4,3
+woodgate,3,5,4
+Virkkala,3,6,6
+Tedesco,3,6,5
+SWL,3,3,3
+workshop,3,3,3
+net primary production,3,3,3
+2009 to 2014,3,3,3
+McConnell,3,3,3
+pressure,3,3,3
+hanson,3,4,4
+doi:10.18739/A2469W,3,8,7
+coopman,3,11,11
+2020 to 2018,3,16,4
+website,3,18,15
+surface,3,3,3
+net primary productivity,3,4,3
+doi:10.18739/A2F867,3,5,5
+liljedahl,3,9,8
+to 2018,3,5,4
+adcp,3,6,5
+1854 to 2016,3,3,3
+doi:10.18739/A2N562,3,4,4
+10.3334/CDIAC/CLI.NDP019,3,7,6
+2014 to 2014,3,3,3
+2013 to 2016,3,10,5
+das,3,3,3
+doi:10.18739/A2RG3Z,3,3,3
+1856 to 2016,3,12,6
+acoustic,3,4,3
+13C,3,3,3
+Chukchi Sea,3,3,3
+pco2,3,3,3
+koenig,3,4,4
+holland,3,6,5
+Mayer,3,3,3
+ndp001,3,5,5
+oil and gas,3,4,3
+campbell,3,5,4
+Sue Moore,3,4,4
+2013,3,5,4
+dijken,3,16,7
+urn:uuid:19fef645-be5d-42ef-b050-4ec8c2fdf034,3,3,3
+1203451,3,5,4
+hawley,3,3,3
+doi:10.18739/A2JZ96,3,3,3
+1204082,3,5,4
+distribution,3,4,3
+2007,2,2,2
+ndp.0001,2,2,2
+Adam M. Young,2,6,4
+michael loranty,2,2,2
+2019 to 2018,2,2,2
+migration,2,2,2
+1304563,2,2,2
+nicewonger,2,2,2
+10.18739/A2763J,2,17,13
+Australia,2,2,2
+Anna K. Liljedahl,2,4,4
+Nitrogen,2,2,2
+christopher arp,2,4,4
+Global Carbon Project: the Global Carbon Budget,2,2,2
+2012H,2,4,3
+jarvis,2,2,2
+Hagedorn,2,3,2
+GRIP,2,2,2
+carbon budget,2,2,2
+CATS,2,2,2
+walden,2,2,2
+narwhals,2,2,2
+chamber flux,2,3,3
+2012I,2,5,3
+esau,2,2,2
+radiocarbon,2,2,2
+Lora Koenig,2,2,2
+susan kaplan,2,2,2
+vermunt,2,2,2
+savoonga,2,2,2
+Kling,2,3,3
+Walter C. Oechel,2,4,2
+"Delta14 CO2 Atmospheric Record from Schauinsland, Germany",2,3,2
+jason amundson,2,2,2
+2014,2,2,2
+vegetation community,2,2,2
+bering strait,2,2,2
+IN SITU/LABORATORY INSTRUMENTS > CHEMICAL METERS/ANALYZERS > CO2 ANALYZERS,2,3,2
+EcoFOCI,2,4,4
+1978 to 2016,2,2,2
+darrell kaufman,2,2,2
+Frank Bahr,2,2,2
+smith,2,2,2
+1107481,2,2,2
+Global CO2 Emissions,2,2,2
+1624927,2,3,2
+gpp,2,3,2
+sanna,2,5,4
+atwain,2,2,2
+doi:10.18739/A20N7C,2,3,2
+sea ice extent,2,2,2
+2004 to 2007,2,2,2
+bromine,2,2,2
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/575/7,2,2,2
+2018 to 2016,2,2,2
+2006E,2,3,3
+monthly,2,2,2
+Colin Edgar,2,2,2
+country,2,2,2
+boreal,2,2,2
+river ice,2,6,6
+2002 to 2018,2,2,2
+xlsx,2,3,2
+barents sea,2,3,3
+2003 to 2010,2,2,2
+2007B,2,3,3
+1976 to 2016,2,2,2
+kaplan,2,5,4
+energy consumption,2,2,2
+california,2,2,2
+ukraine,2,3,3
+Carbon Sequestration,2,2,2
+10.3334/CDIAC/FACE-MDS/MET.01,2,2,2
+plutonium,2,2,2
+Snow Depth,2,3,3
+1909 to 2018,2,2,2
+1203857,2,2,2
+Engram,2,4,4
+map,2,2,2
+10.3334/CDIAC/FFE.MONTHLYISOMASS.2016,2,4,3
+1950 to 2016,2,2,2
+saltzman,2,2,2
+Amundson,2,2,2
+beringer,2,2,2
+harvest,2,4,2
+norway,2,2,2
+Fire,2,2,2
+schimel welker,2,2,2
+1800 to 2003,2,4,3
+1643187,2,2,2
+2006C,2,3,3
+2005E,2,2,2
+seal,2,2,2
+water temperature,2,2,2
+sonar,2,3,2
+peatland,2,7,3
+rock glacier,2,4,3
+.zip,2,2,2
+Global Carbon,2,2,2
+robert spencer,2,2,2
+calon,2,2,2
+junge,2,2,2
+Northern Hemisphere,2,2,2
+2012E,2,4,3
+2000A,2,9,8
+2011,2,5,4
+thaw depth,2,3,2
+o2,2,3,2
+c02,2,2,2
+SWL14,2,3,2
+2011 to 2014,2,5,2
+ppm,2,2,2
+concentration,2,2,2
+√,2,2,2
+VOC,2,5,4
+2009 to 2012,2,2,2
+2015D,2,3,2
+AmeriFlux,2,3,3
+AUTOMATIC REMOTE WEATHER STATION,2,2,2
+"Production of CO2 from Fossil Fuel Burning by Fuel Type, 1860-1982",2,2,2
+APP,2,2,2
+global co2,2,2,2
+Marine Mammal sighting data from cruises in the Pacific Arctic,2,3,2
+10.18739/A2191Z,2,6,2
+10.18739/A26P8Z,2,7,3
+CSIRO,2,9,5
+CHINARE,2,5,5
+lloyd,2,2,2
+human dimensions,2,4,2
+2013C,2,3,3
+Hewitt,2,2,2
+carothers,2,3,2
+Cropland,2,3,3
+2008 to 2009,2,2,2
+climate model,2,2,2
+doi:10.18739/A22S2G,2,2,2
+bartholomaus,2,3,2
+sayres,2,2,2
+NGRIP,2,5,3
+cape grim,2,2,2
+bevis,2,3,3
+1989 to 2017,2,2,2
+Post,2,6,6
+2012 to 2014,2,4,2
+10.18739/A2786C,2,2,2
+Davis Strait,2,3,2
+doi:10.5065/D65X273S,2,3,3
+2006 to 2016,2,2,2
+le,2,2,2
+price,2,2,2
+hydrocarbon,2,2,2
+mcrave,2,2,2
+Robert Hollister,2,3,2
+Nolan,2,2,2
+Anna Liljedahl,2,2,2
+1417789,2,2,2
+Triple Oxygen Isotopes in the Beaufort Gyre,2,2,2
+microbiome,2,2,2
+POSS,2,4,4
+dissolved inorganic carbon,2,2,2
+doi:10.18739/A28J6F,2,2,2
+Simpson,2,4,4
+2005D,2,2,2
+shaver,2,2,2
+acadis,2,2,2
+10.3334/CDIAC/FFE.MONTHLYMASS.2016,2,2,2
+Matthew Shupe,2,2,2
+doi:10.18739/A2PZ7P,2,3,3
+david holland,2,3,2
+1838 to 2017,2,2,2
+EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER > DISCHARGE/FLOW,2,2,2
+neon,2,3,3
+doi:10.18739/A2RS0X,2,2,2
+Distributed Biological Observatory,2,4,2
+urn:uuid:4fb67d3a-0c98-48d5-b851-dc49a21f263f,2,7,4
+obrist,2,4,3
+catlin,2,3,2
+urn:uuid:d6be9a14-3d39-4848-b7e3-4a79c740e2b5,2,3,2
+banks island,2,2,2
+aurora,2,2,2
+Pacific Ocean,2,2,2
+ashjian,2,2,2
+Arctic GRO,2,2,2
+2002 to 2002,2,4,3
+obbard,2,2,2
+GPP,2,2,2
+karen beard,2,2,2
+BROMEX,2,2,2
+2014G,2,2,2
+surface temperature,2,2,2
+melt,2,2,2
+1851 to 2017,2,2,2
+truffer,2,2,2
+urn:uuid:d26999c1-e54e-41c0-b17b-486af4874ea9,2,4,3
+composition,2,2,2
+hunting,2,3,2
+9814984,2,3,3
+1303644,2,3,2
+doi:10.18739/A20298,2,2,2
+10.18739/A2X29N,2,3,2
+karen h beard,2,3,2
+development,2,2,2
+seals,2,2,2
+Brie Van Dam,2,2,2
+rose,2,3,3
+10.3334/CDIAC/atg.016,2,9,3
+doi:10.18739/A2QC40,2,2,2
+10.3334/CDIAC/GCP_2015,2,3,2
+2012L,2,6,3
+tropics,2,3,3
+909388,2,2,2
+2000B,2,7,5
+Walter,2,2,2
+Shreyas Cholia,2,2,2
+kate stafford,2,2,2
+doi:10.18739/A2WD3H,2,5,4
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/568/7,2,2,2
+eddy,2,2,2
+urn:uuid:8400608d-cecd-4b48-a446-4dacf4b43435,2,2,2
+2003 to 2004,2,2,2
+2013I,2,3,2
+1801 to 2018,2,2,2
+epstein,2,4,4
+2015J,2,3,2
+golden,2,2,2
+frost,2,5,4
+adam m young,2,6,6
+walter,2,2,2
+NOAA,2,2,2
+citation,2,3,2
+urn:uuid:6ea72159-ac92-4f5c-b4f2-b733de732b8c,2,5,5
+trusel,2,3,3
+rachel stanley,2,3,3
+HCN,2,3,3
+9214927,2,2,2
+ak,2,3,3
+doi:10.3334/CDIAC/FACE-MDS/MET.01,2,2,2
+doi:10.18739/A20K2S,2,3,3
+AGAGe,2,2,2
+claire simpson,2,3,3
+geothermal,2,2,2
+Ice Thickness,2,2,2
+aerial,2,2,2
+pettit,2,3,3
+ch4,2,2,2
+urn:uuid:6ed8a311-6aaf-4944-90c7-104337ee77e3,2,4,4
+Annual Atmospheric CO2,2,2,2
+brooks range,2,2,2
+litter,2,3,3
+2014I,2,2,2
+bangladesh,2,2,2
+1303617,2,4,3
+transdrift,2,2,2
+water consumption,2,2,2
+1943 to 2017,2,2,2
+Sullivan,2,2,2
+craig,2,2,2
+doi:10.18739/A2027H,2,2,2
+Happy Valley,2,2,2
+temperatures,2,2,2
+inuit,2,3,2
+doi:10.18739/A2556Q,2,2,2
+10.18739/A21C55,2,2,2
+1962 to 2017,2,2,2
+2010,2,2,2
+Shishmaref,2,3,3
+2021 to 2018,2,2,2
+NORTH AMERICA > GREENLAND,2,2,2
+maritime,2,2,2
+2015,2,2,2
+dem,2,3,2
+10.3334/CDIAC/ATG.012,2,3,2
+1850 to 2015,2,2,2
+ouyang,2,2,2
+2013H,2,2,2
+2015C,2,2,2
+2014C,2,2,2
+2014F,2,3,3
+2012B,2,2,2
+Rachel Stanley,2,2,2
+co2 flux data,2,3,3
+NABOS,2,4,3
+Chukchi,2,2,2
+2003B,2,3,3
+1913 to 2018,2,2,2
+lagoon,2,2,2
+2004A,2,4,4
+Ice core,2,2,2
+spatial,2,2,2
+temp,2,2,2
+atg.012,2,6,5
+pasta,2,2,2
+holte,2,5,5
+meter,2,2,2
+antarctica,2,2,2
+time series,2,2,2
+1801 to 2017,2,3,3
+2014E,2,2,2
+Shepson,2,2,2
+2004D,2,3,3
+latitude,2,2,2
+school,2,2,2
+2011 to 2011,2,2,2
+2013 to 2014,2,6,3
+Tom Boden,2,2,2
+IABP,2,3,2
+2006B,2,3,3
+2004B,2,3,3
+2004C,2,3,3
+emissions by country,2,2,2
+1852 to 2017,2,2,2
+arctic-data.14489.1,2,6,5
+USGS,2,4,3
+spall,2,2,2
+1142517,2,4,2
+Walker,2,2,2
+doi:10.18739/A2C29P,2,2,2
+"Geochemical and stable isotope composition data from precipitations, runoff, snow and ice collected in Lake Peters Watershed",2,2,2
+uptempo,2,3,3
+1603548,2,2,2
+doi:10.18739/A28Q2N,2,2,2
+dimensionless,2,2,2
+global carbon budget,2,2,2
+sami,2,3,2
+peterson,2,2,2
+ENSO,2,2,2
+2006D,2,4,3
+nolan,2,4,4
+austin,2,2,2
+meteorology,2,3,3
+Weather,2,3,2
+2012C,2,2,2
+1950 to 2015,2,2,2
+2003 to 2007,2,2,2
+1973 to 2017,2,2,2
+montgomery,2,2,2
+doi:10.5065/D6MW2F2H,2,4,3
+wood,2,2,2
+nutrients,2,2,2
+2000 to present,2,4,3
+Adam young,2,2,2
+wetland,2,3,2
+thule,2,4,3
+Hajo Eicken,2,2,2
+Birgit Hagedorn,2,2,2
+Oluwaseun Ogunro,2,2,2
+larsen,2,2,2
+forest,2,3,3
+arienzo,2,2,2
+GCP,2,2,2
+FACE,2,3,3
+pCO2,2,2,2
+2012D,2,3,3
+doi:10.18739/A2ZC6X,2,2,2
+kelsey,2,4,4
+beaufort lagoon,2,2,2
+doi:10.3334/CDIAC/FFE.MONTHLYISOMASS.2016,2,2,2
+lynn montgomery,2,2,2
+core,2,2,2
+usa,2,2,2
+Konrad Steffen,2,2,2
+1948 to 2017,2,5,3
+schild,2,2,2
+doi:10.18739/A26P8Z,2,5,4
+carbon cycle,2,5,4
+Toolik,2,2,2
+Carin J. Ashjian,2,2,2
+Austin S. Post,2,2,2
+TRENDS-CO2,2,2,2
+coverage,2,3,3
+morocco,2,2,2
+2005B,2,5,4
+coastal,2,2,2
+katey walter anthony,2,2,2
+mortality,2,2,2
+metagenom,2,2,2
+Global and Hemispheric Temperature Anomalies,2,2,2
+2012A,2,4,4
+sue moore,2,2,2
+1841 to 2016,2,2,2
+lter,2,2,2
+9318535,2,2,2
+William Cable,2,4,4
+walter anthony,2,2,2
+teacher,2,2,2
+2012,2,3,2
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-arc/20036/8,2,5,5
+2006 to 2009,2,2,2
+schimel,2,2,2
+herzfeld,2,2,2
+2001 to 2016,2,2,2
+minirhizotron,2,2,2
+doi:10.5065/D600006M,2,4,3
+Network of Permafrost Observatories,2,8,5
+VIPER,2,3,2
+1951 to 2017,2,3,3
+time,2,2,2
+net radiation,2,2,2
+Acoustic,2,2,2
+code,2,2,2
+macrofauna,2,2,2
+mass balance,2,2,2
+2011L,2,2,2
+Larsen,2,3,3
+bering,2,2,2
+Sayres,2,7,7
+1978 to 2017,2,2,2
+ice thickness,2,2,2
+people,2,2,2
+2016A,2,2,2
+bowhead whales,2,2,2
+narwhal,2,3,3
+2015B,2,2,2
+xuanji wang,2,3,3
+Trusel,2,2,2
+Sergio Vargas,2,4,3
+1999 to 2000,2,5,3
+delta,2,2,2
+2005A,2,2,2
+1304875,2,2,2
+2005F,2,3,2
+2011M,2,2,2
+AK,2,4,3
+Kim Nielsen,2,2,2
+Frost,2,4,3
+summit greenland,2,2,2
+doi:10.18739/A2Z08W,2,2,2
+Radiocarbon,2,2,2
+ecosystem,2,5,4
+1946 to 2017,2,3,2
+Euskirchen,2,2,2
+Holly K. Gibbs,2,3,3
+doi:10.3334/CDIAC/00001_V2017,2,2,2
+accidents,2,2,2
+2015E,2,2,2
+aircraft,2,3,2
+stanley,2,5,4
+2011K,2,4,3
+co2 emission,2,2,2
+People's Republic of China,2,2,2
+ethane,2,5,3
+Precipitation,2,2,2
+dalton highway,2,2,2
+Ludwig,2,3,3
+McRaven,2,4,4
+10.5065/D6MW2F2H,2,2,2
+runoff,2,2,2
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/582/10,2,2,2
+Fossil Fuel Emissions,2,2,2
+urn:uuid:efa91a9b-c01f-46eb-9900-1ae38aa24573,2,3,3
+2015A,2,2,2
+2013F,2,2,2
+sikuliaq,2,3,2
+Joseph McConnell,2,5,3
+whales,2,2,2
+shoreline,2,3,2
+danielson,2,2,2
+snow depth,2,2,2
+2013D,2,2,2
+current,2,2,2
+doi:10.18739/A2SW55,2,3,3
+1979 to 2016,2,2,2
+Zechmann,2,3,3
+location,2,2,2
+Nielsen,2,2,2
+gross primary productivity,2,2,2
+mar greenland,2,2,2
+2015I,2,2,2
+doi:10.5065/D67942VR,2,3,3
+peatlands,2,2,2
+maunaloa.co2,2,2,2
+additionalInfo,2,2,2
+lake depth,2,6,6
+Turin L. Dickman,2,2,2
+Monthly Fossil-Fuel CO2 Emissions,2,2,2
+matrai,2,2,2
+firn core,2,2,2
+Barnola,2,2,2
+gas,2,2,2
+Nunavut,2,2,2
+10.3334/CDIAC/00001,2,3,3
+2011 to 2015,2,2,2
+2015F,2,2,2
+Muenchow,2,3,3
+CO2 (ppm),2,2,2
+north america,2,2,2
+2011J,2,3,3
+microb,2,2,2
+remote sensing,2,5,4
+datalogger,2,6,6
+PACMARS,2,2,2
+2005C,2,3,3
+light,2,2,2
+EARTH SCIENCE > OCEANS > SEA ICE > ICE DEPTH/THICKNESS,2,3,2
+Beaufort Gyre Exploration Project,2,2,2
+1900 to 2018,2,2,2
+global emissions,2,2,2
+income,2,3,3
+doi:10.18739/A20V5P,2,2,2
+2006 to 2018,2,3,2
+1418000,2,3,2
+2018,2,4,2
+Delta,2,2,2
+2013G,2,2,2
+Adam Z. Csank,2,2,2
+steele,2,3,3
+2012G,2,2,2
+Atqasuk,2,2,2
+oceans,2,2,2
+Mammal,2,2,2
+Serreze,2,2,2
+Hanson,2,2,2
+doi:10.18739/A23M3F,2,2,2
+1947 to 2017,2,6,4
+doi:10.18739/A2RC49,2,2,2
+2002 to 2009,2,2,2
+LTER,2,2,2
+urn:uuid:ffd4fb38-deb3-4d62-9e9e-ae84bc69abbb,2,2,2
+doi:10.5065/D6WH2N6G,2,2,2
+2000 to 1987,2,2,2
+pangaea,2,2,2
+2013B,2,6,3
+1850 to 2014,2,5,3
+plantae,2,2,2
+rose cory,2,3,3
+Ice sheet and Ice cap changes,2,3,2
+urn:uuid:e9d607c7-3430-4fd6-a744-2ee7046d984b,2,3,3
+Sletten,2,2,2
+urn:uuid:dc4b2ba1-af9d-49d0-a9a0-0ea9ee461c90,2,3,3
+10.3334/CDIAC/ATG.027,2,4,2
+ER,2,2,2
+2003D,2,5,4
+jonathan b martin,2,2,2
+urn:uuid:4b55fedb-1c12-4ced-be0f-2ae65867c953,2,3,3
+doi:10.18739/A2SP87,2,5,4
+carbon intensity,2,2,2
+NECP,2,2,2
+hilton,2,4,3
+Lomas,2,2,2
+lei cai,2,4,3
+Andrey Proshutinsky,2,4,4
+o-buoy,2,3,3
+2014B,2,2,2
+2007D,2,2,2
+carbon pool,2,2,2
+1966 to 2018,2,4,3
+kholodov,2,4,3
+1,2,3,2
+oran,2,4,2
+HCFC-22,2,2,2
+great rivers,2,2,2
+2006F,2,4,4
+CARBON SEQUESTRATION-TERRESTRIAL,2,2,2
+Victoria Hill,2,2,2
+urn:uuid:d6be9a14-3d39-4848-b7e3- 4a79c740e2b5,2,3,3
+disko,2,2,2
+Pacific Arctic Sea-Ice Observations,2,2,2
+Antarctic,2,3,3
+Anastasio,2,3,3
+swl14,2,3,3
+land cover,2,2,2
+trade,2,2,2
+sergio,2,19,14
+Susan Natali,2,2,2
+Hinkel,2,2,2
+Houghton,2,2,2
+Collins,2,3,3
+Spruce,2,2,2
+yinghui liu,2,3,3
+Kharp Vegetation and Soil Transects,2,2,2
+doc,2,2,2
+2012M,2,2,2
+GNET,2,2,2
+2005 to 2018,2,2,2
+accident,2,2,2
+inuit communities,2,2,2
+2003 to 2009,2,2,2
+juranek,2,6,5
+Atmospheric Carbon Dioxide,2,2,2
+.mat,2,3,3
+snowfall,2,2,2
+extreme summer melt,2,2,2
+spectra,2,2,2
+ocean temperature,2,3,2
+doi:10.18739/A2787R,2,2,2
+cory,2,7,7
+2015K,2,3,3
+tourism,2,3,2
+doi:10.5065/D66M3506,2,2,2
+NIMS,2,3,2
+carbon monoxide,2,3,3
+india,2,2,2
+doi:10.18739/A28C0F,2,3,2
+adam csank,2,2,2
+1983 to 2017,2,2,2
+1978 to 2018,2,2,2
+isotopes,2,2,2
+microbial,2,3,2
+bottle,2,6,5
+disease,2,2,2
+Africa,2,2,2
+primary,2,2,2
+Air Temperature,2,2,2
+tundra,2,2,2
+doi:10.18739/A20M3H,2,2,2
+david noone,2,2,2
+polyak,2,2,2
+2009 to 2013,2,2,2
+doi:10.5065/D6GQ6VZP,2,4,3
+doi:10.18739/A27T10,2,2,2
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-arc/10531/6,2,2,2
+doi:10.18739/A27C04,2,2,2
+urn:uuid:d80739f7-b474-4cfa-bf12-9260232a9e0a,2,3,2
+orcutt,2,3,3
+Methane,2,2,2
+2007C,2,4,4
+1999 to 2018,2,4,3
+language,2,2,2
+1979 to 2017,2,2,2
+axford,2,2,2
+baker,2,29,21
+united states,2,4,3
+denmark,2,2,2
+1800 to 2015,2,2,2
+Tunu,2,2,2
+2003E,2,5,5
+Anthony,2,2,2
+north pole,2,2,2
+2002A,2,3,3
+Coopman,2,5,4
+carbon flux data,2,2,2
+16S,2,2,2
+Marine Mammal sighting data from cruises in the Pacific Arctic 2009-2018 from Distributed Biological Observatory (DBO) Regions,2,2,2
+oechel,2,10,9
+2015G,2,2,2
+2017 to 2016,2,2,2
+animal,2,2,2
+carbon soil,2,3,3
+966346,2,3,2
+misp,2,3,2
+TRENDS-TEMPERATURE,2,2,2
+surface albedo,2,2,2
+meterological,2,2,2
+1417300,2,2,2
+doi:10.18739/A2B10M,2,8,3
+politics,2,2,2
+2012F,2,2,2
+Meierbachtol,2,3,3
+2010 to 2011,2,2,2
+2013E,2,2,2
+leconte,2,2,2
+Marion Syndonia Bret-Harte,2,2,2
+10.18739/A22W0R,2,2,2
+ITEX,2,5,4
+EARTH SCIENCE > HUMAN DIMENSIONS > POPULATION > POPULATION SIZE,2,2,2
+urn:uuid:a93ab6ac-df90-4c22-b275-bfdb55074150,2,2,2
+acidification,2,2,2
+GLISN,2,2,2
+nc,2,3,3
+primary productivity,2,2,2
+copepoda,2,3,3
+sea,2,2,2
+stoichiometry,2,3,3
+Social Science Interview,2,2,2
+root,2,2,2
+chukchi sea,2,3,2
+2015H,2,2,2
+Krishfield,2,2,2
+Kvile,2,2,2
+doi:10.18739/A2129K,2,2,2
+velocity,2,3,2
+south africa,2,2,2
+polashenski,2,2,2
+Quentin Coopman,2,2,2
+2005 to 2008,2,2,2
+olson,2,3,2
+10.18739/A2RV91,2,2,2
+plankton,2,4,3
+north slope,2,2,2
+1203773,2,2,2
+ArcticGRO,2,5,5
+schiefer,2,2,2
+2012J,2,4,3
+Eicken,2,2,2
+pratt,2,2,2
+snow melt,2,6,2
+2004E,2,2,2
+Kite Aerial,2,2,2
+amon,2,4,4
+2014D,2,2,2
+hydrophone,2,3,2
+tower flux,2,2,2
+Biomass,2,2,2
+sfa,2,2,2
+Long-Term Daily and Monthly Climate Records,2,2,2
+Taku,2,2,2
+chemistry,2,2,2
+water depth,2,2,2
+doi:10.5065/D68W3BHC,2,3,3
+Pettersen,2,2,2
+Bavaria,2,2,2
+atg.009,2,2,2
+10.3334/CDIAC/FFE.ANNUALUNCERTAINTY.2016,2,2,2
+rcp,2,2,2
+1988 to 2016,2,4,3
+C,1,1,1
+Hopcroft,1,1,1
+Doug Benn,1,1,1
+world population,1,1,1
+Czimczik,1,2,2
+MEXICO,1,1,1
+ocean currents,1,1,1
+1860 to 2006,1,1,1
+necp,1,1,1
+2009 to 2009,1,1,1
+Cape Grim,1,1,1
+heterotroph,1,1,1
+1991 to 2018,1,1,1
+agarwal,1,1,1
+doi:10.18739/A2325P,1,1,1
+Arctic tundra,1,1,1
+gnss,1,1,1
+Chlorophil,1,1,1
+Meat Gas Emissions Data,1,1,1
+1998 to 2011,1,1,1
+Arctic Gro,1,1,1
+PARTNERS Project Arctic River Biogeochemical Data,1,1,1
+1963 to 2018,1,1,1
+10.3334/CDIAC/otg.ndp066,1,1,1
+thumbnails,1,1,1
+hopcroft,1,2,2
+chandlar shelf,1,1,1
+doi:10.18739/A2136S,1,1,1
+Edward A.G. Schuur,1,1,1
+hly0403,1,1,1
+Groenland,1,1,1
+DOM,1,4,1
+1980 to 2014,1,1,1
+gits,1,1,1
+corcoran,1,1,1
+png,1,1,1
+Green;and,1,1,1
+"IN SITU/LABORATORY INSTRUMENTS > PROFILERS/SOUNDERS > CTD > CONDUCTIVITY, TEMPERATURE, DEPTH",1,1,1
+coarse woody,1,1,1
+doi:10.18739/2FA23F4KM7K,1,1,1
+14332.1,1,1,1
+ten meter temperatures,1,1,1
+United,1,1,1
+turner,1,2,1
+melilla,1,1,1
+doi:10.5065/D6P55KG2,1,1,1
+14276.1,1,1,1
+10.5065/D6WH2N6G,1,2,2
+Howland,1,1,1
+growth,1,1,1
+sighting data,1,1,1
+Inventory of U.S. Greenhouse Gas Emissions and Sinks,1,1,1
+1023351,1,1,1
+sulfate,1,1,1
+Silicate,1,1,1
+Atmospheric Trace Gases,1,1,1
+feder,1,1,1
+National CO2 Emissions from Fossil-Fuel Burning,1,1,1
+13113334,1,1,1
+2008 to 2010,1,2,1
+cloud fraction,1,1,1
+stegen,1,1,1
+net prod,1,1,1
+ncdc,1,1,1
+10.3334/CDIAC/otg.ndp077,1,1,1
+"Yukon Kuskokwim Delta, Alaska",1,1,1
+https://data.ess-dive.lbl.gov/#view/doi:10.3334/CDIAC/FFE.ANNUALUNCERTAINTY.2016,1,1,1
+M,1,1,1
+hunt,1,2,1
+Core Atmospheric and Snow Measurements at Summit Greenland Environmental Observatory,1,1,1
+Alaska Teacher Retention,1,1,1
+uuid:7bdab6cc-8dc1-4c49-a80b-ca771c18eaa9,1,1,1
+montgomer,1,1,1
+total carbon dioxide,1,1,1
+10.18739/A2HG6X,1,1,1
+bryce,1,1,1
+urn:uuid:fbbc4074-afb7-40a0-a0ae-47a5a7a6db7f,1,1,1
+nams,1,1,1
+doi:10.5065/D6C24TK3,1,2,2
+superscript,1,3,2
+2003 to 2014,1,1,1
+Collaborative Research: An Interdisciplinary Monitoring Mooring in the Western Arctic Boundary Current: Climatic Forcing and Ecosystem Response,1,1,1
+bottom water temperatur,1,1,1
+rothwell,1,2,1
+PARNERS,1,1,1
+Monthly Fossil-Fuel CO2 Emissions: Isomass of Emissions Gridded by One Degree Latitude by One Degree Longitude,1,6,3
+soil AND carbon AND salt marsh,1,1,1
+laundre,1,1,1
+yamal,1,2,1
+fish biomass,1,1,1
+mackenzie River discharge,1,1,1
+npeo chemistry,1,1,1
+F1HT2M7Q,1,1,1
+airglow,1,2,2
+10.3334/CDIAC/otg.ndp047,1,1,1
+Elder,1,1,1
+warm buoy,1,1,1
+net primary prod,1,1,1
+school retention,1,1,1
+ATG,1,2,1
+metano,1,1,1
+doi:10.18739/A2R23T,1,3,2
+strix-pacific-northwest.xml,1,1,1
+walrus,1,1,1
+"Wood, Kevin. R.",1,1,1
+"M. Tedesco, X. Fettweis, P. Alexander, G. Green, T. Datta",1,1,1
+1987 to 2017,1,1,1
+2191Z,1,1,1
+slava,1,2,1
+dimethyl,1,1,1
+nominalDay,1,1,1
+tank arctic,1,2,1
+Sea ice,1,1,1
+cahill,1,1,1
+usiabp,1,1,1
+9da31ba0-4bdb-11e3-9dcb-00c0f03d5b7c,1,1,1
+soil density,1,1,1
+stock,1,1,1
+LORA KOENIG,1,1,1
+dust ice core,1,1,1
+camp,1,2,1
+Covariance,1,1,1
+δ14CO2 records from two sites in Central Europe,1,1,1
+2017 to 2013,1,1,1
+Woody Biomass Carbon in Tropical Africa,1,1,1
+arctic-data.9512.2,1,1,1
+netwrok of permafrost observatories,1,1,1
+FFE.ANNUALISOMASS,1,2,1
+2037 to 2018,1,1,1
+Phase 1 Free Air CO2 Enrichment Model-Data Synthesis (FACE-MDS): Model Output Data (2015),1,1,1
+SIO air sampling,1,1,1
+1998 to 2009,1,1,1
+dye,1,1,1
+doi:10.18739/A2R683,1,1,1
+doi:10.18739/A2196V,1,2,2
+tree,1,1,1
+Hatfield,1,1,1
+Kelly K. Falkner,1,1,1
+ship,1,1,1
+chineare,1,1,1
+1970 to 2009,1,1,1
+1980 to 1989,1,1,1
+S1 Bog,1,2,1
+1952 to 2017,1,2,2
+miller summit,1,1,1
+ess-dive,1,1,1
+856376,1,1,1
+South Africa,1,1,1
+eicken permeability,1,1,1
+mexico,1,2,2
+co2 and o2,1,1,1
+1976 to 2017,1,1,1
+Yukon–Kuskokwim delta fire,1,1,1
+1949 to 2005,1,1,1
+sea ice melt,1,1,1
+schupe,1,1,1
+Nathan Thorp,1,1,1
+urn%3Auuid%3Aa1adcee9-cf7f-425a-b581-eaab7ab2d2a2,1,2,2
+mckay,1,1,1
+doi:10.18739/A27235,1,1,1
+fes,1,1,1
+geospatial,1,1,1
+MIT,1,1,1
+relative humidity,1,2,1
+legal,1,2,2
+Richard Krishfield,1,1,1
+1800 to 1998,1,1,1
+Juranek,1,1,1
+urn:uuid:4c9a8f34-9af8-4351-8cff-32be497401a9,1,1,1
+blank DOI,1,1,1
+2166 to 2018,1,1,1
+melt pond,1,2,1
+Huryn,1,1,1
+cryostructure,1,1,1
+akemap,1,1,1
+Kupurak,1,1,1
+data center,1,1,1
+greenland ice sheets monitoring,1,1,1
+doi:10.18739/A2Q29S,1,1,1
+2010 to 2019,1,1,1
+"Toolik Lake, Alaska Soil moisture - 2014",1,1,1
+Katey Walter Anthony Methane emissions,1,1,1
+cot,1,1,1
+header lines,1,1,1
+ahlquist,1,1,1
+T.A. Boden,1,1,1
+Zhangxian,1,1,1
+Historical,1,2,2
+iljedahl,1,2,2
+1952 to 2010,1,4,2
+mancoff,1,2,1
+araaon,1,1,1
+claudia,1,1,1
+alexander and mack,1,1,1
+ice coverage,1,1,1
+Oak Ridge,1,1,1
+Gas Emission,1,1,1
+land,1,1,1
+snow sea ice,1,1,1
+urn:uuid:e9d607c7-3430- 4fd6-a744-2ee7046d984b,1,1,1
+Tarduno,1,1,1
+Surface Water,1,1,1
+1500169,1,1,1
+Allen Pope,1,1,1
+16,1,1,1
+gulkana,1,1,1
+Arctic Rivers Discharge,1,1,1
+Seth Beaudreault,1,1,1
+1827 to 2007,1,1,1
+dprk,1,1,1
+arctiv,1,1,1
+2041 to 2018,1,1,1
+demographics,1,1,1
+James Maslanik,1,1,1
+Harris,1,3,3
+"Global, Hemispheric, and Zonal Temperature",1,1,1
+1261833,1,2,1
+2004 to 2016,1,2,1
+10.5065/D67942VR,1,2,2
+WEATHER AIS,1,1,1
+kmke,1,1,1
+bottomfast,1,2,1
+carbon 14,1,2,1
+sesa ice thickness,1,1,1
+greenland aquifer,1,1,1
+vertical pointing radar,1,1,1
+bodin,1,1,1
+milan,1,1,1
+doi:10.18739/A2XX0V,1,1,1
+10.5065/D61J97X5,1,2,2
+-2,1,1,1
+Illinois,1,1,1
+doi:10.5065/D6FT8J54,1,2,2
+nims,1,1,1
+willis,1,1,1
+International Arctic Buoy Programme,1,1,1
+doy,1,2,2
+10.5065/D61Z42KV,1,2,2
+MISP water table,1,1,1
+Estimates of Annual Fossil-Fuel CO2 Emitted,1,1,1
+Kugo,1,1,1
+China Carbon emission,1,1,1
+South Pole,1,1,1
+doi:10.18739/A2028W,1,2,1
+1962 to 1981,1,1,1
+fossil-fuel,1,1,1
+glacier melt,1,1,1
+bayard,1,1,1
+czimczik,1,1,1
+harrison bay,1,1,1
+geirsdottir,1,1,1
+romanosky,1,1,1
+ice regimes,1,1,1
+flag,1,1,1
+Glacier,1,1,1
+ELOKA,1,1,1
+trees91.wk1,1,1,1
+cottier,1,1,1
+habitat,1,1,1
+Bryophyte,1,1,1
+IRIS,1,1,1
+archival,1,1,1
+Information System Data Base,1,1,1
+Pu-239,1,1,1
+1311655,1,1,1
+Norwegian sea,1,1,1
+"CONTINENT > EUROPE > EASTERN EUROPE > RUSSIA, ARCTIC OCEAN, GEOGRAPHIC REGION > EURASIA, GEOGRAPHIC REGION > POLAR, GEOGRAPHIC REGION > ARCTIC,",1,1,1
+CarbON flux,1,1,1
+choi,1,3,3
+"70N, 42.5",1,1,1
+Hu,1,1,1
+Manua Loa,1,1,1
+resource_map_urn:uuid:b2731cb0-b535-4159-b9dc-a607f4ae3320,1,1,1
+hydrology,1,2,2
+2008B,1,2,2
+10.18739/A2K65D,1,1,1
+4b05cc7c-670f-45ef-b6d4-a8c58acde4ba,1,1,1
+des moines,1,1,1
+urn:uuid:8f58a1fb-25fb-41c7-abf8-d708fb077b92,1,1,1
+Kate Stafford,1,1,1
+1800 to 2008,1,2,1
+Timothy Bartholomaus,1,1,1
+1919 to 2018,1,1,1
+derek strong,1,1,1
+brasil,1,2,2
+doi:10.18739/A2982G,1,1,1
+emperor penguins,1,1,1
+DBO3,1,1,1
+Serbin,1,1,1
+Schlesinger,1,1,1
+Martin Jakobsson,1,1,1
+2018 to 2019,1,1,1
+FRAMES,1,2,1
+uma,1,1,1
+David Fortin,1,1,1
+Alaskan Historical Climatology Network (HCN),1,1,1
+oshura-maru,1,1,1
+cdicc,1,1,1
+Changes in soil,1,1,1
+Leah,1,1,1
+Monthly,1,1,1
+Satellite,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN WINDS > WIND STRESS,1,1,1
+1603276,1,1,1
+delgado,1,1,1
+Northwest region of North America,1,1,1
+treat,1,1,1
+resource_map_doi:10.18739/A2P55DG5N,1,1,1
+2010 to 2012,1,1,1
+*,1,1,1
+13C/12C in atmospheric methane,1,1,1
+average temperature,1,1,1
+0,1,1,1
+ice cores,1,1,1
+Daphnia pulex,1,1,1
+kolle,1,1,1
+august,1,1,1
+SUmup,1,1,1
+Sustaining and Amplifying the ITEX AON,1,1,1
+creator: William Cable,1,1,1
+Charles Keeling,1,1,1
+Grayling,1,1,1
+Lynn Nicole Montgomery,1,1,1
+mcguire,1,1,1
+nagap 1979,1,1,1
+atg035,1,1,1
+1314156,1,1,1
+HDF5,1,1,1
+synoptic discharge,1,1,1
+heather lynch,1,1,1
+10.3334/CDIAC/otg.ndp063,1,1,1
+ARCSS grid,1,1,1
+1989 to 2018,1,1,1
+NCDC,1,2,2
+cross island,1,1,1
+morpho,1,1,1
+timothy,1,1,1
+co. ltd,1,1,1
+Arctic Council,1,1,1
+sine,1,1,1
+north atlantic,1,1,1
+1934 to 2014,1,1,1
+women empowerment,1,1,1
+commute,1,1,1
+Zanotti,1,1,1
+Biomass Carbon in Tropical Southeast Asian,1,1,1
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/637/3,1,1,1
+DBO SWL,1,1,1
+Temperature at the poles,1,1,1
+1920 to 2018,1,1,1
+polynja,1,1,1
+Ice Mass Balance,1,1,1
+Ben W. Abbott,1,1,1
+snow coverage,1,2,2
+10.3334/CDIAC/00001_V2012,1,1,1
+Yakutsk,1,2,2
+urn:uuid:2975d5d6-8da0-4104-8ffa-e08b0dca06f7,1,1,1
+ricketta,1,1,1
+1504191,1,1,1
+doi:10.18739/A2HF7Z,1,2,1
+10.3334/CDIAC/otg.ndp028,1,1,1
+10.3334/CDIAC/00001_V2017.,1,2,2
+Caitlin,1,1,1
+Bog Site,1,1,1
+vapor pressure density,1,1,1
+doi:10.3334/CDIAC/ATG.DB1007,1,2,2
+carbon AND flux,1,1,1
+GAGE,1,1,1
+permafrost greenhouse gas,1,1,1
+NDP-026,1,2,1
+2008D,1,2,2
+Alaskan Historical Climatology Network,1,1,1
+SWL15 CTD,1,1,1
+Robert Campbell,1,1,1
+acidity,1,1,1
+2012_2013_winter_E1_temperature.csv,1,1,1
+2010H,1,2,2
+NDP-019,1,1,1
+10.3334/CDIAC/FFE.MONTHLYISOMASS.2009,1,1,1
+Health,1,1,1
+russia meteorological stations,1,1,1
+particulate carbon,1,1,1
+fluxnet,1,1,1
+drypehr,1,1,1
+"Goldman, Amy E",1,2,2
+additioanlInfo,1,1,1
+meterology,1,1,1
+Barometric pressure,1,1,1
+silica,1,1,1
+moose,1,1,1
+carbonic gas emission,1,1,1
+socio,1,1,1
+Glacier calving,1,1,1
+tampa,1,1,1
+doi:10.18739/A2VP16,1,1,1
+https://orcid.org/0000-0003-4997-2495,1,1,1
+amsterdamn,1,1,1
+orcid.org/0000-0003-4997-2495,1,1,1
+strix pacific northwest,1,1,1
+data logger,1,1,1
+2020 to 2017,1,1,1
+sulfur,1,1,1
+metric,1,1,1
+Kutz,1,1,1
+10.18739/A21D5H,1,1,1
+militarization,1,1,1
+doi:10.18739/A2R37P,1,1,1
+doi:10.3334/CDIAC/CLI.NDP070,1,2,1
+carbonate,1,1,1
+2012 to 2011,1,1,1
+Obrist,1,2,1
+PHILIPPINES,1,1,1
+Seth Campbell,1,1,1
+"abundance""",1,1,1
+1928 to 2018,1,1,1
+Generalized Boosting Models,1,1,1
+ç,1,1,1
+Energy Use,1,1,1
+kopri,1,2,1
+mesosphere,1,2,1
+doi:10.5065/D6CJ8BNJ,1,5,4
+ek80,1,2,1
+"Arctic Nutrient Database 1904-2000 [Cota G., L. Pomeroy]",1,1,1
+CSIRO GASLAB Flask Sampling Network,1,1,1
+isPublic:false,1,1,1
+additioanl,1,1,1
+Education,1,1,1
+Brazil,1,2,2
+metadata,1,1,1
+Atmospheric CH4 Concentrations from the CSIRO GASLAB,1,1,1
+10.18739/A2856N,1,1,1
+jason beringer,1,1,1
+Atmospheric Hydrogen Mixing Ratios,1,1,1
+WHOI,1,1,1
+total alkalinity,1,1,1
+Soil carbon,1,1,1
+global CO2 concentrations,1,1,1
+Recent Greenhouse Gas Concentrations,1,1,1
+extreme weather,1,1,1
+doi:10.18739/A2CZ3244X,1,1,1
+2004 to 2008,1,1,1
+PC,1,1,1
+doi:10.18739/A2D25G,1,1,1
+glacier stake mass,1,1,1
+10.3334/CDIAC/ATG.039,1,1,1
+520578,1,1,1
+detrick,1,1,1
+doi:10.18739/A2T63T,1,1,1
+dnali,1,1,1
+doi:10.18739/A2BS2Z,1,1,1
+LONG,1,1,1
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/576/7,1,2,2
+ice thinkness,1,1,1
+height,1,1,1
+indonedia,1,1,1
+meehan,1,2,2
+eddy covariance data,1,1,1
+Gakona4,1,1,1
+zhang AND 2003,1,1,1
+net biome production,1,1,1
+Ogunru,1,1,1
+1978 to 1978,1,1,1
+model output,1,1,1
+John Walsh,1,2,1
+HDF,1,1,1
+1304040,1,4,2
+1560908,1,1,1
+pingo data,1,1,1
+spectral reflectance measurements,1,1,1
+tair temperature,1,1,1
+shorebird hunting,1,1,1
+612391,1,1,1
+DB1004,1,1,1
+Snow Water Equivalent,1,1,1
+"Niwot Ridge, Colorado",1,1,1
+hly,1,2,2
+ndp_30,1,1,1
+1800 to 2006,1,2,1
+Bonanza Creek temperature,1,1,1
+Center,1,1,1
+snownet,1,2,1
+.pro,1,1,1
+10.18739/A2cz6h,1,1,1
+15N,1,1,1
+greenland surface,1,1,1
+DBO7,1,1,1
+john,1,1,1
+howat,1,1,1
+ESS-DIVE,1,1,1
+20 year smoothed CO2,1,1,1
+global one degree,1,1,1
+Sherr,1,1,1
+2015 to 1994,1,1,1
+karen frey,1,1,1
+pacific artic,1,1,1
+fuel,1,1,1
+30,1,1,1
+ndp026b,1,3,1
+the,1,2,1
+ryan choi,1,1,1
+top2014,1,1,1
+"\,",1,1,1
+EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE,1,1,1
+csv\,1,1,1
+andres,1,2,1
+sea level,1,1,1
+seaice,1,1,1
+Robert G. Campbell,1,2,1
+.pbch,1,1,1
+Density_Understory,1,1,1
+vele,1,1,1
+1799 to 2018,1,1,1
+"Photos of frozen core, Itkillik River",1,1,1
+moody,1,1,1
+Arctic Great Rivers,1,1,1
+urn:uuid:6753caec-9359-48a7-99a8-91914c92200b,1,1,1
+pnnl,1,1,1
+weight,1,3,2
+1800 to 1997,1,1,1
+Global Fossil-Fuel CO2 Emissions,1,1,1
+10.3334/CDIAC/ATG.026,1,1,1
+a,1,1,1
+.bcph,1,1,1
+closed path,1,1,1
+CO2sys,1,1,1
+heat content,1,1,1
+doi:10.18739/A20C4G,1,1,1
+ess-dive-154016ef66486ad-20180716T152655050087,1,2,2
+2160 to 2018,1,1,1
+doi:10.18739/A2K82Z,1,1,1
+AO,1,1,1
+1951 to 2018,1,1,1
+https://arcticdata.io/metacat/d1/mn/v2/object/urn%3Auuid%3Aae6237a1-ac1b-4282-87a5-99f1ab0d11a5,1,1,1
+precipitation data,1,1,1
+lake water hourly time series,1,1,1
+doi:10.18739/A2BC3SW68,1,1,1
+marine mammal watch,1,1,1
+Alert,1,1,1
+antony,1,1,1
+auin post,1,1,1
+fgdc,1,1,1
+Power curve,1,1,1
+carbON,1,1,1
+Global methane budget,1,1,1
+Hadcrit,1,1,1
+10.5065/D6MS3QVG,1,2,2
+Cloud Climatology for Land Stations Worldwide,1,1,1
+mekong,1,1,1
+GHG,1,1,1
+energy budget,1,1,1
+CSIRO GASLAB,1,2,2
+er,1,2,2
+polysaccharid,1,1,1
+Group DBO,1,1,1
+Water Table Depth (WTD),1,1,1
+Howard Feder,1,1,1
+US,1,1,1
+urn:uuid:b3dc11f5-95e8-4f30-bef9-82464398bc5f,1,1,1
+Fossil-Fuel CO2 Emissions by Nation,1,1,1
+Matthew H Johnson,1,1,1
+cec,1,1,1
+stoker,1,1,1
+atmospheric co2,1,1,1
+Halocarbons,1,1,1
+Creamer's Field data,1,1,1
+eagle,1,1,1
+"Arctic Data Center: Water temperature, salinity, and position-geographic data taken from seal tags, in coastal Greenland from 2010-08-31 to 2012-05-14.",1,1,1
+1996 to 1998,1,4,2
+cnv,1,1,1
+owen mason,1,1,1
+carbon footprint,1,1,1
+Global Annual Temperature,1,1,1
+doi:10.5065/D6WS8RBJ,1,4,2
+greenland aquifor,1,1,1
+cold war,1,1,1
+euschirchin,1,1,1
+switchyard,1,1,1
+1504934,1,1,1
+1203146,1,1,1
+ndb026,1,1,1
+1949 to 2018,1,1,1
+Triple Oxygen Isotopes,1,1,1
+sap flux,1,1,1
+ffe,1,1,1
+Chlorophill,1,1,1
+nbp,1,1,1
+Atmospheric Methyl Chloride,1,1,1
+ilamb,1,1,1
+avian,1,1,1
+Meehan,1,1,1
+chambers,1,1,1
+fukamachi,1,1,1
+nonmethane hydrocarbons,1,1,1
+Nor,1,1,1
+poSS,1,1,1
+Larch tree,1,1,1
+Khromov_RUSALCA_AugSep2012_MMWatch_DBOregionscolor_format_DP.xlsx,1,1,1
+morrill,1,1,1
+Greenland snow albedo,1,1,1
+snow pit,1,1,1
+Arctic Council CAFF/PAME,1,1,1
+Keeling CO2 data,1,1,1
+Phase 1 Free Air,1,1,1
+selawik,1,1,1
+open path,1,2,1
+EARTH SCIENCE > CLIMATE INDICATORS > CRYOSPHERIC INDICATORS > GLACIAL MEASUREMENTS > GLACIER MASS BALANCE/ICE SHEET MASS BALANCE,1,1,1
+soil methan elevels,1,1,1
+teshekpuk,1,1,1
+doi:10.5065/D6TX3CGN,1,1,1
+wellington,1,1,1
+Mass of CO2 Emissions,1,1,1
+10.3334,1,1,1
+rhizosphere,1,1,1
+gothic,1,1,1
+glacier map,1,1,1
+Summit Station,1,1,1
+joern,1,1,1
+extreme summer,1,2,2
+november,1,2,2
+3.45 N 101.2 E,1,1,1
+10.18739/A24G3C,1,1,1
+1840 to 2018,1,1,1
+autonomous ice mass,1,1,1
+0000-0002-7549-9307,1,1,1
+glaier,1,1,1
+doi:10.18739/A2ZR3K,1,1,1
+doi:10.18739/A24F1MH89,1,1,1
+habicht,1,1,1
+resource_map_urn:uuid:e3984266-3dd5-404b-94ce-70be628fdfd4,1,2,1
+ice age year A.D.,1,1,1
+May-15,1,1,1
+rachel,1,2,1
+2046 to 2018,1,1,1
+urn:uuid:a76e498b-6fb3-4a27-8e21-95b5d1ba0cca,1,1,1
+2159 to 2018,1,1,1
+korea,1,2,2
+sea temperature,1,1,1
+Global emissions,1,1,1
+Benn,1,1,1
+2043 to 2018,1,1,1
+1800 to 2013,1,1,1
+coastal hazards,1,1,1
+doi:10.18739/A2PH3P,1,1,1
+pinus,1,1,1
+natural gas,1,1,1
+凑,1,1,1
+Shinto Nishino. 2016. Japan Agency for Marine-Earth Science and Technology (JAMSTEC) 2013 CTD Data DBO3,1,1,1
+10.18739/A2HP13,1,1,1
+10.3334/CDIAC/otg.ndp054,1,1,1
+pep,1,2,2
+donald walker,1,1,1
+EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > GRAVITY WAVE,1,1,1
+annual fossil-fuel,1,1,1
+peirce,1,1,1
+Polaris,1,1,1
+2028 to 2018,1,1,1
+continuity,1,1,1
+lake N2,1,1,1
+Creative Commons Attribution 4.0,1,2,1
+arrigo,1,1,1
+urn:uuid:02fb7537-e0af-4ea9-be82-5d1843b767d6,1,1,1
+south east alaska,1,1,1
+amsterdam,1,1,1
+"Final project report, Dynamics and Consequences of Increasing Ice-wedge Degradation",1,1,1
+benthic marcoinfaunal,1,1,1
+"Global, Regional, and National Fossil Fuel CO2 Emissions",1,1,1
+net ecosystem,1,2,1
+year,1,1,1
+10.5065/D64J0C8T,1,2,2
+jardine,1,1,1
+swl17,1,1,1
+Siple,1,1,1
+maier,1,1,1
+DeGrandPre,1,1,1
+solid earth,1,1,1
+BARREN,1,1,1
+doi:10.18739/A2X01X,1,1,1
+Characteristics of the Summer Arctic Frontal Zone,1,1,1
+Tweedie,1,2,2
+Ice Nucleation by Marine Psychrophiles,1,2,1
+snow class,1,1,1
+snow temperature,1,1,1
+EARTH SCIENCE > OCEANS > BATHYMETRY/SEAFLOOR TOPOGRAPHY > BATHYMETRY,1,1,1
+Richard Kemnitz,1,1,1
+2014 to 2002,1,1,1
+2011 to 2013,1,1,1
+smtmet.qc,1,1,1
+report,1,1,1
+soil AND carbon AND marsh,1,1,1
+schimel ellker,1,1,1
+doi:10.108739/a2bt1x,1,1,1
+Swanson,1,3,2
+Kenneth H. Dunton,1,1,1
+urn:uuid:fc5e6588-4b00-4309-9201-7b5c520d10b7,1,2,2
+principato,1,2,2
+Francis,1,1,1
+JOhnson,1,1,1
+https://arcticdata.io/catalog/#view/urn:uuid:33f632c6-0ead-478c-bcff-dbec51678604,1,1,1
+data centers,1,1,1
+"Toolik Research Station, Alaska, USA",1,1,1
+10.3334/CDIAC/00001_v2017,1,1,1
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/453/20,1,2,2
+Ice tethered Profiler,1,1,1
+sir wilfrid laurier,1,1,1
+DBO6,1,1,1
+Mt Everest,1,1,1
+GEOS,1,1,1
+lake depth alaska,1,1,1
+1995 to 1998,1,1,1
+Climatic instability in interior Alaska from the isotopic record of Late Quaternary ground ice,1,1,1
+Korab,1,1,1
+global temperature,1,1,1
+trail valley creek,1,1,1
+total CO2 emissions,1,1,1
+belowground,1,1,1
+OBSERVATORY,1,1,1
+ordinal,1,2,2
+jpeg,1,1,1
+spatial variation,1,1,1
+global fossil fuel,1,1,1
+doi:10.18739/A2CK4Z,1,1,1
+Sea Level Pressure,1,1,1
+mytilus,1,1,1
+mycorhizzal,1,1,1
+linnebreen,1,1,1
+Santa Barbara CA,1,1,1
+doi:10.18739/A2DZ9Z,1,1,1
+brouard,1,1,1
+10.3334/CDIAC/otg.ndp076,1,1,1
+sensible heat,1,1,1
+per capita fossil-fuel CO2,1,1,1
+ana,1,1,1
+firn,1,1,1
+Junge,1,2,2
+you-wei,1,1,1
+!readPermission:public,1,1,1
+1962 to 2018,1,1,1
+sea ice microbiology,1,1,1
+92.16,1,1,1
+"Baker, I. Density and permeability measurements with depth for the NEEM 2009S2 firn core",1,1,1
+arctic sea ice variability,1,1,1
+1394918,1,2,1
+CO2 Emissions,1,1,1
+doi:10.18739/A23S1D,1,1,1
+0000-0001-6684-3527,1,1,1
+1882 to 2015,1,1,1
+Sagwon,1,1,1
+A2Z86W,1,1,1
+2007 to 2009,1,1,1
+"CANADA > YUKON TERRITORY, UNITED STATES OF AMERICA > ALASKA,",1,1,1
+Rose Cory,1,4,2
+2000,1,1,1
+atlas seward,1,1,1
+urn:uuid:c7f41c65-7f75-4e71-8f82-864ca7ba474a,1,1,1
+northeastern,1,1,1
+greenland ice cores,1,1,1
+1967 arctic ice cores,1,1,1
+1855 to 2016,1,2,2
+Borehole,1,1,1
+lab,1,1,1
+doi:10.18739/A2TZ89,1,1,1
+1949 to 2011,1,1,1
+lanctot,1,1,1
+Population,1,2,1
+1750 emissions,1,1,1
+M. S. Bret-Harte,1,1,1
+healey,1,1,1
+Andres,1,1,1
+1974 to 2017,1,1,1
+1547011,1,1,1
+Barrow Atqasuk climate,1,1,1
+1919 to 2017,1,1,1
+Indonesia,1,1,1
+"Carin Ashjian Annual Observations of the Biological and Physical Marine Environment in the Chukchi and Nearshore Beaufort Seas near Barrow, AK. Arctic Data Center.",1,1,1
+Monthly Fossil-Fuel CO2 Emissions: Isomass of Emissions,1,1,1
+1907 to 2018,1,1,1
+Sanna Sevanto,1,1,1
+Karin,1,1,1
+sandercock,1,2,2
+Cortes,1,1,1
+seward peninsula sites cd,1,1,1
+oeschel,1,1,1
+"Name that compound: The numbers game for CFCs, HFCs, HCFCs, and Halons",1,1,1
+image image image image Estimated Annual Net Change in Soil Carbon per US County,1,1,1
+doi:10.18739/A2QV8B,1,1,1
+summer sea ice,1,1,1
+1911 to 2018,1,1,1
+"Carin Ashjian, Robert Campbell, and Stephen Okkonen. 2016. Annual Observations of the Biological and Physical Marine Environment in the Chukchi and Nearshore Beaufort Seas near Barrow, AK: 2015 Niskin Bottle Data with Accompanying Hydrography. Arctic Data Center.",1,1,1
+2006 to 2011,1,1,1
+sustainable,1,1,1
+10.3334/CDIAC/ffe.MonthlyMass.2011,1,1,1
+the return of hadley,1,1,1
+Carin Ashjian,1,1,1
+1799 to 2017,1,1,1
+Mercury,1,2,1
+ludwif,1,1,1
+"Core Atmospheric and Snow Measurements at Summit, Greenland Environmental Observatory",1,1,1
+Brown University,1,3,3
+urn:uuid:21d214d7-ce1b-469d-90bf-deda740b61aa,1,1,1
+1800 to 2001,1,2,1
+innovative network to improve,1,1,1
+CDOM,1,3,1
+Forest,1,2,2
+FALSE,1,1,1
+10.18739/A2NC5SC06,1,1,1
+2013 to 2012,1,1,1
+water access,1,1,1
+Oceanus,1,1,1
+2008A,1,3,3
+1949 to 1998,1,4,2
+laiho,1,1,1
+1997 to 2001,1,1,1
+green,1,1,1
+Global Carbon Project: the Global Carbon Budget 2015,1,1,1
+permafrost coverage,1,1,1
+Permafrost,1,1,1
+Spitzbergen,1,1,1
+Kyoto,1,1,1
+10.18739/A22Z8G,1,1,1
+2025 to 2018,1,1,1
+Karen Frey,1,1,1
+lynx,1,1,1
+urn:uuid:0bcf63bf-a0a3-4e68-9b29-f6448dc37ae2,1,1,1
+us county data,1,1,1
+stroeve,1,1,1
+plastic cup,1,1,1
+urn:uuid:408ba2b1-a6af-48e6-9ecc-99335a7f414f,1,1,1
+Martin Truffer,1,1,1
+child,1,1,1
+Summit cloud,1,1,1
+VPD,1,2,2
+1901 to 2018,1,1,1
+LAI,1,1,1
+communicating data recession,1,1,1
+Isachsen,1,1,1
+urn:uuid:696ee5a6-e7e7-451e-8240-6e19677110bc,1,1,1
+4,1,1,1
+Bales,1,1,1
+cable romanovsky,1,1,1
+Observational,1,1,1
+<tbartholomaus@uidaho.edu>,1,1,1
+14C record,1,1,1
+DeGerandpre,1,1,1
+Omolon river mouth,1,1,1
+doi:10.18739/A2RJ6S,1,1,1
+root production,1,1,1
+root dynamics,1,2,2
+Kite,1,1,1
+carbon diox,1,1,1
+NOAA CMDL Carbon Cycle Cooperative Global Air,1,2,1
+hawaii,1,1,1
+"Late spring nitrate distributions beneath the ice-covered northeastern Chukchi Shelf, Chukchi Sea Arctic, 2014",1,1,1
+"carbo, flux",1,1,1
+deb,1,1,1
+carbon OR flux,1,1,1
+gradient,1,1,1
+doi 10.3334/CDIAC/tcm.009,1,1,1
+paul morin,1,1,1
+dms,1,2,2
+NAGAP_79V5_091,1,1,1
+"methane,flux",1,1,1
+MET,1,1,1
+tasmania,1,1,1
+Ueyama,1,1,1
+2013 to 2021,1,2,1
+sea ice index,1,1,1
+Waldrop,1,1,1
+water quality,1,1,1
+Okkonen,1,1,1
+meta data,1,1,1
+atmospheric CO2 concentrations,1,1,1
+Indigenous knowledge,1,1,1
+Daily Temperature and Precipitation Data,1,1,1
+rastetter,1,2,2
+urn:uuid:07867fea-9d1a-4835-9342-4fbef498341d,1,1,1
+Shupe Precipitation,1,1,1
+layer-mean ozone,1,1,1
+camp century,1,2,1
+sheba,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN ACOUSTICS > AMBIENT NOISE,1,1,1
+Ward,1,1,1
+A23B5W748,1,1,1
+Pemafrost,1,1,1
+walker,1,1,1
+Kite Aerial Photography (KAP) MISP grid Barrow,1,1,1
+"Boden, T.A., G. Marland, and R.J. Andres",1,1,1
+autogen.201,1,1,1
+1937,1,1,1
+Sergio,1,1,1
+10.3334/CDIAC/ffe.db1013.2017,1,1,1
+carBON flux,1,1,1
+Southern Africa,1,1,1
+environmental data center,1,1,1
+2001 to 2009,1,1,1
+Karen,1,1,1
+CSIRO GASLAB FLASK,1,1,1
+waletr anthony,1,1,1
+sio,1,1,1
+909499,1,1,1
+soil water content,1,1,1
+Selawik,1,1,1
+Rice,1,3,1
+doi:10.18739/A2SV8Z,1,1,1
+cdiac:United_Nations_Population_Statistics_DB,1,2,2
+1891 to 2016,1,6,2
+allometry,1,3,1
+10.5065/D6WS8RBJ,1,4,2
+AON,1,1,1
+deepwell,1,1,1
+10.3334/CDIAC/LUE.NDP046,1,1,1
+takahashi,1,1,1
+doi:10.18739/A2WP51,1,1,1
+Record temperature,1,1,1
+rRNA,1,1,1
+chordata,1,1,1
+eisner,1,2,2
+noone summit,1,1,1
+10.5065/D6319T0J,1,2,2
+2001 to 2001,1,1,1
+aviation,1,1,1
+water year,1,1,1
+10.3334/CDIAC/ffe.AnnualUncertainty.2016,1,1,1
+graham,1,1,1
+doi:10.5065/D6B27SD8,1,1,1
+Kolyma,1,1,1
+WARM buoy,1,1,1
+soviet untion,1,1,1
+passow,1,1,1
+Zones of arctic marine activity,1,1,1
+France,1,1,1
+o-buoy 14,1,1,1
+"ArcticRIMS: NCEP Reanalysis ShortWaveDown Radiation, Aggregated by Administrative Regions",1,1,1
+anahita,1,1,1
+Chaetoceros,1,1,1
+bolton,1,1,1
+seagrass,1,2,2
+small canadian arctic river,1,1,1
+deGranpre,1,2,2
+Cassandra M. Gamm,1,1,1
+webpage,1,1,1
+underwater,1,1,1
+carbon dioxide temperature,1,1,1
+kyle monper,1,1,1
+eddy covariance tower,1,1,1
+1504312,1,1,1
+law dome,1,1,1
+nichols,1,1,1
+2008 to 2008,1,1,1
+Heavy metals,1,1,1
+biology,1,1,1
+bhaatt,1,1,1
+Rebecca Woodgate,1,1,1
+32H1hly0403_ct1.zip,1,1,1
+"Ultra-High Resolution Laser Ablation Inductively Coupled Plasma Mass Spectrometry (LA-ICP-MS) measurements of Younger Dryas onset in the Greenland Ice Sheet Project 2 (GISP2) ice core, Greenland",1,1,1
+Walden,1,2,1
+resin strip,1,2,2
+LAND,1,1,1
+fishing policy,1,1,1
+Beard,1,1,1
+toward a,1,1,1
+aromatic,1,1,1
+Kathleen M. Stafford,1,1,1
+tremblay,1,2,2
+"CANADA, ARCTIC OCEAN, NORTH AMERICA > GREENLAND,",1,1,1
+ursidae,1,1,1
+"CTD, Laurier, DBO",1,1,1
+7bdab6cc-8dc1-4c49-a80b-ca771c18eaa9,1,1,1
+noone cox,1,1,1
+doi:10.18739/A2X95J,1,1,1
+harning,1,1,1
+Susan Patla,1,1,1
+Aulavik,1,1,1
+mussel,1,2,2
+10.18739/A2F867,1,1,1
+Stephen Okkonen,1,1,1
+mmp,1,1,1
+1927 to 2018,1,1,1
+risk,1,2,1
+Baker,1,1,1
+intensity,1,1,1
+boundaries,1,1,1
+2030 to 2018,1,1,1
+hyrolaccolith,1,1,1
+doi:10.18739/A2ZW97,1,1,1
+ursus maritimus,1,2,1
+AES,1,1,1
+coastal marsh carbon sequestration,1,1,1
+hly0402,1,1,1
+eclipse,1,1,1
+1938 to 2018,1,1,1
+mixing ratios atmospheric trace gas,1,1,1
+ringed seal,1,1,1
+turkey,1,1,1
+Lubinski,1,1,1
+Deegan,1,2,1
+rebecca woodgate,1,1,1
+atmospheric trace gases,1,1,1
+nicholas mckay,1,8,3
+D. W. R. Wallace,1,1,1
+#NAME?,1,1,1
+Atm_CO2_in_SIO_air_Samp_Net,1,1,1
+SIO Air Sampling Network,1,1,1
+carbon project,1,1,1
+hu,1,1,1
+stream discharge,1,1,1
+glueder,1,1,1
+TRUFFER,1,1,1
+xls,1,1,1
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/559/4,1,1,1
+lidar,1,1,1
+urn:uuid:aa80a1a5-b1bc-4788-9ca6-76c77247593b,1,1,1
+doi:10.3334/CDIAC/CLI.NDP025,1,1,1
+Arctic vegetation productivity,1,1,1
+"Coterminous USA, Canada",1,1,1
+parasite,1,1,1
+cadis,1,1,1
+leah mcraven,1,1,1
+sea level rise USA,1,1,1
+EARTH SCIENCE > BIOSPHERE > AQUATIC ECOSYSTEMS > MARINE HABITAT,1,1,1
+permafrost extent,1,1,1
+economy,1,2,1
+black rapids glacier,1,1,1
+0000-0002-3479-801X,1,1,1
+atmosphere,1,1,1
+DMS,1,1,1
+tamara,1,1,1
+doi:10.18739/A20C33,1,1,1
+doi:10.18739/A2D34F,1,1,1
+icepic,1,1,1
+Carbon Dioxide Information,1,1,1
+Ecology,1,1,1
+alynne bayard,1,1,1
+ice algae,1,2,2
+Annual Global Fossil-Fuel Carbon Emissions,1,1,1
+Downscaled climate data for Alaska (2010-2099),1,1,1
+doi10.3334/CDIAC/00001_V2015),1,1,1
+urn:uuid:e38fd7f6-3c00-4e4a-87bf-da09d85c90b0,1,3,2
+RADARSAT SAR Images of SHEBA,1,1,1
+icebridge,1,1,1
+irradiance,1,1,1
+"Goldman, Amy",1,1,1
+1963 to 2005,1,2,1
+"Publications and presentations, Dynamics and Consequences of Increasing Ice-wedge Degradation",1,1,1
+austen post,1,1,1
+viper,1,1,1
+to 2017,1,1,1
+thule_ecosystem,1,1,1
+10.5065/D64J0C7C,1,2,2
+Atmospheric CO2 Concentration,1,1,1
+enhanced vegetation,1,1,1
+•Fossil-Fuel CO2 Emissions,1,1,1
+extreme,1,1,1
+media,1,2,1
+Tempereature,1,1,1
+ave,1,1,1
+gross primary production,1,1,1
+carbon balance,1,1,1
+doi:10.3334/CDIAC/CLI.NDP026C,1,1,1
+Cai,1,1,1
+14co2,1,1,1
+doi:10.18739/A2Z86W,1,1,1
+Yukon-Kuskokwim Delta,1,1,1
+loggrt,1,1,1
+1303879,1,1,1
+summit radiation,1,1,1
+"Vostok, Antarctica",1,1,1
+larry mayer,1,1,1
+liljed,1,1,1
+botanical,1,1,1
+firn temperature,1,1,1
+Fuel cells,1,1,1
+osti:1394918,1,1,1
+Hg,1,1,1
+LUE.NDP055.2007,1,1,1
+fuel type,1,1,1
+FGDC,1,1,1
+10.18739/a2nc5sc06,1,1,1
+doi:10.18739/A2W266,1,1,1
+cetacea,1,1,1
+chl-a,1,1,1
+moorestown,1,1,1
+thalassiosira,1,1,1
+agassiz,1,1,1
+increases in nitrogen uptake rather than nitrogen-use efficiency,1,1,1
+soil depth,1,1,1
+resource_map_urn:uuid:56c6b20f-3392-4853-a574-afdd4506a6bb,1,1,1
+Phase 1 Free Air CO2 Enrichment Model-Data Synthesis: Meteorological Data and Protocols,1,1,1
+temparaure,1,1,1
+shepson,1,1,1
+urn:uuid:4852b15a-9c05-480b-b91d-fa34a59ce073,1,1,1
+DISPER80,1,1,1
+urn:uuid:d965508c-1e9c-4a07-ae31-d8d29016be52,1,1,1
+ndp,1,2,2
+Arctic Dipole,1,1,1
+Kanger Soil 14C,1,1,1
+urn:uuid:f2b04cdc-2f0c-41f5-a523-9ab4207bcf06,1,1,1
+sonar depth,1,1,1
+AC00513,1,1,1
+fluppy,1,1,1
+2072 to 2018,1,1,1
+2009D,1,1,1
+strawhacker,1,1,1
+70N,1,3,2
+permafrost co2 flux,1,1,1
+1841 to 2019,1,2,2
+In Situ Measurements at Baring Head,1,1,1
+Plot images,1,1,1
+leaf growth,1,1,1
+parsekian,1,1,1
+Kimball,1,1,1
+Kemnitz,1,2,2
+january,1,3,3
+petermann,1,1,1
+Kaplan,1,1,1
+atg.027,1,1,1
+1022710,1,1,1
+doi:10.18739/A28Z7Z,1,2,2
+"carbon, flux",1,1,1
+metaproteome,1,1,1
+SWL2000,1,1,1
+michael willis,1,2,1
+avhrr,1,2,1
+community,1,1,1
+Taylor,1,1,1
+oran young,1,1,1
+P. M. Alexander,1,1,1
+shewanella,1,1,1
+239Pu,1,1,1
+Uncertainty,1,1,1
+1975 to 2016,1,1,1
+jensen,1,1,1
+enumerated,1,1,1
+CARBon FluX,1,1,1
+well locations,1,1,1
+lauren andrews,1,1,1
+flow,1,2,1
+dust,1,1,1
+february,1,2,2
+Vietnam,1,1,1
+chuckchi sea,1,1,1
+Transportation,1,1,1
+spain,1,1,1
+0 to 2018,1,1,1
+shortwave radiation,1,1,1
+tto,1,2,2
+Martin,1,1,1
+McConnel,1,1,1
+kuparuk,1,1,1
+jeffrey welker,1,2,1
+Atmospheric CO2 records from individual flask,1,1,1
+1953 to 2017,1,2,2
+Atmospheric CO Concentrations from the CSIRO GASLAB Flask Sampling Network,1,1,1
+Helmig,1,1,1
+Density,1,1,1
+ndp026,1,1,1
+1751-2014,1,1,1
+Panama ENSO,1,2,1
+snow cover,1,1,1
+Schnabel,1,2,1
+Modern Records of Carbon and Oxygen Isotopes in Atmospheric Carbon Dioxide and Carbon-13 in Methane,1,1,1
+dataloggeer,1,1,1
+oak ridge,1,1,1
+main geophysical observatory,1,1,1
+doi:10.18739/A2858D,1,1,1
+shifts in arctic vegetation,1,1,1
+"Schauinsland, Germany",1,2,2
+1107801,1,1,1
+North-East Greenland,1,1,1
+10.18739/A2TK3M,1,1,1
+gisp,1,1,1
+6ed8a311-6aaf-4944-90c7-104337ee77e3,1,2,2
+numHeaderLines,1,1,1
+2050 to 2018,1,1,1
+stoichopmetry,1,1,1
+1996 to 2018,1,1,1
+ffe.007,1,1,1
+tree growth,1,1,1
+1994 to 1998,1,1,1
+scenario,1,1,1
+"Stanton, Timothy",1,2,1
+National Cement Production Estimates,1,1,1
+1949 to 2013,1,1,1
+summit surface,1,1,1
+Cottier,1,1,1
+http://orcid.org/0000-0002-4552-4313,1,1,1
+spine,1,1,1
+albert,1,1,1
+10.3334/CDIAC/otg.ndp044,1,1,1
+temperature deviations,1,1,1
+10.3334/CDIAC/GCP_2014,1,1,1
+Sustaining and Amplifying the ITEX AON Through Automation,1,1,1
+Cassandra,1,1,1
+Kaufman,1,1,1
+https://pasta.lternet.edu/package/data/eml/knb-lter-arc/10531/6/4a8d9b5e6280c09eb66c2a8d7c0d606e,1,1,1
+urn:uuid:1f950959-bf43-4309-88a5-c9b82331482f,1,1,1
+2005 to 2007,1,1,1
+1503910,1,1,1
+doi:10.5065/D6J1017S,1,1,1
+DBO5,1,1,1
+climate change and snow melt,1,1,1
+County-level Estimates for Carbon Distribution,1,1,1
+10.3334/CDIAC/otg.ndp027,1,1,1
+may jeremy,1,1,1
+1950 to 2019,1,1,1
+CIDAC,1,1,1
+Eugenie Euskirchen,1,1,1
+nitrates,1,2,1
+humphrey,1,1,1
+10.18739/A2DZ9Z,1,1,1
+23,1,1,1
+wattsPerSquareMeterPerSecond,1,1,1
+Poliakov,1,1,1
+Jeff M. Welker,1,1,1
+terry chapin,1,1,1
+ebert,1,1,1
+Ice Physics,1,1,1
+Greenland cloud,1,1,1
+sheng,1,1,1
+dendro,1,1,1
+laboratory,1,2,2
+urn:uuid:ba022829-3b57-4f45-9c3a-3fef2d3715f7,1,1,1
+42.5W,1,1,1
+1999 to 2009,1,1,1
+Eight Mile Lake,1,1,1
+10.18739/A2ZK3V,1,1,1
+brinkman,1,2,1
+1995 to 2018,1,1,1
+"Global, Regional, and National Fossil-Fuel CO2 Emissions (1751 - 2010) (V. 2013)",1,1,1
+whitenack,1,1,1
+https://www.google.com/search?client=safari&rls=en&q=indigenous&ie=UTF-8&oe=UTF-8,1,1,1
+BCO-DMO,1,2,2
+eecra,1,1,1
+Itkillik River data,1,1,1
+1935 to 2018,1,1,1
+2038 to 2018,1,1,1
+Vizthum,1,2,2
+earthscope,1,2,2
+amplification,1,1,1
+sea ice observations,1,1,1
+tetsu,1,1,1
+algae bloom,1,1,1
+flux tower,1,1,1
+mar v3.5.2,1,1,1
+CEDIAC-74,1,1,1
+Loranty,1,1,1
+10.3334/CDIAC/CLI.NDP026B,1,1,1
+eudicot,1,1,1
+1980 to 2017,1,1,1
+res,1,1,1
+ATMOSPHERIC CO2,1,1,1
+teachers,1,1,1
+2054 to 2018,1,1,1
+bodes,1,1,1
+dead horse,1,2,1
+ASL,1,1,1
+The CSIRO (Australia) Monitoring,1,1,1
+doi:10.18739/A23N8P,1,1,1
+doi:10.5065/D6WH2N4K,1,1,1
+investment,1,1,1
+air quality,1,1,1
+terrestrial sink,1,1,1
+Dickman,1,1,1
+WaSiM,1,1,1
+yensei,1,1,1
+Changes in Arctic Sea Ice and their Impact on Timing of Life History and Production of Zooplankton,1,1,1
+EARTH SCIENCE > CLIMATE INDICATORS > ATMOSPHERIC/OCEAN INDICATORS > TELECONNECTIONS > ARCTIC OSCILLATION,1,1,1
+2000 to 2034,1,1,1
+Potential for Carbon Sequestration in European Soils,1,1,1
+Reusch,1,1,1
+pendleton,1,1,1
+anhita,1,1,1
+Shipping,1,1,1
+#NAME?,1,3,2
+DEM,1,2,2
+1751,1,1,1
+salt marsh,1,2,2
+Annual Fossil-Fuel CO2 Emissions: Isomass of Emissions,1,1,1
+islas,1,1,1
+1949 to 1999,1,1,1
+"A synthesis dataset of near-surface permafrost conditions for Alaska, 1997-2016",1,1,1
+"U.S. HISTORICAL CLIMATOLOGY NETWORK (USHCN): Daily Temperature\, Precipitation\, and Snow Data",1,1,1
+cruise,1,1,1
+-42.5,1,1,1
+Modelling Results Relating Future Atmospheric,1,1,1
+public policy,1,1,1
+darby,1,1,1
+price of water,1,1,1
+Cahill,1,1,1
+solomon island,1,1,1
+KITE,1,1,1
+periphyton,1,1,1
+Santosh,1,1,1
+1981 to 1981,1,1,1
+kerby,1,1,1
+doi:10.18739/A2FS04,1,1,1
+19,1,3,1
+Churapcha,1,1,1
+thermohaline,1,1,1
+monthly precipitation,1,1,1
+tif,1,2,1
+lorna,1,1,1
+kemnitz,1,1,1
+Singapore,1,1,1
+TRENDS,1,1,1
+1980 to 1993,1,1,1
+skidmore,1,3,2
+Random,1,2,1
+chla,1,1,1
+Pacific Arctic Sea-Ice Observations from U.S. Federal Logbooks (1900-1938,1,1,1
+treasure,1,1,1
+licor,1,1,1
+synoptic,1,1,1
+2003 to 2012,1,1,1
+Larry Mayer,1,1,1
+INDICA,1,1,1
+Saito,1,1,1
+APP 2010-112,1,2,2
+CO@,1,1,1
+summit shupe,1,1,1
+14489.1,1,1,1
+Pu-239 in Arctic,1,1,1
+Measurement of Air Pollution from Satellites,1,1,1
+Historical Isotopic Temperature Record,1,1,1
+wickland,1,1,1
+1922 to 2018,1,1,1
+education,1,1,1
+2011A,1,3,3
+1963 to 1985,1,1,1
+2242 to 2018,1,1,1
+woody biomass carbon stocks,1,1,1
+coopman quentin,1,1,1
+soil core,1,2,2
+radio,1,1,1
+"The communities of Arctic Bay, Pond Inlet, Broughton Island, Pangnurtang, Repulse Bay in Nunavut, Canada and Uummannaq, Qaanaaq, Hunde Ejland, Disko Island, Saqqaq in Greenland.",1,1,1
+Dobosy,1,1,1
+HerdSpatialDistribution,1,1,1
+Fyodorov,1,1,1
+1980 to 1997,1,1,1
+mangrove Florida,1,1,1
+additional information,1,1,1
+benthic macroinfaunal,1,1,1
+Feder,1,3,1
+master chronologies,1,1,1
+Julie Parno,1,3,1
+DBO group,1,1,1
+Mean soil temperature,1,1,1
+Isomass of Emissions,1,1,1
+smith Lake,1,1,1
+Archaeological Investigation of Erosion,1,1,1
+fortin,1,1,1
+ca_6719max.txt,1,1,1
+Nunn,1,2,2
+Tellinidae,1,1,1
+knb-lter-bnz.573.7,1,1,1
+1023462,1,1,1
+Philip Higuera,1,2,2
+miles,1,2,2
+Toolik Field Station,1,1,1
+ice observations,1,2,2
+A Private Dataset,1,5,1
+mauna loa co2,1,1,1
+Bonanza Creek and soil temperature,1,1,1
+jackie moore,1,1,1
+Media coverage,1,1,1
+cdiac:,1,1,1
+clein,1,1,1
+atmospher,1,1,1
+urn:uuid:9434b841-6cee-406c-b525-c4a9c51348a2,1,1,1
+diatoms,1,1,1
+global historical,1,1,1
+Younger dryas,1,1,1
+doi.org/10.5065/D6P26W70,1,1,1
+EARTH SCIENCE > CRYOSPHERE > FROZEN GROUND > ACTIVE LAYER,1,1,1
+nunn,1,1,1
+10.3334/CDIAC/otg.ndp075,1,1,1
+urn:uuid:49f3b070-5c7f-498b-a5e7-943a3b6099aa,1,1,1
+urn:uuid:799b7a86-cb1c-497c-a05a-d73492915cad,1,1,1
+copepad,1,1,1
+micromet,1,1,1
+chile,1,1,1
+Mojave,1,1,1
+New mexico,1,1,1
+Emissions by Nation,1,1,1
+coastal hazard data base,1,1,1
+Andrews,1,1,1
+Greenhouse gas emission,1,1,1
+NDP-017b,1,3,2
+distribution of permafrost,1,1,1
+gnet,1,2,2
+glacial lake,1,1,1
+damage,1,1,1
+latest forecasts for CO2,1,1,1
+Atmospheric Carbon Monoxide Mixing Ratios,1,1,1
+2000 to 1975,1,1,1
+strom,1,1,1
+1602615,1,1,1
+1949 to 2006,1,1,1
+craig Lee,1,1,1
+EARTH SCIENCE > CRYOSPHERE > SNOW/ICE > SNOW COVER,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > NUTRIENTS,1,1,1
+CO2 emissions from energy consumption,1,1,1
+doi:10.18739/A25395,1,1,1
+knorr,1,1,1
+sarcoptic mange,1,1,1
+monthly CO2,1,1,1
+End-of-winter snow water equivalent in Jarvis Creek watershed,1,2,2
+time lapse,1,1,1
+"Ground ice data, Creamer's Field",1,1,1
+ogunr,1,1,1
+cherskiy,1,1,1
+Betula nana,1,1,1
+hly1302,1,1,1
+termites,1,1,1
+urn:uuid:1e551dfb-c2b6-402b-8268-ffc07ac1e4a2,1,6,2
+Demographic,1,1,1
+caribuo,1,1,1
+1989 to 2016,1,1,1
+franklin bluffs,1,1,1
+Pisarev,1,1,1
+header,1,1,1
+IGOR,1,1,1
+"Kite Aerial Photography (KAP) MISP grid Barrow and Atqasuk, Alaska 2016 – 2017",1,1,1
+ports,1,1,1
+1023272,1,1,1
+Asjian,1,1,1
+kupurak,1,1,1
+ArcticRIMS,1,1,1
+"In Situ Measurements at Mt. Cimone, Italy",1,1,1
+lab study,1,1,1
+suzanne,1,1,1
+"Atmospheric CO2 Record from In Situ Measurements at Mt. Cimone, Italy",1,1,1
+climatologyMeteorologyAtmosphere,1,1,1
+Saxifraga foliosa,1,1,1
+vegetatio,1,1,1
+2026 to 2018,1,1,1
+Sizonet,1,1,1
+Chukchi Sea and southern Beaufort Gyre,1,1,1
+ess-dive-b2ac02333829942-20180313T143922264510,1,1,1
+urn:uuid:8a47d868-ec57-465f-b5b5-c96389aa24df,1,1,1
+johnston,1,1,1
+1018739/A2786C,1,1,1
+1980 to 1992,1,1,1
+1018739a2hc5h,1,1,1
+"Global, Regional, and National Fossil-Fuel CO2 Emissions (1751 - 2014) (V. 2017)",1,1,1
+doi:10.18739/A26P66,1,1,1
+april,1,2,2
+1956 to 2017,1,1,1
+increase,1,1,1
+NSF OPP 0335941,1,1,1
+tang,1,1,1
+alan c haynie,1,1,1
+1921 to 2018,1,1,1
+france emissions,1,1,1
+coastal frontiers,1,2,1
+MAR tedesco,1,1,1
+pennsylvania,1,1,1
+State of Georgia,1,1,1
+Dr. Matt Nolan,1,1,1
+GIS,1,1,1
+schweiger,1,1,1
+ground squirrels,1,1,1
+chamber,1,1,1
+Eric Saltzman,1,1,1
+breeding bird counts,1,1,1
+water table depth,1,1,1
+1800 to 2019,1,1,1
+Phase 2,1,1,1
+falling global carbon intensity of total world primary energy,1,1,1
+pickard,1,1,1
+Lee,1,1,1
+Zimov,1,1,1
+1949 to 2004,1,1,1
+Differential response of carbon fluxes to climate in three peatland ecosystems that vary in the presence and stability of permafrost,1,2,1
+bendixen,1,2,2
+1959 to 2017,1,1,1
+Arctic Glacial Lake,1,1,1
+vostek,1,1,1
+doi:10.3334/CDIAC/CLI.NDP020,1,1,1
+ernakovich,1,1,1
+2008E,1,2,2
+CATS2003,1,1,1
+1980 to 1982,1,1,1
+alberta,1,1,1
+logger,1,1,1
+"Tropical Africa: Land Use, Biomass, and Carbon Estimates for 1980",1,1,1
+carBON,1,1,1
+annual country emissions,1,1,1
+UpTempO buoys,1,1,1
+barker,1,1,1
+agriculture,1,1,1
+cluett,1,1,1
+BGOS,1,1,1
+Carbon flux,1,1,1
+uganda,1,1,1
+CATS2007,1,1,1
+Oklahoma,1,1,1
+Soil AND carbon,1,1,1
+David Beilman,1,1,1
+piomas,1,1,1
+1997 to 1997,1,1,1
+pH,1,1,1
+lca,1,1,1
+McCall,1,1,1
+James A. Fall. 2016. 2008,1,1,1
+db06,1,1,1
+532611,1,1,1
+2011F,1,2,2
+oil arctic,1,1,1
+exhaust,1,1,1
+cation exchange capacity,1,1,1
+dissolve organic carbon,1,1,1
+2068 to 2018,1,1,1
+1996 to 2016,1,1,1
+shupe greenland,1,1,1
+glacier recession,1,1,1
+Keller,1,1,1
+1800 to 1996,1,1,1
+Xvideo account,1,2,2
+commercial,1,2,1
+Robert M Holmes,1,1,1
+Jarvis Glacier,1,1,1
+ASIA,1,1,1
+10.18739/A22V8F,1,1,1
+"Distributed Biological Observatory (DBO), Conductivity-Temperature-Depth (CTD) data along DBO3",1,1,1
+1623764,1,2,2
+Chris Polashenski,1,1,1
+Niger,1,1,1
+lief andseron,1,1,1
+climate network,1,1,1
+Yukon kuskokwim dlets,1,1,1
+dissolved organic matter,1,1,1
+sicsp,1,1,1
+snow density,1,1,1
+Climate data thule airport,1,1,1
+glacier photos,1,1,1
+Seismological Algorithms,1,1,1
+doi:10.5065/D6TX3CC9,1,1,1
+1949 to 2001,1,1,1
+artic,1,1,1
+1980 to 1998,1,1,1
+"manasses, va",1,1,1
+summit carbon,1,1,1
+EARTH SCIENCE > BIOSPHERE > ECOLOGICAL DYNAMICS,1,1,1
+plane,1,1,1
+Coarse Woody Debris,1,1,1
+1981 to 1982,1,1,1
+CMS,1,1,1
+arcss,1,1,1
+yukon,1,2,1
+ice wedge,1,3,2
+knb-lter-bnz.614.4,1,2,2
+energy Storage,1,1,1
+precipitation intensity,1,1,1
+delta 14C,1,1,1
+doi:10.5065/D60P0X4S,1,1,1
+b53,1,1,1
+aaraon,1,1,1
+manuloa,1,1,1
+Cherski,1,2,1
+taylor,1,1,1
+1880 to 2017,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > WATER TEMPERATURE,1,1,1
+2057 to 2018,1,1,1
+1743654,1,1,1
+Everglades Eddy Covariance,1,1,1
+genus,1,1,1
+global CO2 emissions,1,1,1
+sandbox,1,1,1
+inland traverse,1,1,1
+world countries,1,1,1
+2069 to 2018,1,1,1
+1799 to 2016,1,1,1
+2005 to 2013,1,1,1
+"Howland, Maine",1,1,1
+schewe,1,1,1
+2008 to 2012,1,1,1
+2007K,1,3,3
+Shinto Nishino,1,1,1
+Satellite RADARSAT SAR Imagery,1,1,1
+2039 to 2018,1,1,1
+201K,1,1,1
+biological,1,1,1
+nielson,1,1,1
+ARC-0856867,1,1,1
+GISS,1,1,1
+Frank Josef land,1,1,1
+7792.16,1,2,2
+giblin,1,1,1
+watershed function sfa,1,1,1
+doi:10.18739/A2NS1C,1,2,1
+Munchow,1,1,1
+marshburn,1,1,1
+Coarse woody,1,1,1
+CO2 Continuous Measurements,1,1,1
+TSP,1,1,1
+Mooring Observations,1,1,1
+ozone,1,3,2
+Heindel,1,2,2
+10.18739/A2NZ94,1,2,2
+soil methane,1,1,1
+whaling,1,1,1
+freshwater ice,1,1,1
+greenland ice sheets,1,1,1
+urn:uuid:0d8b79c0-ad99-4d51-a3b3-040685d2fa1f,1,2,2
+ivotuk,1,1,1
+carbon fluxes,1,1,1
+10.3334/CDIAC/ATG.NDP0001,1,1,1
+bowhead,1,1,1
+carbonic gas Brazil,1,1,1
+stream methane,1,1,1
+Clinker/Cement,1,1,1
+pelto,1,1,1
+David Sutherland,1,1,1
+839122,1,1,1
+miller greenland,1,1,1
+Pulsifer,1,1,1
+doi:10.18739/A2J598,1,1,1
+knb-lter-arc.10531.6,1,2,2
+Sean Cahoon,1,1,1
+rolf,1,1,1
+urn:uuid:7335181a-5f97-4c89-9b35-317a3aa85b65,1,3,1
+bonanza creek,1,1,1
+sea ice concentrations,1,1,1
+10.3334/CDIAC/otg.ndp084,1,1,1
+"Arctic Data Center: Water temperature, salinity, and position-geographic data taken from seal tags, in coastal Greenland from 2010-08-31 to 2012-05-14. Arctic Data Center. arctic-data.14541.1.",1,1,1
+AR,1,1,1
+Ina Fay Resch,1,2,2
+ae6237a1-ac1b-4282-87a5-99f1ab0d11a5,1,1,1
+leaf area index,1,1,1
+1918 to 2018,1,1,1
+Arctic dipole anomly,1,1,1
+Katey Walter Anthony. 2017. Methane emissions,1,1,1
+zona atqasuk,1,1,1
+1980 to 2002,1,1,1
+A2G73735Q,1,1,1
+10.3334/CDIAC/ssr.ndp043b,1,1,1
+salinity data,1,1,1
+Jeffrey Welker. 2016. Collaborative Research: Asynchrony in the timing of goose-vegetation interactions: implications for biogeochemical cycling in wet sedge tundra,1,1,1
+resource_map_urn:uuid:5a771559-f6ff-4ff9-a2fc-de535979d604,1,1,1
+Halichoerus grypus,1,1,1
+tonn,1,1,1
+native,1,1,1
+doi:10.18739/A25P10,1,3,2
+Holland,1,1,1
+1964 to 1997,1,1,1
+EARTH SCIENCE > HUMAN DIMENSIONS > SOCIAL BEHAVIOR,1,1,1
+doi:10.18739/A2ZJ9S,1,5,2
+1985 to 2017,1,1,1
+varrio,1,1,1
+ushkovsky,1,1,1
+containmants,1,2,1
+matthew shupe,1,3,2
+1949 to 2015,1,3,2
+10.3334/CDIAC/lue.ndp050,1,1,1
+gough,1,3,2
+198b7db7-94fa-482f-97d7-3ded6bfc8a94,1,1,1
+tom,1,1,1
+beaufort gyre,1,1,1
+msa greenland,1,1,1
+10.18739/A2D21RH94,1,2,2
+2035 to 2018,1,1,1
+traits,1,1,1
+webber,1,1,1
+2004 to 2009,1,1,1
+bathymetric,1,1,1
+benthic parameter,1,1,1
+2017 to 2021,1,1,1
+Canadian Study,1,1,1
+Johnson,1,1,1
+2005 to 2014,1,1,1
+lionfish,1,1,1
+urn:uuid:5541fb8e-0639-4405-9352-986e4b448716,1,1,1
+application/octet-stream,1,1,1
+Greenhouse gas,1,1,1
+imb,1,2,1
+10.3334/CDIAC/LUE.NDP050.2008,1,3,3
+sibiria,1,1,1
+WHOI ice-teathered,1,1,1
+DeVries,1,1,1
+net ecosystem carbon balance,1,1,1
+urn:uuid:54825ec2-ee55-4f14-9921-1db600873e73,1,1,1
+SIZONet,1,1,1
+tmax,1,1,1
+ice core methane,1,1,1
+1990 to 2016,1,1,1
+black,1,1,1
+carrbon,1,1,1
+ken mancoff,1,1,1
+10.5065/D6VX0DPX,1,2,2
+doi:10.18739/A2QK76,1,1,1
+romania,1,1,1
+VESSEL,1,1,1
+Amazonia,1,1,1
+1978 to 2019,1,1,1
+KAP,1,2,2
+carin ashjian,1,1,1
+Publications,1,1,1
+Hard Minerals,1,1,1
+10.5065/D67942T9,1,2,2
+monitoring,1,1,1
+2004 to 2019,1,1,1
+Wipfli,1,1,1
+bedfast ice,1,1,1
+Lynn Montgomery,1,6,2
+National CO2 emisions,1,1,1
+planck,1,1,1
+carbon biomass,1,1,1
+urn:uuid:4da6ffc5-5cc2-4562-89bf-8b2fa2c3ca7f,1,1,1
+1948 to 1951,1,3,2
+app,1,1,1
+soil tempaerature,1,1,1
+Nicewonger,1,1,1
+sea ice density,1,1,1
+doi 10.3334/CDIAC/cli.ndp026.b,1,1,1
+2012 to 2002,1,1,1
+CATS Nares Strait,1,1,1
+"Andrey Proshutinsky, Mary-Louise Timmermans, John Toole, and Richard Krishfield. 2016",1,2,1
+south america,1,1,1
+10.3334/CDIAC/,1,1,1
+discontinuous,1,1,1
+michael brady,1,1,1
+globally averaged,1,1,1
+bachtol,1,1,1
+la holla,1,1,1
+borderland,1,1,1
+2023 to 2018,1,1,1
+Annual Fossil-Fuel CO2 Emissions: Global Stable Carbon Isotopic Signature,1,1,1
+niwot,1,1,1
+2012 to 2003,1,1,1
+"snow, ice",1,2,1
+T2M7Q,1,1,1
+Canopy cover,1,1,1
+doi:10.18739/A2833MX9Q,1,1,1
+1304660,1,1,1
+1998 to 2014,1,1,1
+psu,1,1,1
+urn:uuid:2fe9d283-c0db-4f1a-8942-fa4f249e052e,1,1,1
+urn:uuid:e5c83293-db45-47c5-a952-1bae285a1fb2,1,1,1
+autin post,1,2,2
+dioxide,1,1,1
+Fortin,1,1,1
+co2 flux measurement,1,1,1
+The Arctic Observing Network,1,1,1
+2007G,1,3,3
+Tank,1,1,1
+frederiksen,1,1,1
+POLENET,1,1,1
+n-ice,1,1,1
+Gibbs,1,1,1
+14332.2,1,2,2
+doi:10.18739/A2763Jdoi:10.18739/A2763J,1,1,1
+alapah,1,1,1
+puget sound,1,2,2
+4,1,1,1
+US68,1,2,2
+f0f86b56-ec8f-49a4-91de-81367bd84238,1,2,2
+Virginia 2018,1,1,1
+creative common univers,1,1,1
+urn:uuid:02cf4213-03f2-4de4-8a4a-375a4e897b57,1,1,1
+1979 to 2014,1,1,1
+"North Pole region, representing O-Buoy 4 and 6.",1,1,1
+doi:10.5065/D6SX6BB8,1,2,2
+2006A,1,1,1
+ifrane,1,1,1
+doi:10.3334/CDIAC/cli.db1004,1,1,1
+Large Area Estimates of Carbon Fluxes of Arctic Landscapes,1,1,1
+ghg emissions per capita,1,1,1
+1905 to 2018,1,1,1
+2034 to 2018,1,1,1
+Estimates of Monthly CO2 Emissions and A,1,1,1
+10.5065/D600006M,1,2,2
+westdock,1,1,1
+soot,1,2,1
+Griffis,1,1,1
+Kuparuk,1,1,1
+ViPER,1,2,2
+10.3334/CDIAC/otg.ndp029,1,1,1
+1203885,1,1,1
+1980 to 1999,1,1,1
+13carbon data,1,1,1
+Solar,1,1,1
+ruth,1,2,2
+Dale,1,2,1
+temperature record,1,1,1
+Gwich’in,1,1,1
+Siberia allometry,1,1,1
+"Yukon–Kuskokwim delta fire: soil and permafrost: bulk Q9 density, ph, soil organic matter, ice content, cryostratigraphy, and nutrient profiles",1,1,1
+fe,1,1,1
+CABOS,1,2,2
+net ecosystem production,1,1,1
+continuous measurments,1,1,1
+annual fossil-fuel CO2,1,1,1
+extent,1,1,1
+italy,1,1,1
+SHIPPING,1,1,1
+10.3334/CDIAC/otg.ndp060,1,1,1
+teaching,1,1,1
+https://pasta.lternet.edu/package/data/eml/knb-lter-arc/10531/6/,1,1,1
+IMB Buoy,1,1,1
+2007I,1,2,2
+2003 to 2006,1,1,1
+10.18739/A20K2S,1,1,1
+sulphate,1,3,1
+urn:uuid:891a76db-c221-4cbe-a088-4b36c85da38f,1,1,1
+enumerated domain,1,1,1
+1954 to 2017,1,2,2
+average temp,1,1,1
+warming,1,1,1
+related,1,1,1
+2010F,1,5,5
+chen,1,1,1
+Oechel,1,6,4
+Northern sea route,1,1,1
+co2 per year per region,1,1,1
+volatile organic carbon,1,1,1
+Chris,1,1,1
+to 2,1,1,1
+ATG.001,1,1,1
+andrews,1,1,1
+ndp_030,1,1,1
+urn:uuid:c20bd13a-4f40-4f9c-a2d1-17f4ddd93e7a,1,1,1
+10.18739/a2cz6h,1,1,1
+fishery,1,1,1
+gould,1,1,1
+pollution,1,1,1
+northern lights,1,1,1
+urn:uuid:84a4a403-deb6-4fcb-b253-16c3ecd1567e,1,1,1
+soil gas,1,1,1
+EARTH REMOTE SENSING INSTRUMENTS > PASSIVE REMOTE SENSING > PHOTON/OPTICAL DETECTORS > CAMERAS > ASC > ALL-SKY CAMERA,1,1,1
+McLaren,1,4,3
+2049 to 2018,1,1,1
+2005 to 2012,1,1,1
+epifauna,1,1,1
+Katey M. Walter Anthony,1,1,1
+titration sea water,1,1,1
+Atmospheric Carbon Dioxide Record from Flask Measurements at Lampedusa Island,1,1,1
+spring,1,1,1
+NEXT,1,3,1
+doi:10.18739/A28C6Q,1,1,1
+1656026,1,1,1
+.fig,1,3,2
+CFC-11,1,1,1
+nagap nolan,1,1,1
+druckenmiller,1,1,1
+2000 to 2014,1,1,1
+donald perovich,1,1,1
+powell,1,1,1
+Sevanto,1,1,1
+search,1,1,1
+10.3334/CDIAC/cli.002,1,1,1
+timlin,1,2,1
+doi 10.3334/CDIAC/tcm.002,1,1,1
+10.3334/CDIAC/ATG.040,1,1,1
+finnmark,1,1,1
+producitivity,1,1,1
+Alex,1,1,1
+Puerto Rico,1,1,1
+a2b10m,1,1,1
+sink,1,1,1
+home consumption,1,1,1
+tocin,1,1,1
+1304684,1,1,1
+cyber,1,1,1
+UNITED_NATIONS_CONVERSIONFACTOR_STATISTICS_DB,1,1,1
+susan natali,1,1,1
+flux methane,1,1,1
+ward,1,1,1
+ffd4fb38-deb3- 4d62-9e9e-ae84bc69abbb,1,1,1
+Heikoop,1,1,1
+water waste,1,1,1
+2016 to 2015,1,2,1
+aerial imagery,1,1,1
+WA,1,1,1
+2T9,1,1,1
+Abdel,1,1,1
+2011E,1,3,3
+jordan,1,1,1
+ute,1,1,1
+glacier black carbon,1,1,1
+1930,1,1,1
+Bridgham,1,1,1
+1107346,1,1,1
+photosynthesis,1,2,2
+Grosse,1,1,1
+Metadata: ffe_monthly_gridded_isomass_eml.xml,1,1,1
+zoonose,1,1,1
+Commane,1,1,1
+alaskan,1,1,1
+atlas grove,1,1,1
+WHOI Ice Tethered Profiler,1,2,1
+Global Warming Potential,1,1,1
+october,1,2,2
+doi:10.18739/A2NZ94,1,1,1
+tidal marsh,1,2,2
+"Seasonally ice-covered permafrost lakes in the Mackenzie River delta in Northwest Territories, Canada: Lake 129",1,1,1
+Norby,1,1,1
+global and national emissions,1,1,1
+hly402,1,1,1
+Harazono,1,1,1
+WWW1003,1,1,1
+macroinfaunal benthic samples,1,1,1
+Atqasuk Spectrometer Data 2014,1,1,1
+stratosphere,1,1,1
+Edgar,1,1,1
+"Meteorology, soil temperature and moisture of Jarvis Creek watershed",1,1,1
+per capita,1,1,1
+.bpch,1,2,1
+seward peninsula,1,1,1
+Kholodov,1,4,2
+peat,1,1,1
+10.5065/D6CJ8BNJ,1,5,4
+10.18739/a2hc5h,1,2,1
+alert,1,1,1
+CTD data,1,1,1
+10.18739/A2N562,1,1,1
+route,1,2,1
+1204169,1,1,1
+raw,1,1,1
+Gibbs H K and Brown S 2007a Geographical distribution of woody biomass carbon stocks in tropical Africa: an updated database for 2000.,1,1,1
+Global Population Distribution,1,1,1
+temperature soil,1,2,1
+EARTH SCIENCE > OCEANS > MARINE SEDIMENTS > SEDIMENT CHEMISTRY,1,1,1
+pisaster,1,1,1
+A. Dave McGuire,1,1,1
+stseves,1,1,1
+aquatic carbon isotopes in Alaskan permafrost,1,1,1
+CO2 emissions 2017,1,1,1
+2008 to 2014,1,1,1
+ice speed,1,1,1
+2071 to 2018,1,1,1
+msa whung,1,1,1
+全球,1,1,1
+FA,1,1,1
+arctic charr,1,1,1
+burgess,1,2,2
+merra,1,1,1
+zoe,1,1,1
+birds,1,1,1
+Tonsillectomy,1,1,1
+council,1,4,2
+Sea Ice Experiment: Dynamic Nature of the Arctic (SEDNA),1,1,1
+GLOBAL CO2 EMISSIONS,1,1,1
+global ghges,1,1,1
+arctic LTER,1,1,1
+urn:uuid:a871c2ac-5b82-4678-a5e3-d3f288256736,1,2,1
+scenarios,1,1,1
+snowmelt,1,1,1
+1982 to 2017,1,1,1
+baptiste,1,1,1
+octet,1,1,1
+rhizotron,1,1,1
+Alaskan,1,1,1
+japan,1,1,1
+201 to 2018,1,3,1
+Atmospheric hydrocarbons,1,1,1
+doi:10.5440/1226245,1,1,1
+sea ice velocity,1,1,1
+USA,1,1,1
+hazard,1,1,1
+Sue Natali,1,1,1
+whoi,1,1,1
+torn,1,1,1
+1023118,1,1,1
+ober,1,1,1
+mackenzie river,1,1,1
+1980 to 1985,1,1,1
+kim nielsen,1,6,3
+Sakhalin,1,1,1
+10.18739/A27659F1B,1,2,2
+doi:10.5065/D689140J,1,2,2
+annual co2 emissions by country,1,1,1
+provenance,1,1,1
+doi10.18739/A20C33,1,1,1
+Carbon data,1,1,1
+zhang and,1,1,1
+bering glacier,1,1,1
+bracho,1,1,1
+dayrec,1,1,1
+samples collected at Mauna Loa,1,1,1
+Gas Fluxes,1,1,1
+benson,1,2,1
+Gakona 4 borehole,1,1,1
+vitzthum,1,1,1
+2001 to 2015,1,1,1
+1751-2013,1,1,1
+doi:10.18739/A2NC5SC06,1,2,2
+urn:uuid:56deae9d-21d1-489d-bb86-97a1a1a362f1,1,1,1
+mmol,1,1,1
+metric tons of co2,1,1,1
+dbo6,1,1,1
+"belleville, wi",1,1,1
+fuel combustion,1,2,2
+air buoyancy correction,1,1,1
+geojson,1,1,1
+Continuing the Beaufort Gyre Observing System,1,1,1
+MAPS,1,1,1
+modele atmospherique regional,1,1,1
+doi:10.3334/CDIAC/ATG.DB1008,1,1,1
+ess-,1,1,1
+permafrost temperature,1,1,1
+cassano,1,1,1
+California,1,1,1
+netcdsf,1,1,1
+combustibles fossiles,1,1,1
+NDP006,1,1,1
+https://doi.org/10.18739/A2804XJ6D,1,1,1
+CONSUMPTION,1,1,1
+synoptic stream,1,1,1
+james morison,1,1,1
+hydrographic survey,1,2,2
+Atqasuk Spectrometer Data,1,1,1
+project:CDIAC,1,1,1
+lee cooper,1,1,1
+resource_map_urn_uuid_528baf29-b149-44c7-bbb6-a0ee373f5872,1,1,1
+Global Monitoring Network,1,1,1
+Barrow data,1,1,1
+1920 to 2017,1,4,2
+Harper,1,1,1
+urn:uuid:e91348e5-5b46-4272-9ffa-bcd866e3ad1a,1,1,1
+10.3334/CDIAC/VRC.DB1005,1,2,1
+Phenology,1,1,1
+2000 to 2009,1,1,1
+blanchard,1,1,1
+arctic cod,1,1,1
+lilhjedal,1,1,1
+1712031,1,1,1
+856479,1,2,1
+GISP2,1,1,1
+mass balance buoy,1,1,1
+charles nguyen,1,1,1
+QING IRTF 2005,1,1,1
+indigenous knowledge,1,1,1
+1800 to 2004,1,7,2
+MAUNA LOA,1,1,1
+A Coastal Hazards Data Base for the U.S. Gulf Coast (1993). Carbon Dioxide Information Analysis Center,1,1,1
+atg.025,1,1,1
+Temp100cm,1,1,1
+jpg,1,3,1
+N/A,1,1,1
+National Cement Production Estimates: 1950-2007,1,1,1
+chemical,1,1,1
+network of permafrost obeservatories,1,1,1
+Carbon dioxide emissions,1,1,1
+landsat,1,1,1
+Greenland Meltwater Geomicrobiology,1,1,1
+Surface,1,1,1
+soil AND carbon,1,1,1
+Archambault,1,1,1
+water usage,1,1,1
+1303899,1,1,1
+co2 concentrations,1,1,1
+lindsay carlson,1,1,1
+bondi,1,1,1
+Strain-Induced Fabric,1,1,1
+ablation zone,1,3,2
+blank doi,1,1,1
+gRAND mEADOW,1,1,1
+Aaron Ruesch,1,1,1
+jonathan martin,1,2,2
+benthos biomass,1,1,1
+EARTH SCIENCE > HUMAN DIMENSIONS > ECONOMIC RESOURCES > AGRICULTURE PRODUCTION,1,1,1
+urn:uuid:4dd2850b-5134-4855-8e44-6ef167255f4b,1,1,1
+net primary,1,3,1
+1949 to 2008,1,1,1
+Gregory Starr,1,1,1
+atlantic ocean,1,1,1
+doi:10.3334/CDIAC/CLI.NDP048,1,1,1
+USFWSF12AC00513,1,1,1
+doi:10.18739/A20C4SJ5K,1,1,1
+Rebecca Hewitt.,1,1,1
+doi:10.15486/NGT/1347607,1,2,2
+urn:uuid:5a771559-f6ff-4ff9-a2fc-de535979d604,1,1,1
+climate change marine species,1,1,1
+EARTH SCIENCE > CLIMATE INDICATORS > CRYOSPHERIC INDICATORS > ICE EXTENT,1,1,1
+surface sediment,1,1,1
+"summit station, greenland",1,1,1
+wildlife,1,1,1
+precipitation temperature,1,1,1
+10.3334/CDIAC/TCM.007,1,1,1
+freshwater,1,1,1
+Vagle,1,2,2
+tonnage,1,2,2
+river discharge,1,1,1
+"Goldman, A",1,1,1
+reu,1,1,1
+CARVE,1,1,1
+david hill,1,1,1
+"Numerical simulations of hydrology, permafrost and glaciers in the Jarvis Creek watershed, Interior Alaska, 2013-2016",1,1,1
+hadley,1,1,1
+2002,1,1,1
+Dave Holland,1,1,1
+Kyoto-Related Fossil-Fuel,1,1,1
+Ursidae,1,1,1
+"Numerical simulations of hydrology, permafrost and glaciers in the Jarvis Creek watershed, Interior Alaska, 1991-2100",1,1,1
+MacIntyre,1,1,1
+christoper arp,1,1,1
+fishing arctic,1,1,1
+fullman,1,1,1
+VESSEL_name,1,1,1
+hazards,1,1,1
+Alaska Fire,1,1,1
+covariance,1,1,1
+dbo6 mcraven,1,1,1
+hydrocarbons,1,1,1
+back to the future,1,2,2
+Continuing the Beaufort Gyre Observing System to Document and Enhance Understanding Environmental,1,1,1
+"Alert, N.W.T. Canada",1,1,1
+SIZONET,1,2,1
+leads,1,1,1
+arctic-data,1,1,1
+Kevin Wood,1,2,2
+"global, regional, and national fossil-fuel",1,1,1
+lithuania,1,1,1
+precipitation occurance,1,1,1
+Shuch'e,1,1,1
+healy 2017,1,1,1
+world data center,1,1,1
+Bering,1,1,1
+Jenna,1,2,1
+doi:10.3334/CDIAC/CLI.004,1,1,1
+Idaho,1,1,1
+1949 to 2002,1,1,1
+central arctic,1,3,2
+doi:10.18739/A26637,1,1,1
+EARTH SCIENCE > CRYOSPHERE > GLACIERS/ICE SHEETS > GLACIER MASS BALANCE/ICE SHEET MASS BALANCE,1,1,1
+Tree Ring Chronology,1,1,1
+Paul Bierman,1,1,1
+Canadian Archipelago Throughflow Study,1,1,1
+valdes,1,1,1
+A2WD3H,1,1,1
+A,1,1,1
+ARCSEES-LCLUC,1,1,1
+1304097,1,1,1
+hendrickson,1,1,1
+prcol,1,1,1
+Trifluoromethyl Sulfur Pentafluoride,1,1,1
+NAGAp,1,1,1
+Active Layer,1,1,1
+Barrow Logger Data,1,1,1
+europe,1,1,1
+10.3334/cdiac/00001,1,1,1
+ZHANG,1,1,1
+urn:uuid:597bf665-dd73-49c0-af9e-d098373092b0,1,1,1
+barto,1,1,1
+Moore,1,4,3
+caRbon,1,1,1
+healy 1302,1,1,1
+fox,1,1,1
+DB_1004,1,1,1
+sodium,1,4,2
+resource_map_urn:uuid:528baf29-b149-44c7-bbb6-a0ee373f5872,1,1,1
+barassi,1,1,1
+CDIAC data archive,1,1,1
+Distributed Biological Observatory (DBO),1,1,1
+tern,1,1,1
+cyberinfrastucture,1,1,1
+SWL15 DBO,1,1,1
+13,1,1,1
+10 sites,1,1,1
+forster,1,1,1
+ob,1,1,1
+dry land,1,1,1
+Temperature Anomalies,1,1,1
+kenji,1,1,1
+EARTH SCIENCE > CRYOSPHERE > SEA ICE,1,1,1
+DBP,1,1,1
+2011G,1,2,2
+http://imb-crrel-dartmouth.org/archived-data/,1,1,1
+kevin wood,1,1,1
+NDP050,1,1,1
+Peterson,1,1,1
+surface dataset,1,1,1
+Salix,1,1,1
+lawdome,1,1,1
+leaf area indez,1,1,1
+Soil Temperatures,1,1,1
+urn:uuid:b97a69fc-e002-4505-b089-b4f6d373f080,1,1,1
+Carbone in Soil,1,1,1
+nishino,1,1,1
+resource_map_doi:10.18739/A23B5W748,1,1,1
+Dunton,1,1,1
+Hongsheng Bi,1,2,2
+Vermunt,1,1,1
+1980 to 1983,1,1,1
+Flask Sampling Network,1,1,1
+3-Dimensional,1,1,1
+1203506,1,1,1
+canidae,1,1,1
+bathmetry,1,1,1
+plicht,1,1,1
+kearney,1,1,1
+10.18739.a2191z,1,1,1
+Kauffman,1,1,1
+Monthly Atmospheric 13C/12C,1,1,1
+10.5065/D6FT8J54,1,2,2
+numerical simulations of hydrology,1,1,1
+doi:10.18739/A2CZ9N,1,1,1
+hoffecker,1,1,1
+gary kofinas,1,1,1
+urn:uuid:88e52ba2-7d08-4586-9745-2c28257de40e,1,1,1
+Polyakov,1,2,2
+nielsen,1,1,1
+polynya,1,1,1
+"forster, richard",1,1,1
+rescue,1,1,1
+SWL2002,1,1,1
+https://orcid.org/0000-0002-7572-1414,1,1,1
+Matai,1,2,2
+Marine Mammal,1,2,2
+glnhsh.png,1,1,1
+soil change,1,1,1
+"Carbon, Water, and Energy Balance of the Arctic Landscape at Flagship Observatories and in a Pan-Arctic Network",1,1,1
+industry emissions,1,1,1
+isotopic,1,1,1
+1961 to 2017,1,1,1
+10.18739/A2ZC6X,1,1,1
+Edward B. Rastetter,1,1,1
+Production of CO2,1,1,1
+David Holland,1,1,1
+arctic and Antartic,1,1,1
+Global Annual Temperature Anomalies,1,1,1
+Goldman,1,1,1
+10.18739/A2FH24,1,2,2
+1828 to 2007,1,1,1
+10.3334/CDIAC/otg.ndp052,1,1,1
+Newnan 5N,1,1,1
+"Mayewski, P.A. and Sallie Whitlow. 2016. Snow Pit Data from Greenland Summit, 1989 to 1993. NSF Arctic Data Center. doi:10.5065/D6NP22KX.",1,1,1
+iscn,1,1,1
+Boden T,1,1,1
+1264098,1,2,2
+Surface dataset,1,1,1
+annual Co2,1,1,1
+LANDCOVER,1,1,1
+snowpack,1,2,1
+michael degrandpre,1,1,1
+doi:10.18739/A2508R,1,2,2
+lynch,1,1,1
+STEGEN,1,1,1
+GEOSUMMIT,1,1,1
+Yusno-Tambeysky,1,2,2
+Bonanza creek,1,2,1
+benjamin smith,1,1,1
+1304220,1,1,1
+adam z. csank,1,1,1
+1980 to 2000,1,1,1
+rotty,1,4,1
+sally,1,1,1
+cdiac publications and data,1,1,1
+HLY-04-03,1,1,1
+LSSL_Geocehmistry,1,1,1
+tethersonde,1,1,1
+missing value code,1,1,1
+katey,1,1,1
+griemen,1,1,1
+face,1,2,1
+doi:10.18739/A2191Z,1,1,1
+10.3334/CDIAC/VRC.003,1,1,1
+Monthly%20Fossil-Fuel%20CO2%20Emissions:%20Isomass%20of%20Emissions%20Gridded%20by%20One%20Degree%20Latitude%20by%20One%20Degree%20Longitude,1,1,1
+percolation,1,1,1
+Carothers,1,2,1
+Indigenous,1,1,1
+10.18739/A1291Z,1,1,1
+#NAME?,1,1,1
+1855 to 2017,1,1,1
+world countries ranked by 2014 total fossil-fuel,1,1,1
+urn:uuid:6363e8d8-1089-4eef-89cf-1701934e4b2a,1,1,1
+2009G,1,3,3
+remote sensing classification,1,1,1
+LeConte Glacier,1,1,1
+Estimates,1,1,1
+Atmospheric Trace Gases CO2,1,1,1
+William A. Gould,1,1,1
+NDP-017,1,2,2
+1417906,1,1,1
+Nathaniel miller,1,1,1
+raster,1,1,1
+gpr,1,1,1
+safety,1,1,1
+catherine,1,2,2
+2158 to 2018,1,1,1
+SWL CTD,1,1,1
+MMW,1,1,1
+Zamora2010.dif,1,1,1
+2040 to 2018,1,1,1
+Methane emission,1,1,1
+doi:10.18739/A28J9K,1,1,1
+mpl,1,1,1
+2016 to 2013,1,1,1
+15AC00347,1,1,1
+2007J,1,3,2
+2010 to 2013,1,1,1
+frey,1,5,4
+Vargas,1,1,1
+United Nations,1,1,1
+sensible,1,1,1
+1949 to 2017,1,3,2
+matthews,1,1,1
+nome,1,1,1
+arctic gro,1,1,1
+ARCSS-LAII 1996 Aircraft Radiometric Data,1,1,1
+sahara,1,2,2
+sistla,1,2,2
+Bonanza Creek,1,1,1
+Robert S. Pickart,1,1,1
+record temperature,1,1,1
+arctic horizons,1,1,1
+Wei,1,1,1
+1819 to 2018,1,1,1
+Kite Aerial Photography (KAP) MISP grid Barrow and Atqasuk,1,1,1
+national park service,1,1,1
+a2sr99,1,1,1
+falling global carbon intensity,1,1,1
+1700,1,2,1
+Igor Poliakov,1,1,1
+karen,1,1,1
+dog,1,1,1
+Neftel,1,1,1
+cortes toolik,1,1,1
+1999 to 1998,1,1,1
+calista,1,1,1
+pump house,1,1,1
+Arctic Observing Network,1,1,1
+carbon FLux,1,1,1
+NO3,1,1,1
+Disko Bugt,1,1,1
+Phase 1 Free Air CO2 Enrichment Model-Data Synthesis (FACE-MDS): Meteorological Data,1,1,1
+Aae6237a1-ac1b-4282-87a5-99f1ab0d11a5,1,1,1
+wendy ermold,1,1,1
+montana,1,1,1
+subice,1,1,1
+h2,1,1,1
+10.3334/CDIAC/otg.ndp004,1,1,1
+2013 to 2020,1,2,1
+ECCO2,1,1,1
+doi:10.18739/A22617,1,1,1
+2000C,1,1,1
+north Korea,1,1,1
+1986 to 2016,1,1,1
+contrasting under-ice,1,1,1
+doi:10.18739/A2FT0G,1,1,1
+1978 to 1979,1,1,1
+cole-dai,1,1,1
+DBO2,1,1,1
+2005 to 2010,1,1,1
+1984 to 2017,1,1,1
+1914 to 2018,1,1,1
+Sterin,1,1,1
+Andreas Muenchow,1,1,1
+Ivotuk,1,1,1
+snow climate,1,1,1
+1304077,1,1,1
+de wet,1,1,1
+jarvis creek,1,1,1
+Anthony P Walker,1,1,1
+Grigorev,1,1,1
+"Boden, T.A",1,1,1
+1979 to 2015,1,1,1
+dunlin,1,1,1
+CLIMATE,1,1,1
+volcanoes,1,1,1
+ess-dive-f03c8475f6eadae-20180725T155630812818,1,1,1
+crump,1,1,1
+cory beatty,1,1,1
+polar low,1,1,1
+.shp,1,1,1
+1946 to 2014,1,6,2
+Direct Effects of Atmospheric CO2 Enrichment on Plants and Ecosystems: An Updated Bibliographic Data Base,1,1,1
+BAID,1,1,1
+Flask Samples Collected at U.S.S.R.,1,1,1
+"Maricopa, Arizona",1,1,1
+chellman,1,1,1
+leaf,1,2,1
+doi:10.18739/A2856N,1,1,1
+ATG.002,1,1,1
+cost,1,1,1
+murat,1,1,1
+1984 to 1987,1,1,1
+10.18739/A2469W,1,1,1
+try,1,1,1
+10AC00756,1,1,1
+"VERTICAL LOCATION > LAND SURFACE, GEOGRAPHIC REGION > POLAR, GEOGRAPHIC REGION > ARCTIC, UNITED STATES OF AMERICA > ALASKA,",1,1,1
+L. P. Steele,1,1,1
+Franklin Bluffs,1,2,1
+1205196,1,1,1
+amount,1,1,1
+natali heard,1,1,1
+urn:x-wmo:md:org.aoncadis.www::e55f90b4-849f-11e5-a1ab-00c0f03d5b7c,1,2,2
+ndp_011,1,1,1
+SAFOD,1,1,1
+carbon data Chicago,1,1,1
+nabos,1,1,1
+10.18739/A2PK3C,1,1,1
+Landslide,1,1,1
+elchin,1,2,1
+1915 to 2018,1,1,1
+10.18739/A2CK4Z,1,1,1
+arctic-data.14652.1,1,1,1
+doi:10.18739/A22V8F,1,2,2
+https://data-dev.ess-dive.lbl.gov/#view/10.3334/CDIAC/atg.016,1,1,1
+sevanto,1,1,1
+Gilmore,1,1,1
+petrenko,1,1,1
+10 to 2018,1,1,1
+doi:10.18739/A27C51,1,1,1
+Feng Sheng Hu,1,1,1
+cement emissions 2016,1,1,1
+sonde,1,1,1
+doi:10.18739/A26815,1,1,1
+siberian boreal,1,2,2
+susan,1,1,1
+2027 to 2018,1,1,1
+rockglacier,1,1,1
+leif,1,1,1
+Kofinas,1,1,1
+arctic shorebird demographics network,1,2,2
+2007H,1,2,2
+Global CO2,1,1,1
+isotope greenland ice,1,1,1
+I. Levin,1,1,1
+von walden,1,1,1
+SWL2015,1,1,1
+"Global, regional, and national fossil-fuel CO2 emissions",1,1,1
+2009E,1,3,3
+kling,1,1,1
+10.3334/CDIAC/CLI.NDP002,1,1,1
+Historical Carbon Dioxide Record from the Vostok Ice Core,1,2,1
+carbon in soil,1,1,1
+Craig Tweedie,1,1,1
+net,1,1,1
+swl13,1,3,2
+2011D,1,3,2
+permafrost melt,1,1,1
+consumption,1,1,1
+Fossil fuel emissions,1,1,1
+doi:10.18739/A2J80W,1,2,1
+1304408,1,1,1
+800000,1,1,1
+temperratue,1,1,1
+arome,1,1,1
+Jarvis Glacie,1,1,1
+cyclone,1,1,1
+1860 to 1899,1,2,2
+10.5440/1226245,1,1,1
+everglades,1,1,1
+Annual Carbon,1,1,1
+Long-Term Daily and Monthly Climate Records from Stations Across the Contiguous United States,1,2,2
+los angeles,1,1,1
+Finstad,1,1,1
+Long-Term Daily and Monthly Climate Records from Stations Across the Contiguous United States (U.S.Historical Climatology Network) (NDP-019),1,1,1
+Olson,1,1,1
+vessel,1,1,1
+1988 to 2018,1,1,1
+heating degree days,1,1,1
+0,1,1,1
+lduwig,1,1,1
+glacier melting,1,1,1
+doi:10.5065/D6KD1W2C,1,1,1
+Labrador,1,1,1
+1952 to 2018,1,1,1
+goyat,1,1,1
+ground ice,1,1,1
+doi:10.18739/A22274,1,1,1
+Zinck,1,1,1
+10.18739/A2PP21,1,1,1
+10.18739-A2CZ6H,1,1,1
+deadhorse,1,1,1
+food,1,2,1
+Surface Temperature,1,1,1
+Sayedi,1,1,1
+2015 to 2015,1,2,1
+june,1,1,1
+Carbon FLUX,1,1,1
+global CO2 emissions history,1,1,1
+fuel fossile,1,1,1
+annual co2 emissions,1,1,1
+Katey Anthony,1,1,1
+Anthropogenic Carbon Dioxide,1,1,1
+urn:uuid:f7f06ec3-7483-400c-ac9e-f0a23d7c8050,1,1,1
+romanovsky selawik,1,1,1
+1980 to 1986,1,1,1
+cl2,1,1,1
+N2O,1,2,1
+dissolve inorganic carbon,1,1,1
+101.18739/a2hc5h,1,1,1
+1981 to 1980,1,2,1
+combined dataset from PAH,1,1,1
+1203831,1,1,1
+Tonsils,1,1,1
+Selawik Village,1,1,1
+NDP50,1,1,1
+2017 to 2015,1,1,1
+Kielland,1,1,1
+Jago River data,1,2,1
+2014 pCO2,1,1,1
+march,1,3,3
+ROGER,1,1,1
+devota,1,1,1
+"Global Carbon Project: the Global Carbon Budget 2015 (V.1.0., issued Nov. 2015 and V.1.1, issued Dec. 2015)",1,1,1
+SENEGAL,1,1,1
+John F Resch ET UX,1,1,1
+"Global CO2 Emissions from Fossil-Fuel Burning,",1,1,1
+Albedo,1,1,1
+SUBICE CTD,1,1,1
+mahoney,1,1,1
+EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > ULTRAVIOLET RADIATION,1,1,1
+coast,1,1,1
+Imnavait,1,2,1
+Gc-net,1,1,1
+2013 to 2022,1,1,1
+urn:uuid:e5c4fd54-70a6-416b-8ab7-5b29fa9074e0,1,1,1
+US Surface Temperature,1,1,1
+delta 13 C,1,1,1
+green house gases,1,1,1
+victoria,1,1,1
+Beaufort shelf,1,1,1
+atq,1,1,1
+ess-dive-80494d842a9a8b7-20180726T171653526,1,1,1
+acoustics,1,3,2
+mcconnel,1,1,1
+NP,1,2,1
+2000-2016,1,1,1
+1990 to 2018,1,1,1
+adam,1,1,1
+voltaic,1,1,1
+water pricing,1,1,1
+global CO2 emission,1,1,1
+production,1,1,1
+martin greenland,1,1,1
+yenisei,1,1,1
+animalia,1,2,1
+kolyma,1,1,1
+BARROW SNOW DPETH,1,1,1
+Environmental Data Center,1,2,1
+sergio vargars,1,1,1
+urn:uuid:df5b5ce7-037a-4337-a574-a8c0ca64cc4d,1,1,1
+future sea ice,1,2,1
+"Chlorine, Bromine and Iodine Chemistry in the Arctic",1,1,1
+Vostok Ice Core,1,1,1
+Collaborative Research: Sustaining and amplifying the ITEX AON through automation and increased interdisciplinarity of observations,1,1,1
+Avian,1,1,1
+908156,1,1,1
+september,1,1,1
+1952 to 1952,1,1,1
+fettweis,1,1,1
+rebecca hewitt,1,1,1
+ADOLPH,1,1,1
+van den broeke,1,1,1
+2008 to 2011,1,1,1
+Canadian Archipelago Throughflow Study: ADCP moorings 2007-09,1,1,1
+Sumup,1,1,1
+interannual variability,1,2,2
+Psychrophile,1,2,1
+A22W48,1,1,1
+Plot,1,1,1
+North American glaciers,1,1,1
+1999 to 2005,1,1,1
+WTD,1,1,1
+teleconnections,1,1,1
+1203526,1,1,1
+Land Cover,1,1,1
+erosion,1,1,1
+nome_snow,1,1,1
+doi:10.18739%2FA23F4KM7K,1,1,1
+PERMAFROST METHANE,1,1,1
+ULS,1,1,1
+esource_map_urn:uuid:b93f5d62-612e-4b89-b2d3-67ffd37d657e,1,1,1
+rosemary,1,1,1
+holarctic,1,1,1
+10.3334/CDIAC/FFE.ANNUALISOMASS.2016,1,1,1
+urn:uuid:fef1b322-c0a3-4628-8948-38461e4020b8,1,1,1
+mcgovern,1,1,1
+Geographical distribution of woody biomass carbon stocks,1,1,1
+2059 to 2018,1,1,1
+human trafficking,1,1,1
+"Site ID: S1 Bog Site name: S1 Bog, Marcell Experimental Forest Description: The site is the 8.1-ha S1 bog, a Picea mariana [black spruce] – Sphagnum spp. ombrotrophic bog forest in northern Minnesota, 40 km north of Grand Rapids, in the USDA Forest Service Marcell Experimental Forest (MEF). The S1 bog was harvested in successive strip cuts in 1969 and 1974 and the cut areas were allowed to naturally regenerate. Stations 1 and 2 are located in a 1974 strip that is characterized by a medium density of 3-5 meter black spruce and larch trees with an open canopy. The area was suitable for siting a monitoring station for representative meteorological conditions on the S1 bog. Station 3 is located in a 1969 harvest strip that is characterized by a higher density of 3-5 meter black spruce and larch trees with a generally closed canopy. Measurements at this station represent conditions in the surrounding stand. Site Photographs are in the attached document",1,2,1
+navy,1,1,1
+conservation,1,1,1
+Karen Krey,1,1,1
+model atmospherique regional,1,1,1
+whake,1,1,1
+Boreal,1,1,1
+urn:uuid:6a2a0d6e-35fb-491e-8279-060cfc69a461,1,1,1
+pizzolato,1,1,1
+clupea pallasii,1,1,1
+meteorological,1,2,2
+baichtal,1,1,1
+victoria hill,1,2,2
+CO2 emissions 1750,1,1,1
+1840 to 2017,1,1,1
+10.18739/2191Z,1,1,1
+Seokki,1,1,1
+BES,1,2,2
+loranty 2016,1,1,1
+bottom temperature,1,1,1
+doi:10.5065/D6G15Z1J,1,1,1
+1860 to 2014,1,1,1
+NMVOC,1,1,1
+1988 to 1996,1,3,2
+24,1,1,1
+Greenland Inland Traverse (2010 & 2011): snow pit and core density data,1,1,1
+255228,1,1,1
+2062 to 2018,1,1,1
+greece,1,1,1
+Nares Strait HLY03-05GC Holocene Sediment Data,1,1,1
+cover,1,1,1
+grey whale,1,1,1
+Mt. Everest,1,1,1
+e91348e5-5b46-4272-9ffa-bcd866e3ad1a,1,1,1
+The Canadian Background Air Pollution,1,2,1
+Resource Allocation and Allometry of Plant Growth in the Arctic,1,1,1
+glacier area,1,2,1
+Summit OC,1,1,1
+Carbon Dioxide Information Analysis Center,1,1,1
+public,1,1,1
+world countries ranked by 2015 total fossil-fuel,1,1,1
+Sea ice concentration,1,1,1
+Mar Greenland,1,2,2
+bsierp,1,2,1
+fishing,1,1,1
+snowball,1,1,1
+Manley,1,1,1
+oil production,1,1,1
+Csank,1,1,1
+1506155,1,1,1
+NASA GISS Surface Temperature,1,1,1
+precipitation and temperature,1,1,1
+zooplankton canada basin 2003,1,1,1
+CARBON FLUX,1,1,1
+additional,1,1,1
+thickness,1,1,1
+emissions from fossil fuel,1,1,1
+exxon,1,1,1
+urn:uuid:784cf1f7-4309-4ac9-b655-b06681ea4221,1,1,1
+synoptic stream discharge,1,2,1
+hare,1,1,1
+2010A,1,2,2
+arctic chamber,1,1,1
+Timling,1,1,1
+USSR,1,2,1
+No,1,1,1
+pula,1,2,2
+1800 to 2005,1,3,2
+L. Turin Dickman,1,2,1
+Gas Emissions Data,1,1,1
+O-buoy,1,1,1
+10.18739/A2SP06,1,1,1
+Ian Lee,1,6,1
+permafr,1,1,1
+polashenski percolation,1,1,1
+CO2 level,1,1,1
+cod,1,1,1
+10.3334/CDIAC/00060,1,1,1
+1981 to 1983,1,1,1
+usage,1,1,1
+Phyllis J. Stabeno,1,2,2
+SPEED,1,1,1
+A Method for Continuous 239Pu Determinations in Arctic and Antarctic,1,1,1
+Zona,1,1,1
+1975 to 2018,1,1,1
+WMS,1,2,1
+2003 to 2008,1,1,1
+Allison,1,1,1
+Larch tree recruitment across an experimental burn severity gradient in far northeastern Siberia,1,2,1
+Weingartner,1,1,1
+whondrs,1,2,2
+carbon emmisions,1,1,1
+huntington,1,1,1
+continuous,1,1,1
+Herschel Island,1,1,1
+"Baring Head,New Zealand",1,3,2
+http://orcid.org/0000-0002-7572-1414,1,1,1
+shorebird,1,1,1
+in situ,1,2,1
+shipping arctic,1,1,1
+ECCO2 model,1,1,1
+Annual Average,1,1,1
+/trends/emis/top2014.tot,1,1,1
+Geographical distribution of woody biomass carbon stocks in tropical Africa,1,1,1
+cdiac.ornl.gov_8080_xml_cdp_metadata_Lisa_Olsen_FACE_duke_micromet.xml,1,1,1
+doi:10.18739/A2C289,1,1,1
+2164 to 2018,1,1,1
+administrative,1,2,1
+microbial+biomass,1,1,1
+east river,1,2,2
+2003 to 2015,1,1,1
+HOURLY TO DAILY,1,1,1
+oxygen flux,1,1,1
+raindeer,1,1,1
+Pangborn,1,1,1
+1637459,1,1,1
+minnesota,1,1,1
+klamath falls water year,1,1,1
+NDFF,1,1,1
+Cory Beatty,1,2,2
+2045 to 2018,1,1,1
+Stabeno,1,2,2
+1975 to 2017,1,1,1
+1980 to 1987,1,1,1
+toolik lake,1,1,1
+USFWSF15AC00347,1,1,1
+1950 to 2014,1,1,1
+mercury toolik,1,1,1
+doi:10.3334/CDIAC/FACE-MDS/MOD.01,1,2,1
+NABOS-II,1,1,1
+fetcher,1,1,1
+Svein Vagle,1,1,1
+2016 to 2011,1,1,1
+Dissolved Organic Carbon Concentration of Surface Waters Near Thule AFB,1,1,1
+pacific,1,1,1
+gis,1,1,1
+Arctic Chamber metadata,1,1,1
+climo 2012,1,1,1
+Salto,1,1,1
+whitlock,1,1,1
+10.18739/A2SW55,1,1,1
+1923 to 2016,1,6,2
+doi:10.5065/D6319T0J,1,2,2
+ngee tropics,1,1,1
+miller shupe,1,1,1
+Co2,1,2,1
+kreutz,1,1,1
+shupe radar,1,1,1
+Sowers,1,1,1
+beaufort shelf,1,1,1
+Gakona 4,1,2,1
+Quere,1,1,1
+harris,1,2,2
+"Portland, Or",1,1,1
+runoff data,1,1,1
+mar v3.5,1,1,1
+blasing,1,1,1
+aon,1,1,1
+carey friedman,1,1,1
+B53,1,1,1
+malina,1,1,1
+military,1,1,1
+anna liljedahl,1,1,1
+Fossil-Fuel CO2 Emissions from Germany,1,1,1
+1980 to 1995,1,1,1
+Riverine,1,1,1
+Everglades,1,2,2
+lake ice,1,2,1
+araon,1,1,1
+1994 to 2018,1,1,1
+Michael Moody,1,1,1
+SPAIN,1,1,1
+urn:uuid:ec639771-a6a6-4754-b841-78ffe8cc866a,1,1,1
+wells,1,1,1
+bioassay,1,1,1
+war,1,1,1
+Jeremy May,1,1,1
+july,1,1,1
+csiro,1,1,1
+"Barrow, Alaska",1,1,1
+llijed,1,1,1
+hewiit,1,1,1
+gif,1,3,3
+Chemistry,1,3,2
+icesat,1,1,1
+1979 to 2012,1,1,1
+tanana,1,1,1
+Monthly Fossil-Fuel,1,1,1
+herrmann,1,2,2
+1303965,1,1,1
+urn:uuid:babb0174-c29e- 4010-85c0-9f07af2744e7,1,1,1
+1023592,1,1,1
+Ballantyne,1,1,1
+DRUM,1,1,1
+vegetation shift pearson,1,1,1
+1971 to 2016,1,1,1
+doi:10.3334/CDIAC/FFE.005,1,1,1
+radionuclide,1,1,1
+1974 to 2016,1,1,1
+laura,1,1,1
+AVHRR,1,1,1
+Eurasian and Makarov basins,1,1,1
+10.3334/CDIAC/VRC.004,1,1,1
+EARTH SCIENCE > BIOSPHERE > VEGETATION > TREE RINGS,1,1,1
+estimated net change,1,1,1
+Jones,1,1,1
+NEEM,1,1,1
+Soil bulk density,1,1,1
+1980 to 1981,1,1,1
+monper,1,1,1
+fluxes,1,1,1
+Lilian Alessa,1,1,1
+plfa,1,1,1
+senescent,1,1,1
+James Morison,1,1,1
+USFWSF10AC00756,1,1,1
+TINGJUN,1,1,1
+kyoto,1,1,1
+urn:uuid:912c95fa-ed5b-4ad2-a6a1-86d5d1016a56,1,1,1
+"NCEP Reanalysis Precipitation, Aggregated by Administrative Regions",1,1,1
+infauna,1,1,1
+northeastern passage,1,1,1
+ess-dive.1.,1,1,1
+1996 to 2001,1,1,1
+bottle files,1,1,1
+FOCAL,1,1,1
+alaska lake depth,1,1,1
+quickscat,1,1,1
+1800 to 1905,1,5,2
+december,1,2,2
+infrastructure,1,1,1
+doi.org/10.18739/A2J954.,1,1,1
+Siple Station,1,1,1
+South Atlantic Ocean,1,1,1
+1979 to 2010,1,3,2
+soviet union,1,1,1
+mean ice depth,1,1,1
+doi:10.18739/A2X54S,1,1,1
+wave height,1,1,1
+2012-2016,1,1,1
+greenland mar,1,1,1
+2005 to 2005,1,1,1
+anthropology,1,1,1
+GISP,1,3,2
+Zhangxian Ouyang,1,1,1
+parazoo,1,1,1
+Picea,1,1,1
+antarctic carbon dioxide,1,1,1
+LAT,1,1,1
+CO2_,1,1,1
+urn:uuid:93a4b0dc-3154-4e73-b192-b7bc1af75e49,1,1,1
+1304202,1,1,1
+Arctic temperature,1,1,1
+solfonna,1,1,1
+morison,1,1,1
+berries,1,1,1
+public domain,1,2,1
+eddy methane,1,1,1
+tek,1,1,1
+EARTH SCIENCE > BIOLOGICAL CLASSIFICATION > ANIMALS/VERTEBRATES > MAMMALS > CARNIVORES > SEALS/SEA LIONS/WALRUSES,1,1,1
+islam,1,1,1
+cetacean,1,1,1
+aldegonda,1,1,1
+islands of four mountains,1,1,1
+Ben Abbott,1,1,1
+burton,1,2,2
+518 Russian Meteorological Stations,1,1,1
+EARTH SCIENCE > BIOSPHERE > VEGETATION > PLANT PHENOLOGY,1,1,1
+area 1002,1,1,1
+UCLA,1,1,1
+1969 to 2017,1,1,1
+Millimeter,1,1,1
+ursus,1,1,1
+Seasonal reflectance from SEASON,1,1,1
+stafford davis,1,1,1
+cryotic,1,1,1
+1417640,1,1,1
+Jakobson,1,1,1
+socio-economic,1,1,1
+Smith lake,1,1,1
+"Olivier, S",1,1,1
+1852 to 2014,1,1,1
+Schild,1,2,1
+arthropoda,1,2,1
+"Historical Carbon Dioxide Record from the Vostok Ice Core (417,160 - 2,342 years BP)",1,1,1
+aerosols,1,1,1
+william simpson,1,1,1
+polyakopv,1,1,1
+jaz,1,1,1
+wastewater emissions,1,1,1
+volume 1,1,1,1
+FOSSIL FUEL,1,1,1
+urn:uuid:4123cd3a-bade-494d-86b5-aac4622cae1c,1,1,1
+Learning about environmental research in the context,1,1,1
+1955 to 2017,1,1,1
+ogilvie,1,1,1
+south pole,1,1,1
+Law Dome,1,2,2
+CO2 Exchange,1,1,1
+bco,1,1,1
+annual carbon dioxide emissions,1,1,1
+oak ridge national lab,1,1,1
+Kerby,1,1,1
+Atmospheric H2,1,1,1
+sulfate isotope,1,1,1
+Gakona,1,1,1
+"Nichols, Harvey; Stolze, Susann",1,1,1
+holmes river,1,1,1
+Sphagnum,1,1,1
+klax,1,1,1
+ARCTIC OCEAN > BEAUFORT SEA,1,1,1
+10.18739/A2Z86W,1,1,1
+nutrient,1,2,1
+1810 to 2017,1,3,2
+Ute Herzfeld,1,1,1
+glacier national park,1,1,1
+dss,1,1,1
+1111882,1,2,1
+rooting depth,1,1,1
+doi 10.3334/CDIAC/00001_V2013,1,1,1
+10.3334/CDIAC/FFE.MONTHLYISOMASS,1,1,1
+doi:10.18739/A2K65D,1,1,1
+ferretti,1,1,1
+1998 to 2015,1,1,1
+"740,000",1,1,1
+180 to 2018,1,1,1
+SFA,1,1,1
+Yamal,1,1,1
+skidmroe,1,1,1
+doi:10.18739/A2WZ7J,1,1,1
+arctic policy,1,1,1
+to 1,1,2,1
+doi:10.18739/A2D879,1,1,1
+doi:10.18739/A2K86G,1,1,1
+anatidae,1,1,1
+thermal state of permafrost,1,1,1
+sea ice model,1,2,1
+transient tracers,1,1,1
+Testing Genotype-Hormone Associations in Circumpolar Ancestral and Descendant Populations,1,1,1
+Hollingsworth,1,1,1
+urn:uuid:fd1b5784-b642-45d6-82ea-8b1f49e8592e,1,1,1
+kumar,1,2,2
+1979 to 1979,1,1,1
+saldi arabia,1,1,1
+chin,1,2,2
+manaloa,1,2,2
+1417745,1,2,1
+Permafrost carbon affected by vegetation productivity changes and fire across arctic-boreal ecosystems,1,1,1
+csxv,1,1,1
+Cory,1,1,1
+68.477413 -149.502416,1,1,1
+ndp030,1,1,1
+William Simpson,1,1,1
+10.18739/A2X54S,1,1,1
+tree ring,1,1,1
+co2 emission russia,1,1,1
+Beaufort Sea mooring I3,1,1,1
+lakes,1,1,1
+black cardon,1,1,1
+doi:10.18739/A2KK3F,1,1,1
+Carin J. Ashjia,1,1,1
+new zealand,1,1,1
+2058 to 2018,1,1,1
+Arctic System Reanalysis,1,1,1
+coccolithophor,1,1,1
+native people,1,1,1
+1925 to 2018,1,1,1
+arctic drilling,1,1,1
+1949 to 2010,1,1,1
+1814 to 2016,1,1,1
+summit station,1,1,1
+Coast,1,1,1
+microbial biomass,1,1,1
+Summit Greenland,1,1,1
+mycorrhizal,1,1,1
+GHG emissions,1,1,1
+groundwater temperature,1,1,1
+INDICADORES,1,2,2
+gas exchange siberian river,1,1,1
+sebestyen,1,1,1
+18-Mar,1,1,1
+10.18739/A2HC5H,1,2,2
+planning,1,1,1
+Pickart,1,2,1
+Woodgate,1,1,1
+North Pole Environmental Observatory,1,1,1
+csank,1,1,1
+1022703,1,1,1
+NAGAP_97V2_094,1,1,1
+soil AND salt marsh AND carbon,1,1,1
+Friedman,1,2,2
+0.001,1,1,1
+mackenzie,1,1,1
+J. K. Angell,1,1,1
+Arienzo,1,1,1
+greentracs,1,5,5
+jacobson,1,1,1
+Leah McRaven,1,5,1
+nolan post,1,1,1
+Jespersen,1,1,1
+doi:10.18739/A2BT1X,1,1,1
+Pacific Arctic,1,1,1
+couette,1,1,1
+Kite Aerial Photography,1,3,2
+arctic data center,1,1,1
+2005 to 2009,1,2,2
+chucki sea,1,1,1
+1980 to 2018,1,1,1
+2033 to 2018,1,1,1
+doi:10.18739/A2B52R,1,1,1
+2014 ice,1,2,1
+1949 to 2012,1,1,1
+15155,1,1,1
+2003 to 2005,1,1,1
+ammonium,1,1,1
+volcanic,1,1,1
+ice caps,1,1,1
+Vegetation Sampling,1,1,1
+10.3334/CDIAC/otg.ndp074,1,1,1
+Delphinapterus leucas,1,1,1
+12AC00513,1,1,1
+1710,1,2,2
+1800 to 2011,1,1,1
+permeability,1,1,1
+66b4ee57-d496-11de-892a-00c0f03d5b7c,1,1,1
+AIS,1,1,1
+center,1,1,1
+Atmospheric Carbon Dioxide Record from Mauna Loa (1958-2008),1,2,1
+Dominic,1,1,1
+Bryum pseudotriquetrum,1,1,1
+10.18739A256N,1,1,1
+1860 to 2018,1,2,1
+severnaya,1,1,1
+autogen,1,3,2
+herman,1,1,1
+Tans,1,1,1
+annual,1,1,1
+1800 to 2000,1,1,1
+Spall,1,2,2
+climate data,1,1,1
+central europe,1,2,2
+alaska moose,1,1,1
+saalfeld,1,1,1
+1987 to 2016,1,1,1
+krop,1,1,1
+1504521,1,1,1
+Eight Mile Lake Research Watershed,1,1,1
+interannual,1,1,1
+OTU,1,1,1
+SAR,1,1,1
+permafrost observatories,1,2,2
+LDEO,1,1,1
+2016 to 2012,1,1,1
+NAGAP_77V6_015,1,1,1
+yukon kuskokwim delta,1,1,1
+anne treasure,1,1,1
+zone,1,1,1
+traffic,1,1,1
+Soil,1,1,1
+1924 to 2018,1,1,1
+1700s,1,1,1
+1995 to 2001,1,1,1
+Physical Limnology,1,1,1
+Andrew Parsekian,1,1,1
+10.3334/CDIAC/ffe.007,1,1,1
+insect,1,1,1
+John P. Christensen,1,1,1
+doi:10.5065/D64J0C8T,1,2,2
+arctic ice,1,1,1
+1903 to 2018,1,1,1
+assay,1,1,1
+merbold,1,1,1
+Anomaly,1,1,1
+noone greenland,1,1,1
+2036 to 2018,1,1,1
+1963 to 1983,1,1,1
+IABP Twelve-hourly Pressure and Temp,1,1,1
+10.3334/CDIAC/ATG.009,1,2,2
+2011C,1,2,2
+Density and permeability measurements with depth for the NEEM 2009S2 firn core,1,1,1
+SIZONet Mooring,1,1,1
+1998 to 2013,1,1,1
+Density_Understory_Met_ACADIS,1,1,1
+mining,1,1,1
+attribute,1,1,1
+1944 to 2017,1,2,1
+logan,1,1,1
+urn:uuid:91bc5a31-c54a-4fdf-9f53-1e370323d95a,1,1,1
+#NAME?,1,3,2
+2010G,1,4,4
+richness,1,1,1
+greenhouse gases,1,1,1
+sediment grain size,1,2,2
+Beth orrcutt,1,1,1
+barnhardt,1,2,2
+Jen,1,1,1
+xanthe walker,1,1,1
+Atmosphere,1,1,1
+doi:10.18739/A2ZV6R,1,1,1
+uuid:e38fd7f6-3c00-4e4a-87bf-da09d85c90b0,1,2,2
+num header,1,1,1
+TRUE,1,1,1
+petm,1,1,1
+goods,1,1,1
+doi:10.18739/A28Q18,1,1,1
+carbon dioxide flux + co2 flux,1,1,1
+interactive,1,1,1
+Blanchard,1,6,3
+Submarine Sonar Ice Draft Profiles,1,1,1
+arctic-data.14332.2,1,3,2
+Franz Mueter,1,1,1
+1998 to 2010,1,1,1
+zuleta,1,1,1
+gih,1,1,1
+"Mooring and Drifting Buoy Data: Beaufort Gyre Freshwater Experiment, 2003",1,1,1
+1992 to 2015,1,1,1
+commane,1,1,1
+10.18739/a2191z,1,3,1
+2032 to 2018,1,1,1
+Solomon island,1,1,1
+water quality north slope,1,1,1
+snow melt and climate,1,1,1
+co2 ice core,1,1,1
+chandler shelf,1,1,1
+Julie McKnight,1,1,1
+Nutrient,1,1,1
+1923 to 2018,1,1,1
+2010C,1,3,3
+Creative Commons Attribution 4.0 International License,1,2,1
+doi:10.18739/A20Q25,1,1,1
+Alaska 2013,1,1,1
+co2 emissions by country,1,1,1
+2017 to 2010,1,1,1
+CSIRO_H2,1,1,1
+1917 to 2018,1,1,1
+Annual Observations of the Biological and Physical Marine Environment,1,1,1
+bulk density,1,1,1
+Nations,1,1,1
+German CO2 emissions,1,1,1
+2055 to 2018,1,1,1
+rubao,1,1,1
+otu,1,1,1
+I3,1,3,1
+sequestration,1,1,1
+falling global carbon,1,1,1
+10.3334/CDIAC/otg.ndp067,1,1,1
+Atmospheric H,1,1,1
+3798600,1,1,1
+doi:10.18739/A22G44,1,1,1
+micrometeorology,1,2,1
+lenght,1,1,1
+seward,1,5,2
+2029 to 2018,1,1,1
+84858,1,1,1
+1107774,1,1,1
+glacier distribution,1,1,1
+1958 to 2017,1,1,1
+1981 to 2017,1,1,1
+10.15486/ngt/1419953,1,2,2
+Firth River Tree Ring Data,1,1,1
+"Creative Commons Attribution 4.0 International License, public domain",1,1,1
+10.3334/CDIAC/ATG.028,1,1,1
+Asia,1,1,1
+roman motyka,1,1,1
+methane alaska,1,1,1
+permafros,1,1,1
+https://orcid.org/0000-0003-2905-0637,1,1,1
+2000 to 2015,1,1,1
+Downscaled climate data for Alaska,1,2,2
+Davis strait,1,1,1
+satellite,1,1,1
+EARTH SCIENCE > ATMOSPHERE > PRECIPITATION > PRECIPITATION AMOUNT > 24 HOUR PRECIPITATION AMOUNT,1,1,1
+1417395,1,1,1
+A Coastal Hazards Data Base for the U.S. Gulf Coast (1993),1,2,2
+animal abundance,1,1,1
+fragmentation,1,1,1
+ghana,1,1,1
+.7z,1,1,1
+geng,1,1,1
+1800 to 2014,1,1,1
+air and soil temperatures and soil moisture in the ITEX plots,1,1,1
+buoy,1,2,2
+CO2 emissions from fuel combustion,1,1,1
+kofinas,1,1,1
+1800 to 2007,1,2,1
+cO2,1,2,1
+Globally Averaged Atmospheric CFC-11 Concentrations,1,1,1
+Marine Mammal Watch,1,1,1
+Mayewski,1,1,1
+Nevada Desert Face Facility (NDFF),1,1,1
+environ,1,1,1
+urn:uuid:bb14bf86-79eb-4a84-9734-4a1de99523d1,1,1,1
+perchlorate,1,1,1
+LiDAR,1,1,1
+2024 to 2018,1,1,1
+211M,1,1,1
+catlin flash,1,1,1
+2042 to 2018,1,1,1
+south pole atmospheric co2,1,1,1
+thailand,1,2,2
+1912 to 2018,1,1,1
+governance,1,1,1
+Imnaviat MISP Spectral,1,1,1
+biomass carbon,1,1,1
+joy clien,1,1,1
+cortez,1,2,1
+10Be/9Be,1,1,1
+snow on sea ice,1,1,1
+industry,1,2,2
+ground penetrating,1,2,2
+IBERIAN PENINSULA,1,1,1
+doi:10.3334/cdiac/ffe.007,1,1,1
+Nassar,1,1,1
+ice core chemistry,1,1,1
+periglacial,1,1,1
+net ecosystem exchange,1,1,1
+micro moles,1,1,1
+climatology,1,1,1
+scarf,1,1,1
+1851 to 2020,1,1,1
+Politic,1,1,1
+Nicholas McKay,1,2,2
+Carbon dioxide,1,1,1
+pollen,1,1,1
+sar,1,1,1
+When the Weather is,1,1,1
+university of alaska,1,1,1
+2008C,1,3,3
+ECOLOGICAL DYNAMICS,1,1,1
+sinclair,1,2,2
+1949 to 2007,1,1,1
+soil emission,1,1,1
+Malone,1,1,1
+Golden,1,1,1
+!IsPublic:true,1,1,1
+paden,1,1,1
+1998 to 2012,1,1,1
+Alaskan Historical Climatology,1,2,1
+resources,1,1,1
+ndp30,1,1,1
+BIOMASS DENSITY,1,1,1
+denali ice core,1,1,1
+North Pole,1,1,1
+1839 to 2017,1,1,1
+2010B,1,4,4
+ice age,1,1,1
+Art,1,1,1
+Long-Term,1,1,1
+isPublic:true,1,1,1
+bermudas carbon emissions,1,1,1
+colombia,1,1,1
+Mullen,1,1,1
+Carolina Nobre,1,1,1
+Testing,1,1,1
+wet sedge,1,2,1
+Treasure,1,1,1
+hobo,1,1,1
+"IIASA, BP (1965–2001)",1,1,1
+fred,1,1,1
+Zheng Liu,1,1,1
+461f30e6-2e8a-413f-be3b-55d568d97b84,1,1,1
+shallow,1,1,1
+Scripps,1,1,1
+photos,1,1,1
+mixing ratio,1,1,1
+volatile,1,1,1
+US county,1,1,1
+lefler,1,1,1
+siberia boreal,1,1,1
+Nephin,1,2,1
+methane isotope,1,1,1
+Radiocarbon measurments of dissolved and particulate organic carbon from surface waters near Thule AFB,1,1,1
+steve,1,1,1
+2003 to 2013,1,1,1
+NOAA/CMDL Cooperative Air Sampling Network,1,1,1
+NSF Arctic Data Center,1,1,1
+CSIRO GASLAB Global Monitoring Network,1,1,1
+brady,1,1,1
+resource_map_urn:uuid:b93f5d62-612e-4b89-b2d3-67ffd37d657e,1,1,1
+Saxifraga cespitosa,1,1,1
+Campbell,1,1,1
+VARGAS,1,1,1
+doi:10.18739/A2GJ7P,1,1,1
+Fossil fuel CO2,1,1,1
+mycorrhizae,1,1,1
+NWT,1,2,2
+NU,1,1,1
+1980 to 1984,1,1,1
+C:N,1,1,1
+EARTH SCIENCE > CRYOSPHERE > SEA ICE > SNOW DEPTH,1,1,1
+ndp0001,1,2,1
+Arctic-Gro,1,1,1
+guido grosse,1,1,1
+whole arctic,1,1,1
+Jacobson,1,1,1
+doi:10.18739,1,1,1
+four mountains,1,1,1
+cement emissions,1,1,1
+Kang,1,1,1
+10.18739/A2SK7T,1,1,1
+Automated ice mass balance site,1,1,1
+1998 to 2000,1,2,2
+1949 to 2014,1,1,1
+pdf,1,2,2
+uuid:6ed8a311-6aaf-4944-90c7-104337ee77e3,1,2,2
+acoustic tags,1,1,1
+alkanes,1,1,1
+"flux, carbon",1,1,1
+2067 to 2018,1,1,1
+finland,1,1,1
+arctic-data.14332.1,1,2,2
+doi:10.18739/A2D21RH94,1,1,1
+point frame,1,1,1
+modem,1,1,1
+71.18N 71.35E,1,1,1
+1417799,1,1,1
+yuri shur,1,1,1
+jennie mclaren,1,1,1
+1854 to 2017,1,1,1
+white sea,1,1,1
+goeckede,1,2,2
+security,1,1,1
+shupe mmcr,1,1,1
+Marine Activity,1,1,1
+Perovich,1,1,1
+2044 to 2018,1,1,1
+2004,1,1,1
+social science,1,1,1
+2009A,1,2,2
+australia,1,1,1
+2004 to 2010,1,1,1
+george kling,1,1,1
+Myoung-Jong Noh,1,1,1
+Nucleation,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN TEMPERATURE > SEA SURFACE TEMPERATURE,1,1,1
+1304315,1,1,1
+howard conway,1,1,1
+BOGS,1,1,1
+iron,1,1,1
+Atmospheric Carbon Dioxide Record from the South Pole,1,1,1
+West Dock,1,1,1
+Record,1,2,1
+shupe miller summit,1,1,1
+stream DOC,1,1,1
+Imnaviat,1,1,1
+Ameriflux,1,1,1
+ess-dive-968f4b8b5eb06ca-20180330T184732949,1,1,1
+bco-dmo,1,1,1
+c flux,1,7,4
+arabia,1,1,1
+canada basin,1,1,1
+ciad,1,1,1
+schurr,1,1,1
+eddy flux tower,1,1,1
+1523025,1,2,2
+Air Samples at Mauna Loa Observatory,1,1,1
+.netcdf,1,1,1
+Extended Edited Synoptic Cloud Reports from Ships and Land Stations Over the Globe,1,1,1
+Man,1,1,1
+WHOI ice teathered,1,1,1
+CDIAC/00001_V2017.,1,1,1
+doi:10.18739/A2GS1T,1,1,1
+doi:10.18739/A2PP21,1,1,1
+retreat,1,1,1
+NDP,1,1,1
+2003 to 2011,1,1,1
+2163 to 2018,1,1,1
+ATWAIN,1,1,1
+Rigor,1,2,2
+biogeochemistry,1,1,1
+microplastic,1,1,1
+iabp,1,2,1
+Chin,1,1,1
+urn:uuid:f3c7bfba-b433-48f5-9477-7f9d589ea106,1,1,1
+Toolik Lake,1,1,1
+Atmospheric Oxygen,1,1,1
+daymet,1,1,1
+Mclaren,1,1,1
+trafficking,1,1,1
+Monthly Fossil-Fuel CO2 Emissions: Isomass of Emissions Gridded by One Degree Latitude by One Degree Longitude (1950-2008) (V. 2011),1,2,1
+drink,1,1,1
+2061 to 2018,1,1,1
+440766,1,3,2
+polar,1,1,1
+GISTEMP,1,1,1
+10.18739/A2F299,1,1,1
+msa,1,1,1
+liza mack,1,1,1
+NDP019,1,1,1
+political,1,3,3
+nash,1,1,1
+atmospheric carbon,1,2,2
+10.3334/CDIAC/atg.035,1,1,1
+urn:uuid:4c739192-83eb-4004-9511-7cdb33516c5c,1,1,1
+schuster,1,2,1
+benthos,1,3,3
+ppmv,1,1,1
+Mirai,1,1,1
+Fiechter,1,1,1
+grigorev,1,1,1
+1103443,1,3,2
+NAGAP_77V6_062,1,1,1
+dissolv,1,1,1
+northern and southern,1,1,1
+baffin,1,1,1
+Natural Hazards,1,1,1
+1980 to 1991,1,1,1
+Mackenzie River,1,1,1
+swl15,1,2,1
+2051 to 2018,1,1,1
+87544,1,1,1
+soil organic matter,1,1,1
+seth,1,1,1
+2017 to 2020,1,2,1
+panama cananl,1,1,1
+delta combined,1,1,1
+south asia,1,1,1
+Soil electrochemistry,1,1,1
+arctic great rivers,1,1,1
+daniels,1,1,1
+1953 to 2013,1,1,1
+co23,1,1,1
+michael ricketts,1,1,1
+1979,1,2,1
+enngram,1,1,1
+ocean acidification,1,1,1
+spencer,1,1,1
+DIRECT EFFECTS OF ATMOSPHERIC CO2 ENRICHMENT ON PLANTS AND ECOSYSTEMS: AN UPDATED BIBLIOGRAPHIC DATA BASE,1,1,1
+ndp.001,1,2,1
+10.108739\A2CZ6H,1,1,1
+10.18739/A2357G,1,1,1
+Delta14 CO2,1,1,1
+kaufman,1,1,1
+2008F,1,3,3
+2011I,1,3,3
+warming ocean,1,1,1
+assp,1,1,1
+doi:10.18739.A2MD18,1,1,1
+urn:uuid:04bc4f6f-f30b-4788-be0c-20c20ce4d06d,1,1,1
+1903 to 2016,1,2,2
+Holmes,1,1,1
+10.18739/A2JZ96,1,1,1
+2022 to 2017,1,1,1
+barnhart,1,4,2
+"carbon fluxes, methane fluxes",1,1,1
+idaho,1,1,1
+Isotopic evidence of multiple controls on atmospheric oxidants over climate transitions,1,1,1
+1962 to 2005,1,1,1
+adam young,1,5,5
+10.18739/a20c33,1,1,1
+2012 to 2012,1,1,1
+autotrophic respiration,1,1,1
+huang,1,3,1
+https://doi.org/doi:10.5065/D61J97X5,1,1,1
+EMISSIONS,1,1,1
+10.18739/a2zk3v,1,1,1
+NAGAP_77V6,1,2,1
+doi:10.18739/A2C54T,1,1,1
+nitrous,1,1,1
+doi: 10.18739/A26C16),1,1,1
+Daanen,1,1,1
+greenland summit,1,1,1
+ECCO2 model Arctic Domain,1,1,1
+PV,1,1,1
+qingzang,1,1,1
+2065 to 2018,1,1,1
+bob dattore,1,1,1
+yongson,1,1,1
+doi:10.18739/A2TK3M,1,2,2
+maru,1,1,1
+Howe Island,1,1,1
+doi:10.18739/A23C2N,1,1,1
+"carbon dioxide flux, co2 flux",1,1,1
+sweden,1,1,1
+1895 to 2017,1,1,1
+NCAR PAM Mesonet,1,1,1
+environmental,1,1,1
+arctic amplification,1,1,1
+1980 to 2003,1,1,1
+cdiac_fgdc_metadata_Tom_Boden_NDP_006.xml,1,1,1
+plant phenology,1,1,1
+doi:10.3334/CDIAC/CLI.NDP026B,1,1,1
+nep,1,1,1
+424864,1,1,1
+diatom,1,1,1
+arcticGRO,1,1,1
+1107596,1,2,1
+Global Greenhouse Gas Emissions Data,1,1,1
+Thaw depth within experimental burn plots,1,2,1
+Hauri,1,1,1
+doi:10.18739/A21R9G,1,1,1
+10.3334/CDIAC/00066,1,1,1
+dunton,1,1,1
+barnhrdt,1,1,1
+Ermold,1,1,1
+urn:uuid:105c5471-5c64-4c72-936b-6d219741e300,1,1,1
+permafrost borehole data,1,1,1
+plastic,1,1,1
+doi:10.18739/A2N58CK3F,1,2,2
+EARTH SCIENCE > TERRESTRIAL HYDROSPHERE > SURFACE WATER,1,1,1
+Cement Production,1,1,1
+GISP-2,1,2,2
+melting ice,1,2,1
+Russian-language,1,1,1
+lilja,1,1,1
+darnis,1,1,1
+Raich,1,1,1
+ешksi,1,1,1
+University of Alaska,1,1,1
+toolik lake radiation,1,1,1
+GASLAB Global Monitoring Network,1,1,1
+NAGAP_77V6_286,1,2,1
+Generalized Boosted Models and Analysis Scripts,1,1,1
+1504288,1,2,2
+permafrost observation,1,1,1
+permafrost carbon dioxide flux,1,1,1
+Nathan C. Healey,1,1,1
+economics,1,1,1
+Lomas and Krause (2018),1,1,1
+finzi,1,1,1
+urn:uuid:26f1ce26-8a8a-4001-93ef-f21b2b9a25d1,1,1,1
+hershey,1,1,1
+14C,1,1,1
+swerus,1,1,1
+ice river,1,1,1
+kachel,1,1,1
+2011B,1,3,3
+mass,1,1,1
+cretaceous,1,1,1
+doi:10.15485/1398272,1,1,1
+doi:10.18739/A2J899,1,1,1
+Annual Fossil-Fuel CO2 Emissions: Global Stable Carbon Isotope Signature,1,2,1
+Fish,1,5,2
+lane,1,1,1
+2070 to 2018,1,1,1
+Mar,1,1,1
+milller summit,1,1,1
+CAR_Q_SSC_2016.csv,1,1,1
+bowest,1,1,1
+ncep,1,1,1
+Fossil,1,1,1
+fire disturbance,1,1,1
+calanus glacialis,1,1,1
+knb,1,1,1
+1982 to 2016,1,1,1
+1980 to 2005,1,1,1
+lily zhao,1,1,1
+10.5065/D6B85696,1,3,3
+2161 to 2018,1,1,1
+wellfare,1,1,1
+Face,1,1,1
+"Summit Station, Greenland",1,1,1
+ASPEN FACE,1,1,1
+greenland sea ice,1,1,1
+claire alix,1,1,1
+primary production,1,1,1
+dikjen,1,1,1
+1910 to 2018,1,1,1
+jeremy,1,1,1
+"71,18 71,35",1,1,1
+doi:10.18739/A2ND06,1,1,1
+1417677,1,1,1
+Finland,1,1,1
+argentina,1,1,1
+Beaufort,1,1,1
+10.18739/A22W48,1,3,3
+Wind farm,1,1,1
+bryce mecum,1,1,1
+halfacre,1,2,2
+Water,1,1,1
+delta 13C,1,1,1
+co2 ice,1,1,1
+doi:10.18739/A2J27G,1,1,1
+orcid.org/0000-0003-2905-0637,1,2,1
+HNC,1,1,1
+10.5063/F1HT2M7Q,1,1,1
+Patrick F. Sullivan,1,1,1
+o buoy,1,1,1
+2064 to 2018,1,1,1
+snow ice,1,1,1
+2162 to 2018,1,1,1
+Beaufort Gyre Observing System to Document and Enhance Understanding Environmental Change in the Arctic,1,1,1
+hotplate,1,1,1
+EARTH SCIENCE > BIOSPHERE > AQUATIC ECOSYSTEMS > PLANKTON > PHYTOPLANKTON,1,1,1
+transportation,1,1,1
+Fukamachi,1,1,1
+wasim,1,1,1
+M. Torre Jorgenson,1,1,1
+kolby,1,1,1
+groundwater level,1,1,1
+post noaln,1,1,1
+sturm,1,1,1
+db1020,1,1,1
+CDIAC CO2 emissions,1,1,1
+doi:10.18739/A2QC1V,1,2,2
+yearly,1,1,1
+boreholes,1,1,1
+Sea ice sizonet,1,1,1
+eyes north,1,1,1
+ocean,1,1,1
+ribbon seal,1,1,1
+1916 to 2018,1,1,1
+"Boden, T. A.",1,1,1
+10.3334/CDIAC/otg.ndp079,1,2,1
+shorebird demographics network,1,2,2
+10.3334/cdiac/ffe.007,1,1,1
+urn:uuid:c60f979f-b4c0-4708-8875-a28ebdc9fb80,1,1,1
+632400,1,1,1
+varga,1,1,1
+Gas Chromatograph,1,1,1
+Climate Monitoring and Diagnostics Laboratory,1,1,1
+Yukon,1,2,2
+Prager,1,1,1
+1962 to 2009,1,1,1
+Ob,1,1,1
+ATG.012,1,1,1
+Vostoc,1,2,2
+sukkertoppen,1,1,1
+surface melt,1,1,1
+1980 to 1996,1,1,1
+doi:10.3334/CDIAC/CLI.NDP022,1,1,1
+knb-lter-bnz.495.14,1,1,1
+count,1,1,1
+Rose cory,1,1,1
+fir,1,1,1
+ground penetrating radar,1,1,1
+10.3334/CDIAC/otg.ndp036,1,1,1
+Jeffrey Welker,1,1,1
+#17021,1,1,1
+detlev,1,1,1
+standard,1,1,1
+council north,1,1,1
+madrid,1,1,1
+net community production,1,1,1
+Surface (sea floor) and near-surface (box cores) sediment mineralogy in Baffin Bay,1,1,1
+"Igarka area, Yenisei North.",1,1,1
+Murmansk,1,1,1
+HLY-08-02 POES Satellite Images,1,1,1
+global carbon cycle,1,1,1
+CUMULATIVE CO2 BY NATION,1,1,1
+autotroph,1,1,1
+NAGAP_79V5_087,1,1,1
+"Dome Concordia, Antarctica",1,1,1
+richter menge,1,1,1
+hyperspectral,1,1,1
+Flux Tower,1,1,1
+Dickson,1,1,1
+doi:10.18739/A2FW9K,1,1,1
+253,1,1,1
+"800,000-year Ice-Core Records of Atmospheric Carbon Dioxide (CO2)",1,1,1
+canadell,1,1,1
+10.3334/CDIAC/FFE.DB1013.2017,1,2,2
+doi:10.18739/A2V92S,1,1,1
+909330,1,1,1
+doi:10.18739/A26S1B,1,1,1
+Marine mammal,1,1,1
+Pjerto rico,1,1,1
+bermuda,1,1,1
+methane lakes,1,2,2
+incident,1,2,1
+multivariate,1,1,1
+*.wav,1,1,1
+bonanza,1,1,1
+848858,1,1,1
+AMS,1,1,1
+michiyo,1,1,1
+fator de emissão,1,1,1
+muenchow + sbi,1,1,1
+cryosat,1,1,1
+ITEX Barrow Atqasuk Climate,1,1,1
+Annual Fossil-Fuel CO2 Emissions: Uncertainty of Emissions Gridded by One Degree Latitude by One Degree Longitude,1,1,1
+doi:10.18739/A24S23,1,1,1
+welker schimel,1,1,1
+2157 to 2018,1,1,1
+aydin,1,3,2
+lena,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN CIRCULATION > FRESH WATER FLUX,1,1,1
+meltwater runoff,1,1,1
+Throckmorton,1,1,1
+1970 to 2018,1,1,1
+doi:10.3334/CDIAC/CLI.NDP021,1,1,1
+carbon dioxide 2017,1,1,1
+urn:uuid:ff22e949-8ed1-40e6-aee3-adfe5bf7e60f,1,1,1
+ice sheets,1,2,2
+2012_2013_winter_E1_temperature,1,1,1
+1980 to 2016,1,1,1
+marine litter,1,1,1
+Hydrology,1,1,1
+mesozooplankton,1,1,1
+R-ArcticNet,1,1,1
+"70N, 42.5W",1,1,1
+griffis,1,1,1
+mcpherson,1,1,1
+welling,1,5,4
+Isomass of Emissions Gridded by One Degree,1,1,1
+10.18739/A2WS05,1,1,1
+groundwater_temperature,1,1,1
+"Glaciomarine Oceanographic and Suspended Sediment Dynamics, Kongsbreen system, Svalbard",1,1,1
+urn:uuid:78eac4b1-4e21-42e8-a2ab-a645db62566f,1,1,1
+geosummit,1,1,1
+Poker Flat,1,1,1
+2066 to 2018,1,1,1
+hershey whalen,1,1,1
+michael,1,1,1
+Eduction,1,1,1
+FACE-MDS,1,1,1
+20 to 2018,1,1,1
+909454,1,1,1
+kvile,1,1,1
+nsidc,1,1,1
+1980 to 1990,1,1,1
+cdiac.ess-dive,1,2,1
+CDIAC 2018,1,1,1
+society,1,2,1
+Andrea Creighton,1,1,1
+nigeria,1,1,1
+Ernakovich,1,1,1
+heather,1,1,1
+market food,1,1,1
+global temperature anomalies,1,1,1
+collaborated,1,1,1
+Cort Anastasio,1,1,1
+desiervo,1,1,1
+resource_map_doi:10.18739/A2125Q85R,1,2,2
+SC0010568,1,1,1
+1 of 3,1,1,1
+Ice,1,1,1
+10.108739/A2CZ6H,1,1,1
+ocean acidity,1,1,1
+10.18739A2786C,1,1,1
+SWERUS-C3,1,1,1
+polaris soil data,1,1,1
+doi:10.18739.A2HW62,1,1,1
+Von P. Walden,1,1,1
+urn:uuid:8d639e70-55eb-40aa-b1a4-29712fd31b63,1,1,1
+mamal,1,1,1
+itex aon sustaining,1,1,1
+mace head,1,1,1
+sand,1,1,1
+APP-x,1,1,1
+fluoroform,1,1,1
+CDIAC 2017,1,1,1
+co2 emis,1,1,1
+世界,1,1,1
+Dunlin,1,1,1
+artic seals,1,1,1
+10.5065/D6BG2KW9,1,1,1
+Ice Mass Balance Buoy Observations,1,1,1
+2015 to 1987,1,2,1
+soil elechtrochemistry,1,1,1
+arctic-data.14507.1,1,2,2
+"Manley, W. F., Lestak, L., Tweedie, C. E. & Maslanik, J. A. (2005) High-resolution radar imagery, digital elevation models, and related GIS layers for Barrow, Alaska. National Snow and Ice Data Center. Boulder, Colorado USA.",1,1,1
+john tarduno,1,1,1
+north sea,1,1,1
+jing zhang,1,1,1
+non renewable,1,1,1
+Craig lee,1,1,1
+Sumo,1,1,1
+permafrost synthesis,1,1,1
+elev,1,1,1
+kruase,1,1,1
+10.5065/D6P26W70,1,2,2
+10.18739/A20C33,1,1,1
+doi:10.3334/CDIAC/ATG.NDP0001,1,1,1
+methanr,1,1,1
+10.3334/CDIAC/CLI.NDP026,1,1,1
+vagle,1,2,2
+A2F608,1,1,1
+Boreogadus saida,1,1,1
+National Land Cover,1,3,2
+Lampedusa Island,1,1,1
+dischargecm,1,1,1
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/553/7,1,2,1
+Chara,1,1,1
+"Collaborative Research: Eurasian and Makarov basins observational network targets changes in the Arctic Ocean, Expendable Current Profiles",1,1,1
+passive seismic,1,1,1
+truffer black rapids,1,1,1
+Lake peters,1,2,2
+Spring photosynthetic onset,1,1,1
+1978 to 1984,1,1,1
+1997 to 2016,1,1,1
+urn:uuid:6eb3caf0-a1f8-410f-a292-6dcea6522446,1,1,1
+Carbon soil,1,1,1
+1023371,1,1,1
+donatella zona,1,1,1
+urn:uuid:f6b8d16b-dc21-4a3b-b6d1-a54940229602,1,1,1
+SIMB,1,1,1
+2005 to 2011,1,1,1
+Florida,1,1,1
+carbon monoxidee,1,1,1
+Arctic Great River Observatory,1,1,1
+marine population,1,1,1
+GLOBAL CO2,1,1,1
+Lamanna,1,1,1
+hadcrut,1,1,1
+1890 to 2017,1,1,1
+palsa,1,2,1
+arctic glacial lake team,1,1,1
+saudia arabia water management,1,1,1
+Carbon Emissions,1,1,1
+10.3334/CDIAC/spruce.039,1,1,1
+MODIS MAR,1,1,1
+central Arctic,1,1,1
+"in Situ Measurements at K-puszta, Hungary",1,1,1
+heterotrophic,1,2,1
+Benjamin Jones,1,1,1
+DRIFTING BUOY,1,1,1
+https://orcid.org/0000-0002-4165-4532,1,1,1
+additioanl information,1,1,1
+floating,1,2,1
+NSF OPP 9814984,1,1,1
+1417668,1,1,1
+solar radiation,1,1,1
+10.18739/A2QV8B,1,1,1
+banana,1,1,1
+1908 to 2018,1,1,1
+orbist,1,1,1
+10.5065/D6930R6J,1,1,1
+1957 to 2017,1,1,1
+mauna,1,1,1
+1950 to 2018,1,2,1
+toxin,1,1,1
+carbon dioxide flux measurements,1,1,1
+"Northwest Territories, Canada",1,1,1
+monthly fossil-fuel CO2 Emissions gridded,1,1,1
+NDP0001,1,1,1
+methane ocean,1,1,1
+urn:uuid:f5844f3e-56d4-43cc-8051-54bd83a53480,1,1,1
+10.3334/CDIAC/ATG.013,1,1,1
+1603407,1,1,1
+trace gases,1,2,1
+root turnover,1,2,1
+Narewhale,1,1,1
+North Pole Station,1,1,1
+"Weather station, Chamberlin glacier",1,1,1
+james a fall,1,1,1
+aldegondabreen,1,1,1
+Martha K. Raynolds,1,1,1
+1949 to 2003,1,1,1
+cumulative emissiosn,1,1,1
+Siberian boreal forest energy balance (ViPER project),1,1,1
+bes,1,1,1
+Schmerr,1,1,1
+Vostok ice core,1,2,2
+Continuing the Beaufort Gyre Observing System to Document and Enhance Understanding Environmental Change in the Arctic,1,1,1
+Nain,1,1,1
+Admundson,1,1,1
+"Morison, James",1,1,1
+cdiac_fgdc,1,1,1
+parnos,1,1,1
+coastal lines,1,1,1
+#NAME?,1,1,1
+quentin,1,2,2
+Fullman,1,1,1
+long term,1,2,2
+Greenland meltwater biogeochemistry,1,2,2
+doi:10.18739/A2Z37J,1,2,2
+saida,1,1,1
+Ruess,1,1,1
+hooded seal,1,1,1
+black rapids,1,1,1
+raich,1,1,1
+Taku Glacier time lapse,1,1,1
+doi 10.3334/CDIAC/tcm.003,1,1,1
+Fossil Fuel,1,1,1
+eight mile lake,1,1,1
+Timothy Stanton,1,1,1
+Emision CO2,1,1,1
+nabos 2015,1,2,2
+urn:uuid:9bfee166-0ecd-451e-9652-35f988004a74,1,1,1
+deuterium,1,1,1
+Jordan,1,1,1
+laboratory study,1,1,1
+poss,1,1,1
+2010 to 2002,1,1,1
+arctic-data.13929.7,1,1,1
+1926 to 2018,1,1,1
+shipboard ADCP,1,1,1
+Ice mass balance,1,1,1
+ree and Shrub Inventory.xlsx,1,1,1
+network,1,1,1
+pan-Arctic,1,1,1
+econ,1,1,1
+338333,1,2,2
+Beaufort Sea,1,1,1
+doi:10.18739/A24R81,1,1,1
+Larch recruitment,1,1,1
+meteorology soil temperature,1,1,1
+Geng,1,2,1
+2013 to 2019,1,2,1
+sea ice concentration,1,1,1
+Water Temperature,1,1,1
+10.18739/A26S1B,1,1,1
+Jarvis,1,3,2
+https://arcticdata.io/catalog/#view/doi:10.5065/D61Z42KV,1,1,1
+Michele Smith,1,1,1
+2007F,1,3,3
+herring,1,2,2
+",ooring",1,1,1
+magadan,1,1,1
+Donald A. (Skip) Walker,1,1,1
+C. goyet,1,1,1
+229938,1,1,1
+1417345,1,4,4
+denali,1,2,2
+1850 to 2018,1,1,1
+NAGAP_77V6_057,1,1,1
+EBERLE,1,1,1
+Auston Post,1,1,1
+pinnipeds,1,1,1
+Plutonium,1,2,2
+global carbon project,1,1,1
+northwest arctic alaska,1,1,1
+Beaufort Sea mooring I2,1,1,1
+unesco,1,1,1
+1954 to 2015,1,1,1
+1263854,1,1,1
+10.3334/CDIAC/otg.ndp071,1,1,1
+1997,1,1,1
+shimel,1,1,1
+2021 to 2017,1,1,1
+Neutrino Research,1,1,1
+isotopic fossil-fuel CO2 emissions,1,1,1
+national,1,1,1
+wei-jun cai,1,1,1
+1994 to 2016,1,1,1
+omolon,1,1,1
+vandecurx,1,1,1
+Fossil fuels and carbon dioxide,1,1,1
+cristensen,1,2,2
+glaciers,1,1,1
+Ice Tethered Profiler,1,6,4
+traditional knowledge,1,2,1
+1979 to 2013,1,1,1
+anna virkkala,1,2,2
+COOPMAN,1,1,1
+atlas,1,3,2
+classification,1,1,1
+NEEM 2009S2,1,1,1
+gonsamo,1,1,1
+steiglitz,1,1,1
+Psychrophiles,1,2,1
+resource_map_doi:10.18739/A22R3NW6X,1,2,2
+NCEPv1_1948-2016_20km,1,1,1
+json,1,1,1
+GHI,1,1,1
+Chunze Lai,1,2,2
+carbon flux data in permafrost zone,1,1,1
+jetstreams,1,1,1
+Barrow Spectrometer Data,1,1,1
+1992 to 2016,1,1,1
+IUSE,1,1,1
+doi:10.18739/A2QZ8C,1,1,1
+ciment CO2,1,1,1
+partners,1,1,1
+: 1303895,1,1,1
+doi:10.3334/CDIAC/cli.100,1,2,2
+cdiac.ess-dive.lbl.gov,1,1,1
+Ghana,1,1,1
+ozonesondes,1,1,1
+FRAMEs,1,1,1
+globa cement CO2 emissions,1,1,1
+total carbon dioxide (TCO2),1,1,1
+boosted,1,1,1
+LAwson,1,1,1
+ARC-0520578,1,1,1
+air temp,1,1,1
+kuskokwim,1,1,1
+microbe,1,1,1
+marshall,1,2,2
+hoffman,1,1,1
+anderson,1,1,1
+EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > TRACE ELEMENTS,1,1,1
+borderlands,1,1,1
+thaw depth barrow,1,1,1
+co2 and o2 variability,1,1,1
+Panama,1,2,1
+rock,1,1,1
+doi_10.18739_A2CD5M,1,1,1
+doi:10.18739/A2GQ2H,1,2,2
+doi:10.5065/D6VD6WFP,1,1,1
+marine,1,1,1
+act-11,1,1,1
+Cape Meares,1,1,1
+18739/A27659F1B,1,1,1
+sutherland,1,1,1
+coastline,1,1,1
+correia,1,1,1
+1972 to 2017,1,1,1
+2018 to 2013,1,1,1
+"GEOGRAPHIC REGION > POLAR, NORTH AMERICA > GREENLAND,",1,1,1
+Gyre,1,1,1
+frost crater,1,1,1
+Barrow 2,1,1,1
+glossary,1,2,2
+snow cover change,1,1,1
+The Role of Arctic Amplification in Modifying Mid-latitude Atmospheric Circulation and Promoting Extreme Weather Events,1,1,1
+NOAA/CMDL Global Cooperative Air Sampling,1,1,1
+carlson,1,2,1
+JetStreams,1,1,1
+kaden,1,1,1
+1949 to 2000,1,1,1
+Jessica Lundin,1,1,1
+"ARCTIC OCEAN > CHUKCHI SEA, ARCTIC OCEAN > BEAUFORT SEA,",1,1,1
+2006 to 2008,1,1,1
+C3O,1,1,1
+fac,1,1,1
+1906 to 2018,1,1,1
+Modèle Atmosphérique Régional,1,1,1
+EML,1,1,1
+doi:10.5065.D6C24TJN,1,1,1
+aboveground biomass,1,1,1
+helmig summit,1,1,1
+"High-resolution radar imagery, digital elevation models, and related GIS layers for Barrow, Alaska",1,1,1
+fire severity,1,1,1
+"Vostok, Antarctica, Ice Core Data",1,1,1
+lindsay,1,1,1
+Monthly Fossil-Fuel CO2 Emissions: Mass of Emissions Gridded by One Degree Latitude by One Degree Longitude,1,1,1
+Shipping Routes,1,1,1
+groningen,1,1,1
+krishfield,1,1,1
+hly1702,1,1,1
+adam t naito,1,1,1
+pro,1,1,1
+Alaska - Toolik Lake,1,1,1
+water chemistry,1,1,1
+Siberia_Burn_2012_2014_ACADIS,1,1,1
+Virginia Heart,1,1,1
+10.3334/cdiac.ffe007,1,1,1
+taimyr,1,2,1
+dissolved organic carbon,1,1,1
+canda,1,1,1
+K.M. Schild,1,1,1
+das whoi,1,1,1
+austria,1,1,1
+racmo,1,1,1
+grip,1,2,2
+morristown,1,1,1
+U.S.A,1,1,1
+arctic char,1,1,1
+cdiac.ornl.gov_8080_xml_cdp_metadata_Tom_Boden_TDE_Ecosystem_Model.xml,1,1,1
+SIO,1,4,4
+Seal,1,1,1
+SOP3b,1,1,1
+CHL,1,1,1
+ca,1,1,1
+bering strat,1,1,1
+doi:10.18739/A2F608,1,1,1
+persson,1,1,1
+2005 to 2006,1,1,1
+"Historic Land Use and Carbon Estimates for South and Southeast Asia: 1880-1980 (NDP-046). Carbon Dioxide Information Analysis Center (CDIAC), Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).",1,1,1
+living condition,1,1,1
+dmh4@nyu.edu,1,1,1
+Global Carbon Budget,1,1,1
+Late Holocene Climatic and Environmental Change Inferred from Arctic Lake Sediments,1,1,1
+moulins,1,1,1
+1972 to 1984,1,1,1
+TFS,1,1,1
+controls on carbon flux,1,1,1
+Atmospheric H2 Concentrations from the CSIRO GASLAB Flask Sampling Network,1,1,1
+1981 to 1979,1,1,1
+1980 to 2004,1,1,1
+urn:uuid:797f20d2-d7c0-41d2-af34-c00b615fac8e,1,1,1
+352754,1,1,1
+1945 to 2017,1,2,1
+metagenome,1,1,1
+Laurence C. Smith,1,1,1
+Volume,1,1,1
+historical carbon dioxide record,1,1,1
+2009F,1,2,2
+bioassy,1,1,1
+sea ic,1,1,1
+10.3334/CDIAC/00001_V2013,1,1,1
+Housing,1,1,1
+2002 to 2008,1,1,1
+biomes,1,1,1
+mat,1,2,2
+Horseshoe Lake data,1,1,1
+"Ground-ice data, Itkillik River",1,1,1
+rickets,1,1,1
+portugal,1,4,4
+coq,1,1,1
+PACIFIC OCEAN > NORTH PACIFIC OCEAN > BERING SEA,1,1,1
+production of co2,1,1,1
+Bryce,1,1,1
+cox,1,2,2
+npd 30,1,1,1
+urn:uuid:2204af1f-42a2-4f8e-9946-f9d7ab0cdff9,1,1,1
+Marland,1,1,1
+Jamie Hollingsworth,1,1,1
+doi:10.18739/A20264,1,2,1
+pearson,1,1,1
+par,1,1,1
+R,1,1,1
+ATG.028,1,1,1
+1988 to 1988,1,3,2
+1949 to 2009,1,1,1
+Nitrate,1,1,1
+2063 to 2018,1,1,1
+arctic tern,1,1,1
+CO2 concentration,1,1,1
+Emily Youcha,1,1,1
+fettweiss,1,1,1
+climate records,1,1,1
+evi,1,1,1
+modis,1,2,1
+boston,1,1,1
+1850 to 20020142,1,1,1
+Annual Fossil-Fuel CO2 Emissions: Global Stable Carbon,1,1,1
+veg,1,1,1
+Annual Fossil-Fuel CO2 Emissions,1,1,1
+N2o,1,1,1
+aquifer,1,1,1
+modern record,1,1,1
+2048 to 2018,1,1,1
+Carbon budget,1,1,1
+Imnavait Spectrometer Data,1,2,1
+Viper,1,1,1
+tank climatology,1,1,1
+e38fd7f6-3c00-4e4a-87bf-da09d85c90b0,1,2,2
+10.18739/A2ZR3K,1,1,1
+Sean Birkel,1,1,1
+global carbon budgwt,1,1,1
+laurier,1,1,1
+1979 to 2011,1,1,1
+Mass Balance Buoy,1,1,1
+chris larsen,1,1,1
+oral history,1,1,1
+Mcraven,1,1,1
+herrman,1,1,1
+Gooseff,1,1,1
+project,1,1,1
+permafrost thaw,1,1,1
+EK80,1,2,1
+gdp,1,1,1
+* co2,1,1,1
+Matthew Alkire,1,2,2
+seg-y,1,1,1
+additional metadata,1,1,1
+cumulative human CO2 emissions,1,1,1
+sum,1,1,1
+output.year002.mat,1,1,1
+miguel,1,1,1
+10.3334/CDIAC/atg.016.,1,1,1
+claire porter,1,1,1
+Massachusetts,1,1,1
+Greenland meltwater,1,1,1
+phytoplankton barents sea,1,1,1
+benthic biomass,1,1,1
+2031 to 2018,1,1,1
+INDICADOR,1,1,1
+Tropospheric and Lower Stratospheric Temperature Anomalies,1,1,1
+Growth,1,1,1
+Chlorofluorocarbons,1,1,1
+Glacier calving rates,1,1,1
+itex vargas,1,1,1
+gilmore,1,2,2
+degree,1,1,1
+methane ebullition,1,1,1
+1983 to 2016,1,1,1
+1,1,1,1
+Soil Nutrient Dynamics and Plant-Soil Interactions in Response to Snow Melt and Warming,1,1,1
+tracmass,1,2,1
+biosphere,1,1,1
+atqasuk ARCSS,1,1,1
+spectral,1,4,4
+Estimates of Monthly CO2 Emissions and Associated,1,1,1
+200A,1,1,1
+1879 to 2017,1,1,1
+quercus,1,1,1
+2 to 2018,1,2,1
+10.3334/CDIAC/otg.ndp056,1,1,1
+"Alert, N.W.T.",1,1,1
+internal energy,1,1,1
+1800 to 2012,1,1,1
+"Richards, John F.",1,1,1
+arcticdem,1,1,1
+OVOC,1,1,1
+352754,1,1,1
+GEOSummit,1,1,1
+agc,1,1,1
+1800 to 2002,1,5,2
+. Euskirchen,1,1,1
+urn:uuid:b9d391a9-b67a-419c-9dd9-3e4f0f0752d9,1,1,1
+david cole,1,1,1
+Christopher Arp,1,1,1
+over time,1,1,1
+tiksi,1,1,1
+urn:uuid:b48ada6a-736a-4b9a-8ace-2003f8f6ff65,1,2,2
+10.3334/CDIAC/otg.ndp065,1,1,1
+Austin Post,1,1,1
+Eurasian and Makarov,1,3,2
+culture,1,1,1
+2022 to 2018,1,1,1
+10.3334/CDIAC/otg.ndp064,1,1,1
+1980 to 1994,1,1,1
+QING,1,1,1
+under ground temperature,1,1,1
+Ilulissat,1,1,1
+Shupe MMCR,1,1,1
+Fossil fuels and carbon dioxide emissions,1,1,1
+2056 to 2018,1,1,1
+https://pasta.lternet.edu/package/metadata/eml/knb-lter-bnz/574/7,1,3,2
+juranke,1,1,1
+wei,1,1,1
+Fine woody,1,1,1
+doi:10.18739/A2T960,1,1,1
+2007 to 2007,1,1,1
+shen,1,1,1
+plateau,1,1,1
+ATG.009,1,1,1
+huemmrich,1,1,1
+matthew sturm,1,1,1
+1986 to 2017,1,1,1
+Southeast Asia,1,1,1
+carbon dioxide flux' & 'co2 flux,1,1,1
+ffe.monthlyisomass.2016,1,1,1
+Great Rivers,1,1,1
+"Foliar nutrients and natural abundance isotope signatures for Larix cajanderi, Cherskiy Density Gradient, Northeast Science Station",1,1,1
+Laurer,1,1,1
+doi:10.18739/A21D5H,1,2,1
+75 year smoothed CO2,1,1,1
+PBO,1,1,1
+Kathryn Caitlin,1,1,1
+holmmes,1,1,1
+lombardia,1,1,1
+kolyma river discharge,1,1,1
+us,1,1,1
+rebecca,1,1,1
+actinide,1,1,1
+HATS,1,1,1
+Pole temperature,1,1,1
+1981 to 1984,1,1,1
+borehold,1,2,1
+McKay,1,1,1
+weather data,1,1,1
+.jpg,1,1,1
+root lifespan,1,1,1
+USIABP,1,1,1
+susanne neuer,1,1,1
+1988 to 2017,1,4,2
+lamanna,1,1,1
+caitlin,1,1,1
+Thomas E. Osterkamp,1,1,1
+13929.7,1,1,1
+seism,1,1,1
+Jing Zhang,1,1,1
+Preliminary 2006-2007 Global and National Estimates by Extrapolation,1,1,1
+1950,1,1,1
+phocidae,1,1,1
+Publish,1,2,2
+surface north america,1,1,1
+dom,1,1,1
+1977 to 2016,1,1,1
+rigor,1,1,1
+SBI Cruise,1,1,1
+Changes in Soil Carbon Storage After Cultivation,1,1,1
+1980 to 2001,1,1,1
+antactic,1,1,1
+Sonnerup,1,1,1
+tunu,1,1,1
+L. K. Mann,1,1,1
+Albert Plueddemann,1,1,1
+doi:10.18739/A2CZ6H,1,1,1
+temperature groundwater,1,1,1
+NDP_001,1,1,1
+Demegraphic,1,1,1
+forest fires,1,2,2
+urn:uuid:c66791ee-ba81-4e5d-9eed-94d49de4c523,1,1,1
+fiamma,1,1,1
+david,1,1,1
+doi:10.18739/A2P55DG3P CO abstract | methods | project | title | city | role | entityDescription flux methods gas methods | title oxygen attributeLabel | attributeDefinition oxygen abstract | keyword | attributeLabel | attributeDefinition,1,1,1
+Wullschleger,1,1,1
+1800 to 1999,1,1,1
+10.3334/CDIAC/CLI.NDP041,1,1,1
+zechmann,1,1,1
+kenichi,1,1,1
+sel13,1,1,1
+Toby Meierbachtol,1,4,2
+1998 to 2003,1,1,1
+"Law Dome, Antarctica",1,1,1
+Abdelrahman Elbashandy,1,2,1
+AC00756,1,1,1
+milligram,1,1,1
+Kolari,1,1,1
+Benthic macroinfaunal samples,1,2,1
+10.3334/CDIAC/LUE.002,1,1,1
+sea level rise east,1,1,1
+correction factor,1,1,1
+doi:10.18739/A2BW9N,1,1,1
+#NAME?,1,2,1
+urn:uuid:76da67b1-d9c3-49b3-bcf5-675903a5f60b,1,3,2
+Fire regime influences on carbon dynamics of Siberian boreal forests,1,1,1
+annual temperature,1,1,1
+green house gas concentrations,1,1,1
+GEOS Chem,1,1,1
+precip,1,1,1
+isPublic,1,1,1
+1958 to 2016,1,2,2
+permafrost GIS,1,1,1
+throughfall displacement,1,1,1
+2060 to 2018,1,1,1
+Infauna,1,1,1
+latin america,1,1,1
+Montgomery,1,4,3
+ice albedo,1,2,1
+2000 to 2010,1,1,1
+10.5065/D6JH3J7Z,1,1,1
+2009 to 2011,1,1,1
+urn:uuid:8672e004-fe9c-462e-a8e1-c5c603fe6367,1,1,1
+Sierra Nevada,1,1,1
+bunker,1,1,1
+Karen Beard,1,1,1
+Parno,1,1,1
+1802 to 2017,1,1,1
+2167 to 2018,1,1,1
+kienholz,1,1,1
+US-UMB,1,1,1
+musk,1,1,1
+10.18739/A2F608,1,1,1
+Donatella Zona,1,1,1
+2009,1,1,1
+AIR TEMPERATURE,1,1,1
+Beaufort Gyre Freshwater,1,1,1
+Annual Fossil-Fuel CO2 Emissions: Mass of Emissions Gridded by One Degree Latitude by One Degree Longitude,1,2,1
+toxicity,1,1,1
+North Atlantic,1,1,1
+Prudhoe Bay data,1,1,1
+Mooring,1,1,1
+Wheeler,1,3,2
+Bering Sea,1,1,1
+xiaofeng,1,1,1
+organic matter,1,1,1
+heat flux,1,1,1
+mixing ratios,1,1,1
+Richard Krishfield and Andrey Proshutinsky,1,1,1
+10.3334/CDIAC/ATG.NDP001,1,1,1
+carroll,1,1,1
+Tree Ring Chronology Indexes,1,1,1
+Global fossil fuel CO2 emissions,1,1,1
+Bird,1,1,1
+1967,1,1,1
+weathering,1,1,1
+Atmospheric CO2 Records from Sites,1,2,1
+NDF,1,1,1
+AMF_US-Ivo,1,1,1
+seth campbell,1,1,1
+welfare,1,1,1
+wms,1,1,1
+Ireland,1,1,1
+10.18739/A2B10M,1,4,2
+EARTH SCIENCE > OCEANS > OCEAN CHEMISTRY > CARBONATE,1,1,1
+fire influences,1,1,1
+cflux,1,1,1
+peru,1,1,1
+2016 to 1987,1,1,1
+Toolik fertilization experiment 2015 pluck Gas,1,1,1
+vegetation shift,1,1,1
+10.3334/CDIAC/LUE.DB1015,1,2,1
+doi:10.5065/D6416V6T,1,1,1
+"Production of CO2 from Fossil Fuel Burning by Fuel Type, 1860-1982 (NDP-006)",1,1,1
+northeast,1,1,1
+sib,1,1,1
+"CO2 emissions (metric tons per capita) Search data e.g. GDP, population, Indonesia DataBankMicrodataData Catalog CO2 emissions",1,1,1
+10.3334/CDIAC/GCP_V2012,1,1,1
+DayRec,1,1,1
+erich,1,1,1
+1969 to 1981,1,1,1
+1800 to 2009,1,2,1
+milano,1,2,2
+ncdf,1,1,1
+carbon exchange,1,1,1
+carbon stocks,1,1,1
+2003 to 1935,1,1,1
+"Boden, T.A., G. Marland, and R.J. Andres. 2016. Global, Regional, and National Fossil-Fuel CO2 Emissions. Carbon Dioxide Information Analysis Center, Oak Ridge National Laboratory, U.S. Department of Energy, Oak Ridge, Tenn., U.S.A. doi 10.3334/CDIAC/00001_V2016",1,1,1
+humidity,1,1,1
+Antarctida,1,1,1
+I2,1,2,1
+2165 to 2018,1,1,1
+alan fried,1,1,1
+1929 to 2018,1,1,1
+Oceanography,1,1,1
+Density_Understory_Met_ACADIS.xls,1,1,1
+Pinus,1,1,1
+Atmospheric Methane for Background Air in the Southern,1,1,1
+marsh,1,3,2
+understanding the relationships between vegetation change,1,2,1
+necb,1,3,2
+North Slope,1,1,1
+gax flux,1,1,1
+Sentinel imagery,1,1,1
+10.3334/CDIAC/otg.ndp062,1,1,1
+post nolan,1,1,1
+global emmissions,1,1,1
+10.18739/A2NS1C,1,1,1
+hydrolaccolith,1,1,1
+South Carolina,1,1,1
+cdom,1,1,1
+dryland,1,1,1
+caissie,1,2,2
+d13C CO2,1,1,1
+rainer,1,1,1
+nesterovich,1,1,1
+urn:uuid:ad7c91d2-4145-46d2-8d31-ccdc5cb20a3d,1,1,1
+Breidamerkurjokull,1,1,1
+belgium,1,1,1
+discharge data,1,1,1
+2010 to 2001,1,1,1
+10.18739/A2VP16,1,1,1
+co2 concentrations in the atmosphere,1,1,1
+Annual Fossil-Fuel,1,1,1
+ice edge,1,2,1
+sheba albedo,1,1,1
+bergstrom,1,1,1
+Carbon FlUX,1,1,1
+10.3334/CDIAC/atg.033,1,1,1
+Brian Barnes,1,1,1
+nabos chemistry data,1,1,1
+10.5065/D689140J,1,4,4
+doi:10.18739/A2P55DG3P,1,1,1
+houghton,1,1,1
+2000 to 1981,1,1,1
+1980 to 1988,1,1,1
+merged,1,1,1
+igor polyakov,1,1,1
+10.3334/CDIAC/otg.ndp045,1,1,1
+2015 to 2019,1,1,1
+Atmospheric Carbon Dioxide Mixing,1,1,1
+1981 to 2016,1,1,1
+10.3334/CDIAC/TCM.010,1,2,2
+Thomas J. Weingartner,1,1,1
+20 to 2017,1,1,1
+USArray,1,1,1
+heindel,1,1,1
+ocean chemistry,1,2,1
+doi:10.18739/A2VG48,1,1,1
+CONTINENT > EUROPE > EASTERN EUROPE > RUSSIA,1,1,1
+McClelland,1,1,1
+siberia permafrost,1,1,1
+doi:10.18739/A26951,1,1,1
+2047 to 2018,1,1,1
+Emissions from Fossil-Fuel Burning,1,1,1

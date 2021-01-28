@@ -978,23 +978,117 @@ circos.track(ylim = c(1, length(percent)+1), track.height = 0.9,
 
 
 #### **Most Used Search Terms in Data Catalog**
-```{r Search Terms, echo = FALSE, message = FALSE, warning = FALSE}
+```{r Search Terms 2020, echo = FALSE, message = FALSE, warning = FALSE}
 
 ## Create word clouds for most used search terms 
+library(wordcloud2)
 
-## Using 2020 data as TEST 
+
 
 # read in data
-searchwords_2020 <- read.csv("/home/t_hooper/ADC-Google-Analytics/searchwords_2020.csv")
+searchwords_2020_raw <- read.csv("/home/t_hooper/ADC-Google-Analytics/searchwords_2020.csv")
 
+# filter out users and unique events --> using "total events" as the word frequency for the word cloud
+searchwords_2020 <- searchwords_2020_raw %>% 
+  select(-users, -unique_events) 
 
+# create word cloud
+cloud_2020 <- wordcloud2(searchwords_2020, size=1.6, color = c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea"))
 
+#cloud_2020
 
+```
 
+```{r Search Terms 2019, echo = FALSE, message = FALSE, warning = FALSE}
+
+# read in data
+searchwords_2019_raw <- read.csv("/home/t_hooper/ADC-Google-Analytics/searchwords_2019.csv")
+
+# filter out users and unique events --> using "total events" as the word frequency for the word cloud
+searchwords_2019 <- searchwords_2019_raw %>% 
+  select(-users, -unique_events) %>% 
+  rename(search_word = event_label)
+
+# create word cloud
+cloud_2019 <- wordcloud2(searchwords_2019, size=1.6, color = c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea"))
+
+#cloud_2019
+
+```
+
+```{r Search Terms 2018, echo = FALSE, warning = FALSE, message = FALSE}
+
+# read in data
+searchwords_2018_raw <- read.csv("/home/t_hooper/ADC-Google-Analytics/searchwords_2018.csv")
+
+# filter out users and unique events --> using "total events" as the word frequency for the word cloud
+searchwords_2018 <- searchwords_2018_raw %>% 
+  select(-users, -unique_events) %>% 
+  rename(search_word = event_label)
+
+# create word cloud
+cloud_2018 <- wordcloud2(searchwords_2018, size=1.6, color = c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea"))
+
+#cloud_2018
 
 
 ```
 
+```{r Search Terms 2017, echo = FALSE, warning = FALSE, message = FALSE}
+
+# read in data
+searchwords_2017_raw <- read.csv("/home/t_hooper/ADC-Google-Analytics/searchwords_2017.csv")
+
+# filter out users and unique events --> using "total events" as the word frequency for the word cloud
+searchwords_2017 <- searchwords_2017_raw %>% 
+  select(-users, -unique_events) %>% 
+  rename(search_word = event_label)
+
+# create word cloud
+cloud_2017 <- wordcloud2(searchwords_2017, size=1.6, color = c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea"))
+
+#cloud_2017
+
+```
+
+
+```{r Search Terms 2016, echo = FALSE, warning = FALSE, message= FALSE}
+
+# read in data
+searchwords_2016_raw <- read.csv("/home/t_hooper/ADC-Google-Analytics/searchwords_2016.csv")
+
+# filter out users and unique events --> using "total events" as the word frequency for the word cloud
+searchwords_2016 <- searchwords_2016_raw %>% 
+  select(-users, -unique_events) %>% 
+  rename(search_word = event_label)
+
+# create word cloud
+cloud_2016 <- wordcloud2(searchwords_2016, size=1.6, color = c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea"))
+
+cloud_2016
+
+
+```
+
+```{r Top Search Terms of All Time, echo = FALSE, warning = FALSE, message = FALSE}
+
+## Combine all years into one dataframe of search terms
+
+searchwords_all <- rbind(searchwords_2016, searchwords_2017, searchwords_2018, searchwords_2019, searchwords_2020)
+
+# take search terms that have been used 20 or more times
+over_20_search <- searchwords_all %>% 
+  filter(total_events >= 20)
+
+# create word cloud for these terms
+over_20_cloud <- wordcloud2(over_20_search, size=1.6, color = c("#146660", "#16897e", "#7afdb1", "#6dec65", "#1f254f", "#b5e5ea"))
+
+over_20_cloud
+
+```
+
+<br>
+<br>
 
 #### **Top 10 Datasets Per Year**
 ```{r Top 10 Datasets Viewed, echo = FALSE, message = FALSE, warning = FALSE}
@@ -1058,7 +1152,6 @@ datasets_2020 <- sorted_2020 %>%
 
 ```
 
-<br>
 
 ```{r Interactive Table for 2016 Datasets, echo = FALSE, warning = FALSE, message = FALSE}
 
